@@ -59,6 +59,7 @@ function renderResearch() {
   if (!claims.length) list.append(element('p', 'No claims match. Clear search or choose another era or status.', 'empty'));
   const sourceRows = research.sources.filter(matches);
   $('#source-count').textContent = `${sourceRows.length} of ${research.sources.length} source records`;
+  $('#source-results-link').textContent = `View source results (${sourceRows.length})`;
   const library = $('#source-list');
   library.replaceChildren();
   for (const source of sourceRows) {
@@ -73,6 +74,13 @@ function renderResearch() {
   if (!sourceRows.length) library.append(element('p', 'No sources match. Try a broader phrase or a source ID.', 'empty'));
 }
 for (const selector of ['#search', '#era', '#status']) $(selector).addEventListener('input', renderResearch);
+$('#clear-filters').addEventListener('click', () => {
+  $('#search').value = '';
+  $('#era').value = 'all';
+  statusSelect.value = 'all';
+  renderResearch();
+  $('#search').focus();
+});
 renderResearch();
 for (const event of [...research.timeline].sort((a, b) => b.date.localeCompare(a.date))) {
   const entry = element('article', undefined, 'event');
@@ -103,4 +111,8 @@ function calculate(event) {
   $('#lab-result').replaceChildren(output);
 }
 $('#lab-form').addEventListener('submit', calculate);
+$('#lab-form').addEventListener('input', () => {
+  $('#lab-error').textContent = '';
+  $('#lab-result').replaceChildren(element('p', 'Inputs changed. Calculate to update the result.', 'caption'));
+});
 calculate();

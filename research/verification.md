@@ -22,3 +22,20 @@ The subsequent [repository audit](audit.md) expanded the suite to **28 passing t
 Validation passed for all 47 source records, 33 claims and 15 timeline events, including bound review records and local Markdown links. The generator built 19 HTML pages and checked their local files and fragments. Generated Markdown freshness, JavaScript syntax and `git diff --check` passed. These are software/evidence-structure checks; source review outcomes and remaining access limitations are recorded separately in the audit ledger.
 
 A fresh browser load showed 33 claims and 47 sources. Searching `1585` isolated C17 and exposed both interview links and timestamps. Choosing the data-derived `2017` era showed five historical claims. At 2 s / 1,800 kg / 60 mph the calculator returned 1.37 g, 24.1 kN, 0.180 kWh and 26.82 m. The rendered audit report was read and visually inspected. A mobile-device test was not performed.
+
+## Explorer desktop and mobile audit — October 16, 2026
+
+The published Pages explorer was inspected at desktop and phone viewport sizes. An anonymous HTTP check covered all 19 published HTML pages, 22 unique internal page/asset targets and their local fragments; no broken internal target or fragment was found. External publishers' blocked/retired evidence links retain their documented limitations; this was not another external-source revalidation.
+
+Reproduced and fixed:
+
+- A long inline commit hash made the audit article wider than a 320-pixel phone viewport. Article text and inline code now wrap; code blocks and wide tables retain their own horizontal scrolling.
+- Phone calculator fields used 12-pixel text in cramped three-column rows. They now use 16-pixel input text and stack at narrow widths; mobile navigation and claim disclosures have 44-pixel minimum targets.
+- An invalid calculator submission could leave a previous valid result visible. Editing an input now clears the old result and requests recalculation.
+- Empty or distant search results offered no direct reset or convenient route between controls and matching sources. Added reset/focus recovery, a source-result shortcut with its count, and a return-to-search link.
+- Wide chapter tables lacked an explicit keyboard focus target and mobile scroll cue. They now have a named, focusable scroll region and a cue; right-arrow scrolling was exercised in the browser.
+- Diagram instructions mentioned a rendered GitHub diagram without linking to it. The generated instruction now links to its original chapter.
+
+After these fixes, all 19 generated pages were checked at **320, 390, 800 and 1,440 CSS pixels** (76 page/width combinations), with no document-level horizontal overflow. Browser checks covered empty search, combined filters, reset to 33 claims/47 sources with search focus restored, invalid-input result clearing, and the 2-second calculator scenario. All **29 unit tests**, data validation, generated Markdown freshness, generated HTML links/anchors, JavaScript syntax and whitespace checks passed.
+
+These are browser viewport and keyboard checks, not a physical iPhone/Android, mobile software-keyboard or full screen-reader certification.

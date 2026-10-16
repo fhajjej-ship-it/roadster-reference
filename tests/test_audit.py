@@ -92,6 +92,12 @@ class RenderingRegressionTests(unittest.TestCase):
         rendered = build.markdown('```mermaid\nflowchart LR\n A --> B\n```', build.ROOT/'docs/testing.md')
         self.assertIn('A --&gt; B', rendered)
         self.assertNotIn('Stored gas', rendered)
+        self.assertIn('href="https://github.com/fhajjej-ship-it/roadster-reference/blob/main/docs/testing.md"', rendered)
+
+    def test_wide_table_is_a_named_keyboard_scroll_region(self):
+        rendered = build.markdown('| A | B |\n|---|---|\n| X | Y |', build.ROOT/'docs/testing.md')
+        self.assertIn('tabindex="0" role="region" aria-label="Scrollable table"', rendered)
+        self.assertIn('Scroll the table horizontally', rendered)
 
     def test_footer_uses_edition_metadata(self):
         with patch.object(build, 'load', return_value={'cutoff': '2027-01-02', 'repository': 'https://example.com/repo'}):

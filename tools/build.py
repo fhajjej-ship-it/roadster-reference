@@ -167,7 +167,9 @@ def markdown(text, source_file):
                 block.append(lines[i])
                 i += 1
             if language == 'mermaid':
-                result.append('<p class="caption">Diagram source (rendered graph available in the GitHub chapter).</p><pre><code>' + html.escape('\n'.join(block)) + '</code></pre>')
+                chapter = source_file.resolve().relative_to(ROOT.resolve()).as_posix()
+                url = f"{load('meta')['repository']}/blob/main/{quote(chapter)}"
+                result.append('<p class="caption"><a href="' + html.escape(url, quote=True) + '">View the rendered diagram on GitHub</a>. Diagram source:</p><pre><code>' + html.escape('\n'.join(block)) + '</code></pre>')
             else:
                 result.append('<pre><code>' + html.escape('\n'.join(block)) + '</code></pre>')
             i += 1
@@ -185,7 +187,7 @@ def markdown(text, source_file):
                 if not re.fullmatch(r'[| :\-]+', lines[i]):
                     rows.append([v.strip().replace('\\|', '|') for v in re.split(r'(?<!\\)\|', lines[i].strip('|'))])
                 i += 1
-            result.append('<div class="table-wrap"><table>')
+            result.append('<p class="table-help caption">Scroll the table horizontally to read all columns.</p><div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable table"><table>')
             for n, row in enumerate(rows):
                 tag = 'th' if n == 0 else 'td'
                 result.append('<tr>' + ''.join(f'<{tag}>{inline(v, source_file)}</{tag}>' for v in row) + '</tr>')
