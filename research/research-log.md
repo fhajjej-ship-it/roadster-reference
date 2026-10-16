@@ -5,7 +5,7 @@
 | Area | Work completed | Remaining gap |
 |---|---|---|
 | Current product | Direct browser inspection of Tesla’s redesigned page | No immutable official snapshot archived |
-| Reservations | US payment schedules; both pages and clauses 1–10 of US v.20261015 reviewed | Incorporated policies, later contracts, post-configuration interactions and other markets |
+| Reservations | US payment schedules; US v.20261015 clauses 1–10; incorporated Payment Terms and expanded privacy sections reviewed | Later contracts, accepted policy versions, modification definition, post-configuration refunds and other markets |
 | Reveal | Official video located; Reuters/AP/automotive witness reports reviewed | Independent test data; complete audiovisual forensic review |
 | Engineering | Relevant Hagerty and Top Gear captions, with claim locators | Physical inspection, production documentation and ambiguous charging-caption/audio reconciliation |
 | History | Original 2017 Tesla captions, 2018 thruster proposal, selected delays and legacy filing | Every intermediate deadline, all regional statements and an immutable legacy-page snapshot |
@@ -21,10 +21,16 @@
 - The reveal video resolved as `Roadster Event`. Relevant transcript passages were read for the announced timing, speed, production target, control modes and gas replenishment. Secondary witnesses remain the basis for the stunt observations; captions do not independently validate physical performance.
 - Initial access to X and two primary patent URLs failed. The audit recovered the X announcement; the document follow-up retrieved all three original patent PDFs. The current US reservation agreement also rendered as a two-page PDF despite a blank accessible tree and HTTP denial. Its loaded document bytes and an alternate official PDF extraction resolved the access gap; stale search-preview wording was rejected.
 - The original 2017 Tesla transcript replaced the mutable legacy URL in active historical claims. Relevant Top Gear captions clarified an 800–1,000-volt range, while a charging-window caption remains ambiguous.
-- All 50 retained source records, 40 claims and 15 events now have individual [audit outcomes](../docs/audit-ledger.md). AP was readable through the browser despite an unsuccessful HTTP probe. The [initial HTTP observations](source-access-2026-10-16.json) and [later document receipts](document-access-2026-10-16.json) describe access and identity, not physical or legal validation.
+- All 52 retained source records, 42 claims and 15 events now have individual [audit outcomes](../docs/audit-ledger.md). AP was readable through the browser despite an unsuccessful HTTP probe. The [initial HTTP observations](source-access-2026-10-16.json) and [later document receipts](document-access-2026-10-16.json) describe access and identity, not physical or legal validation.
 
 ## Search families
 
 New Roadster October 2026 reveal and production; Tesla current configurations; 2017 Roadster launch; 2018 SpaceX package; 2024/2025/2026 delivery and demo announcements; Moravy/Hagerty/Top Gear interviews; Tesla fan/downforce/wing patents; NASA cold-gas propulsion and drag; DOE electric powertrain; EPA range method; NHTSA certification; EU/Swedish type approval; McMurtry and Rimac manufacturer context.
 
 Unrelated stock-price commentary, merger speculation, social-media reactions, affiliate offers and unsupported technical assertions were excluded from the factual learning guide. Discovery results are not automatically evidence. The source registry records deliberately retained material, not every search hit.
+
+## Incorporated-policy follow-up — October 16, 2026
+
+Opened the exact configurator-linked Payment Terms and Privacy Notice in the ordinary browser. All Payment Terms sections and four expanded privacy disclosures were inspected within the [review scope](payment-policy-review.md); the privacy contact disclosure was excluded. The current reserve page's refundable label, modification notice and policy links were rechecked. [Rendered-text identity receipts](payment-policy-access-2026-10-16.json) preserve access scope without republishing policies.
+
+Bounded discovery queries covered Tesla Roadster configuration/refund, Order Agreement/refund, and refund/payment. Stale previews and original-generation, Australian and other-model contracts were excluded as substitutes for current US later terms. No applicable later Roadster Order/Purchase Agreement was obtained. Public-policy access is resolved within the recorded scope; post-configuration outcomes remain unknown.

@@ -478,7 +478,7 @@ Sources: [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=m
 
 Locator: US v.20261015 page 1, clause 5
 
-Unresolved: Rights after this cutoff and the interface’s modifications restriction are not resolved by this clause; later contracts, incorporated terms and applicable law may matter.
+Unresolved: The reviewed Payment Terms do not resolve post-configuration refunds or the interface’s undefined modifications restriction. Later Roadster contracts, the accepted policy version and applicable law remain necessary; expiry of this express window alone does not establish forfeiture.
 
 ## C35 — delivery
 
@@ -563,3 +563,31 @@ Sources: [S47](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/
 Locator: US20260285418A1 paragraph 0046 (PDF page 20 / printed page 4); claim 10 (PDF page 29 / printed page 13)
 
 Unresolved: These are not interchangeable measured Roadster specifications. Speed, mode, embodiment and test context must be preserved; no final force or legal interpretation inferred.
+
+## C41 — reservation
+
+**observed-page · 2026**
+
+The incorporated Payment Terms describe payment administration, bank-debit authorization and recurring service charges; their reviewed sections supply no Roadster-specific post-configuration refund schedule.
+
+Scope: Current public US-linked written policy, not an individual legal determination
+
+Sources: [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale) · [S51](https://www.tesla.com/legal/terms?redirect=no#payment-terms)
+
+Locator: US v.20261015 page 1, clause 7; Payment Terms → General and Vehicle Charging Policy
+
+Unresolved: Which policy version a customer accepted, later Roadster contracts and case-specific rights remain unknown. Cancelling a debit authorization or subscription is not itself an express vehicle refund entitlement.
+
+## C42 — reservation
+
+**unknown · 2026**
+
+The reviewed agreement, configurator and incorporated payment/privacy policies do not establish the amount refundable after completion of the invited configuration.
+
+Scope: Bounded finding in this reviewed public evidence set; no universal refund or forfeiture conclusion
+
+Sources: [S02](https://www.tesla.com/roadster/reserve) · [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale) · [S51](https://www.tesla.com/legal/terms?redirect=no#payment-terms) · [S52](https://www.tesla.com/legal/privacy?redirect=no)
+
+Locator: Configurator payment table and modification notice; US v.20261015 page 1, clauses 3, 5, 7–8; S51 Payment Terms; S52 expanded payment-data sections
+
+Unresolved: Later applicable Roadster Order/Purchase Agreements, definition of modification, completion milestone, processing deadline, accepted versions and jurisdiction-specific rights. See research/payment-policy-review.md.

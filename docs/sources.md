@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Method and access limits](../research/methodology.md)
 
-50 retained source records. This count includes incomplete access and research leads; it is not a count of fully verified documents.
+52 retained source records. This count includes incomplete access and research leads; it is not a count of fully verified documents.
 
 ## S01 — Roadster product page — redesigned car
 
@@ -20,9 +20,9 @@ Limits: Browser text directly inspected. HTTP fetch was denied; search index sti
 
 Type: manufacturer · Access: **browser-read** · Published: not established · Checked: 2026-10-16
 
-Supports: Performance: $5,000 now plus $45,000 within ten days. Thrust: $5,000 plus $245,000. Rocket invite only.
+Supports: Performance: $5,000 now plus $45,000 within ten days. Thrust: $5,000 plus $245,000. Rocket invite only. The current payment table also labels the payment Fully refundable; the interface restricts modification refunds and links the reservation agreement, Payment Terms and Privacy Notice.
 
-Limits: US page only. Deposits are not retail prices. Selected both available options without entering information or proceeding to payment.
+Limits: US page only. Deposits are not retail prices. Selected both available options without entering information or proceeding to payment. The label and undefined modification restriction do not establish post-configuration rights; see research/payment-policy-review.md.
 
 ## S03 — Roadster Event
 
@@ -412,7 +412,7 @@ Type: manufacturer · Access: **document-read** · Published: not established ·
 
 Supports: Both pages and clauses 1–10 reviewed: effectiveness, estimated price, order process, delivery disclaimer, cancellation cutoff/refund, non-escrow and transfer terms, incorporated policies, liability, governing law and arbitration.
 
-Limits: Current PDF linked by the US configurator; footer US v.20261015. Direct HTTP still returned 403, but browser rendering and loaded PDF bytes were recovered. This is a description of written terms, not an enforceability opinion; incorporated policies, later contracts and other markets are outside this review.
+Limits: Current PDF linked by the US configurator; footer US v.20261015. Direct HTTP still returned 403, but browser rendering and loaded PDF bytes were recovered. This is a description of written terms, not an enforceability opinion; incorporated payment/privacy policies are reviewed separately as S51–S52. Later contracts, post-configuration outcomes and other markets remain unresolved.
 
 ## S42 — Musk pushes Roadster unveil again
 
@@ -503,3 +503,23 @@ Type: patent · Access: **document-read** · Published: 2025-08-05 · Checked: 2
 Supports: Original 16-page grant identifies Tesla and contains 20 claims. Claims 1 and 11 specify fan airflow, selectively configured skirts and two operating modes; dependent claims cover partial deployment, sensors and ground-proximity control.
 
 Limits: Claims 1–20 and relevant description/drawing passages were reviewed using OCR with visual checks. This does not establish implemented Roadster hardware, tested performance, a current prosecution/legal-status opinion or freedom to operate.
+
+## S51 — Tesla Payment Terms — General and Vehicle Charging Policy
+
+[Tesla](https://www.tesla.com/legal/terms?redirect=no#payment-terms)
+
+Type: manufacturer · Access: **browser-read** · Published: not established · Checked: 2026-10-16
+
+Supports: Configurator-linked Payment Terms read in the browser: payment methods, collection, bank-debit authorization/recourse, recurring charges, amendments on posting and charging-service fees/holds.
+
+Limits: No Roadster-specific post-configuration refund schedule or definition of modification found in these sections. Other service sections on the same page are separate. No visible payment-policy version date established; current text does not prove a customer’s accepted version or enforceability.
+
+## S52 — Tesla Customer Privacy Notice — payment-data context
+
+[Tesla](https://www.tesla.com/legal/privacy?redirect=no)
+
+Type: manufacturer · Access: **browser-read** · Published: not established · Checked: 2026-10-16
+
+Supports: Four expanded collection/use/sharing/choice sections inspected, including financial and order information, payment processors, retention criteria and privacy requests. Footer displays Updated February 2026.
+
+Limits: Payment-data context, not a Roadster cancellation/refund schedule or an implementation audit. Separate privacy contact disclosure not reviewed. Month-only update label is retained here rather than inventing a publication day; individual rights and applicability not determined.

@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-16",
+  "representation": "UTF-8 body.innerText from ordinary public browser pages; privacy collection/use/sharing/choice disclosures expanded. Not original HTTP bytes.",
+  "documents": [
+    {
+      "source_id": "S51",
+      "url": "https://www.tesla.com/legal/terms?redirect=no#payment-terms",
+      "captured_text_mtime_utc": "2026-10-16T20:43:16.879019+00:00",
+      "rendered_text_bytes": 39797,
+      "rendered_text_sha256": "27b2605bf94058c9d427e81e7a52d5fc213dcb86234a311b153cb18ded9f188e",
+      "review_scope": "All Payment Terms: General and Vehicle Charging Policy. Other service sections excluded from Roadster findings.",
+      "version": "No Payment Terms version date established"
+    },
+    {
+      "source_id": "S52",
+      "url": "https://www.tesla.com/legal/privacy?redirect=no",
+      "captured_text_mtime_utc": "2026-10-16T20:43:16.878816+00:00",
+      "rendered_text_bytes": 57178,
+      "rendered_text_sha256": "d68c149629bb20b2c6d8b8049759c18ea31c2644305cc37682892d0b51ad03d6",
+      "review_scope": "Four expanded collection/use/sharing/choice sections inspected for payments/refunds; contact disclosure excluded.",
+      "version": "Footer: Updated February 2026; publication day not established"
+    }
+  ]
+}

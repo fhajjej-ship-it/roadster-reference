@@ -16,9 +16,9 @@
       "source_id": "S02",
       "verdict": "supported",
       "method": "browser",
-      "locator": "US Performance and Thrust payment tables; Rocket selector",
-      "note": "Both payment schedules and the invite-only selector were rechecked. No payment was made or agreement accepted.",
-      "record_sha256": "ff7848ca44dab79d6e73cdcb26f46c04ecc08088ed8424540787fe6a1f4c1350"
+      "locator": "US payment tables, modification notice and agreement/payment/privacy footer links",
+      "note": "Payment label, undefined modification restriction and exact policy links rechecked. Earlier variant schedules retained; no information entered or payment made.",
+      "record_sha256": "e89ec1f5cd7807176e6043d975294a989aecdd0ae5255160a28854c5bd7ea855"
     },
     {
       "source_id": "S03",
@@ -329,8 +329,8 @@
       "verdict": "supported",
       "method": "browser-rendered PDF; loaded-resource recovery; extraction and visual review",
       "locator": "Both pages of US v.20261015, clauses 1–10",
-      "note": "The previously blank accessible tree hid a rendered PDF. All numbered clauses were read and visually checked; cancellation cutoff is configuration completion, not a substituted older search-preview cutoff.",
-      "record_sha256": "b2bb6232dc3225d890f0ab9a5e522dea638f69e876fca74e9f438cfa2974533f"
+      "note": "The previously blank accessible tree hid a rendered PDF. All numbered clauses were read and visually checked; cancellation cutoff is configuration completion, not a substituted older search-preview cutoff. Incorporated policies now separately reviewed as S51–S52; later contracts remain unresolved.",
+      "record_sha256": "77108482a64daed98e5db6e96f0c817f3f529c05d8629b37a639bdb5c8417fa9"
     },
     {
       "source_id": "S42",
@@ -403,6 +403,22 @@
       "locator": "16 PDF pages; cover, relevant description, claims 1–20 on PDF pages 15–16",
       "note": "All claim text and relevant skirt/fan description read; key claim pages visually checked. Patent embodiments are not a confirmed Roadster bill of materials.",
       "record_sha256": "e06e63cc51c5ed48e0709dc6ed81314096c45fc3fa2207ba1ca154069c291e40"
+    },
+    {
+      "source_id": "S51",
+      "verdict": "supported",
+      "method": "live browser, expanded rendered policy text",
+      "locator": "Payment Terms → General and Vehicle Charging Policy",
+      "note": "No Roadster-specific post-configuration refund schedule or definition of modification found in these sections. Other service sections on the same page are separate. No visible payment-policy version date established; current text does not prove a customer’s accepted version or enforceability.",
+      "record_sha256": "29d90dac1ee888ca230e1920176bfd790c812f88fa5d383dd521d46b73e71812"
+    },
+    {
+      "source_id": "S52",
+      "verdict": "supported",
+      "method": "live browser, expanded rendered policy text",
+      "locator": "Information We May Collect; How We May Use Your Information; Sharing Your Information; Choice and Transparency; update footer",
+      "note": "Payment-data context, not a Roadster cancellation/refund schedule or an implementation audit. Separate privacy contact disclosure not reviewed. Month-only update label is retained here rather than inventing a publication day; individual rights and applicability not determined.",
+      "record_sha256": "a1a270b54fb495b4d96f32cbfc9c556a80894e53da48eb85fd54cf9663e14ec6"
     }
   ],
   "claims": [
@@ -675,8 +691,8 @@
       "verdict": "supported-as-written",
       "method": "original-document statement review",
       "locator": "US v.20261015 page 1, clause 5",
-      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
-      "record_sha256": "42f0e7816d33c3ad4989f5dc22825eeb67f2ae23bed1491aa0fb673d2e0e768c"
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied. Payment-policy follow-up narrows the unresolved question without inferring forfeiture.",
+      "record_sha256": "ff614f7451bc71f02e48ecb241b2157d2fee6049c6273a9d3022762e9089e872"
     },
     {
       "claim_id": "C35",
@@ -725,6 +741,22 @@
       "locator": "US20260285418A1 paragraph 0046 (PDF page 20 / printed page 4); claim 10 (PDF page 29 / printed page 13)",
       "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
       "record_sha256": "8c1e28997a814ba5c028cc02c0b5dd149be42c98c6634bb5ed7b45a1a8355e95"
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "bounded-finding",
+      "method": "cross-document review of current public terms",
+      "locator": "US v.20261015 page 1, clause 7; Payment Terms → General and Vehicle Charging Policy",
+      "note": "Absence is scoped to reviewed sections; no later Roadster contract or individual legal result inferred.",
+      "record_sha256": "a4a5a2a334b23bd1f8005befc2e5326058906ca88317398ccc7ea08746c2fa0e"
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "bounded-finding",
+      "method": "cross-document review of current public terms",
+      "locator": "Configurator payment table and modification notice; US v.20261015 page 1, clauses 3, 5, 7–8; S51 Payment Terms; S52 expanded payment-data sections",
+      "note": "Absence is scoped to reviewed sections; no later Roadster contract or individual legal result inferred.",
+      "record_sha256": "fd1564a6ce5235fc32d7d7398c650f9fb27232e6778d667a6b612bdf062769ad"
     }
   ],
   "timeline": [
@@ -875,6 +907,22 @@
         "C38",
         "C39",
         "C40"
+      ]
+    },
+    {
+      "reviewed_on": "2026-10-16",
+      "base_commit": "89ee1dd6aa87cb0a6d189afdc6a2b97d045d2a7a",
+      "scope": "Incorporated US payment/privacy policies, configurator refund wording and unresolved post-configuration outcomes.",
+      "source_ids": [
+        "S02",
+        "S41",
+        "S51",
+        "S52"
+      ],
+      "claim_ids": [
+        "C34",
+        "C41",
+        "C42"
       ]
     }
   ]

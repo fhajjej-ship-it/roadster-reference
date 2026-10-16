@@ -21,7 +21,7 @@ The US configurator links to [S41, Tesla's current agreement](https://www.tesla.
 
 The cancellation cutoff is **completion of configuration**, not a cutoff silently taken from an older search preview. Clause 4 also addresses **whether** delivery occurs, not just its date. The document's version identifier is recorded; its original publication time is not independently established.
 
-The configurator separately says refunds for modifications will not be issued. The reservation PDF does not fully explain that phrase or establish post-configuration rights. The incorporated policies, future Order/Purchase Agreements, other countries and enforceability in a particular case remain outside this review. No agreement was accepted and no reservation or payment was made.
+The configurator separately says refunds for modifications will not be issued. The reservation PDF does not fully explain that phrase or establish post-configuration rights. The [incorporated payment/privacy policies have since been reviewed within a stated scope](payment-policy-review.md). They do not resolve post-configuration refund amounts. Future Order/Purchase Agreements, other countries and enforceability in a particular case remain open. No agreement was accepted and no reservation or payment was made.
 
 ## Read the three patent disclosures separately
 
@@ -55,7 +55,7 @@ The patent PDFs were retrieved from USPTO. Their text layers were empty, so OCR 
 
 ## Gaps that remain
 
-- The agreement's incorporated policies, later contracts and post-configuration/refund-modification interaction.
+- Later applicable Roadster contracts, accepted policy versions and the post-configuration/refund-modification interaction; see the [payment-policy follow-up](payment-policy-review.md).
 - Patent prosecution, amendments, family/legal-status research, validity and freedom to operate; which embodiments actually ship.
 - Independent performance data, final battery capacity, charge curve and certified range.
 - Audio reconciliation of the ambiguous charging caption and a final explanation of air replenishment versus nitrogen refill.

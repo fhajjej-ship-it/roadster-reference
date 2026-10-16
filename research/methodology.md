@@ -38,7 +38,7 @@ Use claim IDs for corrections. Prefer the original source and a timestamp or sec
 - This is curated research, not “all information on the internet.” There is no guarantee of exhaustive historical, regional or non-English coverage.
 - No vehicle was tested, no customer delivery verified, and no regulator-specific clearance established.
 - Captions can mistranscribe units and names. Ambiguous phrases are flagged, not converted into precise engineering specifications.
-- The current US reservation PDF is readable and reviewed; incorporated policies and later contracts are outside scope. The X announcement was recovered during the audit. The two newer patent indexes remain metadata evidence; original PDFs now support the technical summaries and claim maps. Complete patent/prosecution analysis, production-fitment verification and a complete audiovisual review were not performed. One charging caption remains ambiguous.
+- The current US reservation PDF is readable and reviewed; [incorporated payment/privacy policies](payment-policy-review.md) are reviewed within the stated scope. Later contracts, accepted versions and post-configuration refund outcomes remain unresolved. The X announcement was recovered during the audit. The two newer patent indexes remain metadata evidence; original PDFs now support the technical summaries and claim maps. Complete patent/prosecution analysis, production-fitment verification and a complete audiovisual review were not performed. One charging caption remains ambiguous.
 - No automatic monitoring is installed. Dates and status require a deliberate new source review.
 - Content and code were initially assembled with AI assistance and checked against the listed sources; independent subject-matter review remains welcome.
 

@@ -8,7 +8,7 @@
 |---|---|---|
 | What is the final saleable configuration? | Display, test and customer vehicles can differ | Dated official specification by market and trim |
 | What will each version cost? | Deposits and historical prices are not present retail prices | Current price list and order agreement |
-| What changes after configuration is completed? | The reviewed US agreement ties its express refund window to that stage; the interface also restricts modification refunds | Applicable incorporated policies and final configuration/order/purchase terms |
+| What changes after configuration is completed? | Clause 5 ties its express refund window to that stage; the reviewed incorporated policies do not supply a Roadster refund schedule, and modification remains undefined | Actual applicable Roadster Order/Purchase Agreements, completion milestone, modification definition, refund deadline and accepted policy versions; see [review](../research/payment-policy-review.md) |
 | What is the usable battery capacity? | Needed for range and charging interpretation | Official usable/gross energy definitions |
 | What acceleration result is repeatable? | Rollout and gas state change the comparison | Independent raw timing traces with full conditions |
 | What range is certified? | Manufacturer targets are not cycle ratings | Applicable EPA/WLTP documentation |

@@ -45,3 +45,9 @@ These are browser viewport and keyboard checks, not a physical iPhone/Android, m
 The [document review](document-review.md) records recovery of the two-page US v.20261015 reservation PDF, review of all ten clauses, and an alternate official extraction with matching version/material clauses. Three original USPTO PDFs were retrieved, with 20, 15 and 20 claims respectively. Claim pages and the wing's force/timing passages were visually checked after OCR. [Identity receipts](document-access-2026-10-16.json) retain document hashes, page counts and exact review limits without redistributing full texts.
 
 The registry now has 50 sources, 40 claims and 15 events with bound reviews. The suite still has **29 passing tests**. Its blocked-access regression now sets the access state in its fixture instead of assuming the real S41 agreement stays blocked forever. Data validation, a 20-page HTML build, local links/anchors, generated Markdown freshness, JavaScript syntax and whitespace checks passed. Earlier counts above describe their original verification runs.
+
+## Incorporated payment-policy follow-up — October 16, 2026
+
+The [payment-policy review](payment-policy-review.md) records the exact configurator-linked policy URLs, reviewed section boundaries, refundable/modification wording, unresolved later contracts and rejected substitutes. Two rendered-text identity receipts distinguish browser text from original HTTP bytes. New S51–S52 and C41–C42 have bound review records; changed S02, S41 and C34 reviews were updated only for the verified scope.
+
+All **29 tests** passed. Validation covers 52 sources, 42 claims and 15 events. The generator built 21 HTML pages and checked local targets/fragments; generated Markdown freshness, JavaScript syntax and whitespace checks passed. No runtime code or dependencies changed. Earlier counts above remain the results of their original runs.

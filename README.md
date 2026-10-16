@@ -14,7 +14,7 @@ Understand the engineering. Trace the announcements. Check the evidence before s
 
 > **Read this first:** the 2017 red concept and the October 2026 redesign are different evidence sets. Do not combine the old 620-mile / four-seat claims with the new car’s specifications. [Original Tesla reveal, 31:10](https://www.youtube.com/watch?v=5RRmepp7i5g&t=1870s) · [Current Tesla page](https://www.tesla.com/roadster)
 
-The audit and document follow-up cover **50 source records, 40 structured claims and 15 timeline events**. **47 sources support their stated scope, 2 patent indexes retain limited verification, and 1 obsolete citation is retired.** The current US reservation PDF and all three patent claim sets are now reviewed; incorporated policies, later contracts, prosecution and production fitment remain open. See the [document findings](research/document-review.md), [audit](research/audit.md) and [record-by-record review](docs/audit-ledger.md). Source counts include alternate endpoints for the same documents and do not count independent corroboration.
+The audit and follow-ups cover **52 source records, 42 structured claims and 15 timeline events**. **49 sources support their stated scope, 2 patent indexes retain limited verification, and 1 obsolete citation is retired.** The current US reservation PDF, incorporated payment/privacy policies within the stated scope, and all three patent claim sets are reviewed. Later contracts, post-configuration refund amounts, prosecution and production fitment remain open. See the [payment and refund findings](research/payment-policy-review.md), [document findings](research/document-review.md), [audit](research/audit.md) and [record-by-record review](docs/audit-ledger.md). Source counts include alternate endpoints for the same documents and do not count independent corroboration.
 
 ## Choose your route
 
@@ -29,6 +29,7 @@ The audit and document follow-up cover **50 source records, 40 structured claims
 | Find original material and assess its limits | [Annotated source library](docs/sources.md) |
 | Identify what still needs evidence | [Open questions](docs/open-questions.md) |
 | Understand road-use and reservation context | [Availability and regulation](docs/availability.md) |
+| Understand refunds and the configuration cutoff | [Payment-policy review](research/payment-policy-review.md) |
 | Contribute a correction | [Contribution guide](CONTRIBUTING.md) |
 
 ## What makes this useful
