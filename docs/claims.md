@@ -334,11 +334,11 @@ Final retail prices are not established in this evidence set.
 
 Scope: All configurations
 
-Sources: [S02](https://www.tesla.com/roadster/reserve) · [S03](https://www.youtube.com/watch?v=qt5p-_tE8d0)
+Sources: [S02](https://www.tesla.com/roadster/reserve) · [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale)
 
-Locator: US configurator; Tesla event specification/production discussion
+Locator: US configurator; US v.20261015 page 1, clauses 2–3
 
-Unresolved: A historical price or present deposit must not be labeled the current purchase price.
+Unresolved: Final configured prices, taxes/fees and later order/purchase terms are not established; the reservation PDF explicitly treats any estimate as provisional.
 
 ## C25 — battery
 
@@ -372,15 +372,15 @@ Unresolved: Locate reproducible test data for the same saleable configuration.
 
 **patent-disclosure · 2025**
 
-Tesla-assigned US12377920B1 describes adaptive downforce arrangements.
+Tesla-assigned US12377920B1 claims fan airflow and selectively configured skirts operating in two modes.
 
-Scope: Patent disclosure
+Scope: Adaptive-downforce patent disclosure; not a production specification
 
-Sources: [S20](https://patents.google.com/patent/US12377920B1/en)
+Sources: [S20](https://patents.google.com/patent/US12377920B1/en) · [S50](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12377920)
 
-Locator: US12377920B1 / bibliographic data and Abstract
+Locator: Official grant PDF pages 15–16 (printed columns 18–20), claims 1–20; independent claims 1 and 11
 
-Unresolved: Not proof of Roadster fitment, output or manufacturing readiness.
+Unresolved: Actual production fitment, selected embodiments and independently measured performance; prosecution and freedom-to-operate analysis not performed.
 
 ## C28 — thrusters
 
@@ -465,3 +465,101 @@ Sources: [S12](https://www.youtube.com/watch?v=22rvpUecLts)
 Locator: Hagerty 16:42
 
 Unresolved: Final availability, specification and ordering structure.
+
+## C34 — reservation
+
+**observed-page · 2026**
+
+The current US agreement permits either party to cancel with a full Reservation Payment refund until the customer completes configuration after Tesla’s invitation.
+
+Scope: Written US reservation-stage term
+
+Sources: [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale)
+
+Locator: US v.20261015 page 1, clause 5
+
+Unresolved: Rights after this cutoff and the interface’s modifications restriction are not resolved by this clause; later contracts, incorporated terms and applicable law may matter.
+
+## C35 — delivery
+
+**observed-page · 2026**
+
+The US reservation agreement does not guarantee when delivery will occur or whether it will occur.
+
+Scope: Written US reservation terms, distinct from the 2028 production target
+
+Sources: [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale)
+
+Locator: US v.20261015 page 1, clauses 3–4
+
+Unresolved: Actual delivery, later order commitments and enforceability are not established.
+
+## C36 — reservation
+
+**observed-page · 2026**
+
+The US agreement says the reservation funds are not separately held in escrow or trust, earn no interest, and the reservation needs Tesla’s prior written consent to transfer.
+
+Scope: Written handling and transfer provisions
+
+Sources: [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale)
+
+Locator: US v.20261015 page 1, clause 6
+
+Unresolved: This does not establish actual accounting treatment, a particular customer’s rights or the enforceability of the terms.
+
+## C37 — reservation
+
+**observed-page · 2026**
+
+The US agreement contains an individual-arbitration provision with a written opt-out within 30 days after signing and an individual small-claims alternative.
+
+Scope: Written dispute-resolution provision
+
+Sources: [S41](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale)
+
+Locator: US v.20261015 page 2, clause 10
+
+Unresolved: The complete clause includes notice, fee and other conditions; enforceability and an individual dispute are outside this review.
+
+## C38 — patent
+
+**patent-disclosure · 2026**
+
+The electric fan-car grant claims an underbody-inlet/rear-outlet ducted fan arrangement with outlet strakes and an outlet larger in cross-sectional area than the inlet.
+
+Scope: Granted patent wording, not a final fan-system specification
+
+Sources: [S48](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12746987)
+
+Locator: US12746987B1 PDF page 9, claims 1, 7 and 10; specification columns 2–4
+
+Unresolved: Fan count, power, noise, actual Roadster fitment and measured downforce are not established by these claims.
+
+## C39 — patent
+
+**patent-disclosure · 2026**
+
+The rear-wing application discloses deployable multi-element wings, active rotation, and rear-impact retraction arrangements.
+
+Scope: Application claims and specification; not a granted or production claim
+
+Sources: [S47](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260285418)
+
+Locator: US20260285418A1 PDF pages 28–29 (printed pages 12–13), claims 1–20; independent claims 1, 14 and 20
+
+Unresolved: Different independent and dependent claims specify different combinations. Production fitment, tested safety and legal scope after prosecution remain open.
+
+## C40 — aerodynamics
+
+**patent-disclosure · 2026**
+
+The wing application describes up to 700 kg of downforce in paragraph 0046, while dependent claim 10 recites 400–500 kg when deployed.
+
+Scope: Different disclosure passages; the document uses kg as force shorthand
+
+Sources: [S47](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260285418)
+
+Locator: US20260285418A1 paragraph 0046 (PDF page 20 / printed page 4); claim 10 (PDF page 29 / printed page 13)
+
+Unresolved: These are not interchangeable measured Roadster specifications. Speed, mode, embodiment and test context must be preserved; no final force or legal interpretation inferred.

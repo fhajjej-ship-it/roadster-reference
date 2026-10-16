@@ -1,0 +1,61 @@
+{
+  "meaning": "Document identity and bounded review receipts. PDFs, complete OCR text and private browser state are not redistributed. Hashes identify retrieved bytes, not authenticity, legal validity or vehicle capability.",
+  "checked_at": "2026-10-16T20:28:24.502966+00:00",
+  "documents": [
+    {
+      "source_id": "S41",
+      "url": "https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale",
+      "checked_on": "2026-10-16",
+      "bytes": 265266,
+      "sha256": "e9f43c2a7c02551cb81ca862215ca1f66f4b5a6bc44f30745eade82572b3707b",
+      "pdf_pages": 2,
+      "review": "Clauses 1–10; extracted text and both rendered pages",
+      "access_method": "Browser-loaded document resource"
+    },
+    {
+      "source_id": "S47",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260285418",
+      "checked_on": "2026-10-16",
+      "bytes": 2030581,
+      "sha256": "e07c5eba232ecd9cbef28cebef73db3ad1f96f381981b0cbccae223c92ee457d",
+      "pdf_pages": 29,
+      "review": "Specification paragraphs 0001–0147 and claims 1–20; key numeric/claim pages visually checked",
+      "access_method": "Direct official PDF download"
+    },
+    {
+      "source_id": "S48",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12746987",
+      "checked_on": "2026-10-16",
+      "bytes": 559728,
+      "sha256": "b4049114f8ab989787af45dedea952cb8b617b0f2ecb62d3b92019c8f1e69ce6",
+      "pdf_pages": 9,
+      "review": "Description and all 15 claims; original claim page visually checked",
+      "access_method": "Direct official PDF download"
+    },
+    {
+      "source_id": "S50",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12377920",
+      "checked_on": "2026-10-16",
+      "bytes": 1451963,
+      "sha256": "d17612f0ae595eef000535493d16e6946e176997207f303fd754f27f156a4d3a",
+      "pdf_pages": 16,
+      "review": "Relevant description and all 20 claims; original claim pages visually checked",
+      "access_method": "Direct official PDF download"
+    }
+  ],
+  "additional_access": [
+    {
+      "source_id": "S41",
+      "method": "direct HTTP",
+      "status": 403,
+      "note": "Resolved by ordinary browser PDF rendering and recovery of the already-loaded resource."
+    },
+    {
+      "source_id": "S49",
+      "method": "official PDF web extraction",
+      "pages": 2,
+      "version": "US v.20261015",
+      "note": "Same version and material clauses as S41; no binary hash obtained through this method."
+    }
+  ]
+}

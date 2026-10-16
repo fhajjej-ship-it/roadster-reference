@@ -8,6 +8,7 @@
 |---|---|---|
 | What is the final saleable configuration? | Display, test and customer vehicles can differ | Dated official specification by market and trim |
 | What will each version cost? | Deposits and historical prices are not present retail prices | Current price list and order agreement |
+| What changes after configuration is completed? | The reviewed US agreement ties its express refund window to that stage; the interface also restricts modification refunds | Applicable incorporated policies and final configuration/order/purchase terms |
 | What is the usable battery capacity? | Needed for range and charging interpretation | Official usable/gross energy definitions |
 | What acceleration result is repeatable? | Rollout and gas state change the comparison | Independent raw timing traces with full conditions |
 | What range is certified? | Manufacturer targets are not cycle ratings | Applicable EPA/WLTP documentation |
@@ -21,5 +22,7 @@
 | When do customer deliveries actually begin? | A reveal or forecast does not answer this | Verifiable customer handover evidence |
 | Which patent embodiments actually ship? | Publication is not implementation | Production engineering documentation or attributable teardown |
 | What is the lifecycle impact? | Battery recycling statements are company-level context | Model-specific lifecycle assessment with declared boundaries |
+
+The [current US reservation PDF and all three patent claim sets](../research/document-review.md) have now been recovered and reviewed within the stated scope. Their availability does not answer the remaining implementation, contractual or test questions above.
 
 Priority: direct primary evidence for the disputed timings and specifications, followed by independent production-car measurements. More repeated headlines do not necessarily improve confidence.

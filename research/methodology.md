@@ -6,7 +6,7 @@ Edition cutoff: **2026-10-16**. Language: English. Scope: the redesigned Tesla R
 
 Searches covered Tesla product/reservation material, Tesla video records, engineering interviews, recent launch reporting, selected earlier announcements, patent records, NASA/DOE physics references, and official US/EU/Swedish regulatory resources. The working folder was empty at intake; there was no pre-existing Tesla codebase to audit.
 
-The current Tesla product page and US reservation options were read directly in a browser. This mattered because a direct HTTP request was denied and the search index still returned the legacy concept page. Relevant captions and publisher descriptions were inspected for the original 2017 Tesla presentation, the 2026 Tesla event, and the Hagerty and Top Gear engineering interviews. The audit also inspected official USPTO fan-grant metadata/claim 1 and the wing-application cover/abstract. Source records state where access was only indexed, partial, blocked or metadata-only.
+The current Tesla product page and US reservation options were read directly in a browser. This mattered because a direct HTTP request was denied and the search index still returned the legacy concept page. Relevant captions and publisher descriptions were inspected for the original 2017 Tesla presentation, the 2026 Tesla event, and the Hagerty and Top Gear engineering interviews. Initial gazette/abstract patent checks were expanded in the [document follow-up](document-review.md): all three original claim sets and relevant technical descriptions were reviewed using OCR and visual checks. Both pages and ten clauses of the current US reservation PDF were also recovered and reviewed. Source records state where access was only indexed, partial, blocked or metadata-only.
 
 We retained short factual paraphrases and links. We did not mirror articles, download/rehost copyrighted videos or photos, or acquire unpublished material. Original charts and calculations are analytical teaching aids, not measured vehicle data.
 
@@ -14,7 +14,7 @@ We retained short factual paraphrases and links. We did not mirror articles, dow
 
 | Status | Meaning |
 |---|---|
-| observed-page | The indicated interface/text was directly inspected; not proof of the vehicle’s capability |
+| observed-page | The indicated interface or document text was directly inspected; not proof of the vehicle's capability or legal enforceability |
 | manufacturer-claim | Attributable Tesla assertion, without independent performance validation |
 | interview-claim | Vehicle detail attributable to the reviewed executive interview; still provisional |
 | reported-claim | An outlet attributes a claim; primary performance evidence not independently checked |
@@ -38,7 +38,7 @@ Use claim IDs for corrections. Prefer the original source and a timestamp or sec
 - This is curated research, not “all information on the internet.” There is no guarantee of exhaustive historical, regional or non-English coverage.
 - No vehicle was tested, no customer delivery verified, and no regulator-specific clearance established.
 - Captions can mistranscribe units and names. Ambiguous phrases are flagged, not converted into precise engineering specifications.
-- The current US reservation agreement remains unreadable. The X announcement was recovered during the audit. The two newer patent indexes remain metadata evidence; the official fan grant and wing application have the bounded reviews described above. Complete patent/prosecution analysis and a complete audiovisual review were not performed. One charging caption remains ambiguous.
+- The current US reservation PDF is readable and reviewed; incorporated policies and later contracts are outside scope. The X announcement was recovered during the audit. The two newer patent indexes remain metadata evidence; original PDFs now support the technical summaries and claim maps. Complete patent/prosecution analysis, production-fitment verification and a complete audiovisual review were not performed. One charging caption remains ambiguous.
 - No automatic monitoring is installed. Dates and status require a deliberate new source review.
 - Content and code were initially assembled with AI assistance and checked against the listed sources; independent subject-matter review remains welcome.
 

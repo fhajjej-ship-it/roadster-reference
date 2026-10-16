@@ -159,26 +159,26 @@
     {
       "source_id": "S20",
       "verdict": "supported",
-      "method": "HTTP full text",
-      "locator": "Bibliographic data and Abstract",
-      "note": "Title, Tesla assignment listing, publication date and adaptive downforce description match. No fitment inferred.",
+      "method": "primary text cross-check",
+      "locator": "Google Patents bibliographic record; original USPTO grant S50",
+      "note": "Title, Tesla listing and original adaptive-skirt/fan disclosure were cross-checked; S50 supplies the authoritative claim pages.",
       "record_sha256": "a79d477fcdfcbf3e825cd042171a519ed20c073b349859d6b857bd63b165b1de"
     },
     {
       "source_id": "S21",
       "verdict": "limited",
-      "method": "HTTP index text",
-      "locator": "Title, assignee and publication metadata",
-      "note": "Index metadata confirmed. Official gazette S46 now independently verifies the grant identity and first claim.",
-      "record_sha256": "734ef4a5f408d3dc0d6741486d0ee71a09fa966ad8f41e6b439a204b3f266510"
+      "method": "index metadata; primary counterpart recovered",
+      "locator": "Index metadata; complete grant now S48",
+      "note": "Index scope remains limited; its former missing-primary-document gap is resolved by S48, not by accepting AI summaries.",
+      "record_sha256": "49262eecd98566423248af00baf8c3f8750dc51746a3353faf6c33d2ba488ed0"
     },
     {
       "source_id": "S22",
       "verdict": "limited",
-      "method": "HTTP index text",
-      "locator": "Title, applicant and publication metadata",
-      "note": "Index metadata confirmed. Official application S47 verifies identity and abstract; index AI summaries are not adopted.",
-      "record_sha256": "a773b1b6bd82d175478bcbe41b85f3d6492c230227a15d942e97fbcb3ec28080"
+      "method": "index metadata; primary counterpart recovered",
+      "locator": "Index metadata; complete application now S47",
+      "note": "Index scope remains limited; full specification and all application claims were read from S47.",
+      "record_sha256": "6146b59caf6bcf1da36ccba288e2abb92119af823653b4cbc642689ad832f6c4"
     },
     {
       "source_id": "S23",
@@ -326,11 +326,11 @@
     },
     {
       "source_id": "S41",
-      "verdict": "unverified",
-      "method": "HTTP and browser access attempts",
-      "locator": "Agreement URL linked from the live US configurator",
-      "note": "HTTP denied; browser view exposed no readable agreement body. Refund and delivery clauses remain unverified.",
-      "record_sha256": "1f68a8e7f4ccab07bb746f0ecbd1ee2817d2202036ba24100943edf7be4e9a01"
+      "verdict": "supported",
+      "method": "browser-rendered PDF; loaded-resource recovery; extraction and visual review",
+      "locator": "Both pages of US v.20261015, clauses 1–10",
+      "note": "The previously blank accessible tree hid a rendered PDF. All numbered clauses were read and visually checked; cancellation cutoff is configuration completion, not a substituted older search-preview cutoff.",
+      "record_sha256": "b2bb6232dc3225d890f0ab9a5e522dea638f69e876fca74e9f438cfa2974533f"
     },
     {
       "source_id": "S42",
@@ -367,18 +367,42 @@
     {
       "source_id": "S46",
       "verdict": "supported",
-      "method": "official gazette HTML",
-      "locator": "Bibliographic data and claim 1",
-      "note": "Official assignee, application and ducted-fan claim checked; resolves the former index-only grant identity gap.",
-      "record_sha256": "10b11a6223e4e6481c52af95c4d7ed7eaa5a06bd1606dc314746612ad6ad1c47"
+      "method": "official gazette HTML; full counterpart linked",
+      "locator": "Gazette bibliographic record and claim 1; complete grant S48",
+      "note": "Gazette scope is unchanged; the full original grant is separately available and reviewed.",
+      "record_sha256": "9b4d7aa40d06bda60897784bfc2436312bd1fe50ce2d8f218b677a496bac1b1f"
     },
     {
       "source_id": "S47",
-      "verdict": "limited",
-      "method": "official PDF visual review",
-      "locator": "Cover page / bibliographic data, abstract and figure",
-      "note": "Official scanned application cover reviewed visually. Complete claims and asserted downforce were not audited.",
-      "record_sha256": "ad3a930df136c3faf06ee9715a52cdbdb99241f61cea1f9b7c1e832633a722f9"
+      "verdict": "supported",
+      "method": "official scanned PDF; OCR and visual verification",
+      "locator": "29 PDF pages; paragraphs 0001–0147; claims 1–20 on PDF pages 28–29",
+      "note": "Specification and all claims reviewed. Paragraph 0046 and claim 10 retain their different force figures. Key claim and numeric pages were visually checked; no prosecution or production conclusions.",
+      "record_sha256": "8d620016f973bb671057f6f28c0a6fdce731eb274ade2d2dd9b83dc549b5d958"
+    },
+    {
+      "source_id": "S48",
+      "verdict": "supported",
+      "method": "official scanned PDF; OCR and visual verification",
+      "locator": "9 PDF pages; description columns 1–6; claims 1–15 on PDF page 9",
+      "note": "Full grant retrieved; all claims read and original claim page visually checked. Side-inlet and strake limitations are preserved. Not a test report.",
+      "record_sha256": "ea5d1dd800dbe42c7adf8ef01abbebcfdb7c329609f9415c8cc3eb8d5808ae58"
+    },
+    {
+      "source_id": "S49",
+      "verdict": "supported",
+      "method": "official PDF web extraction",
+      "locator": "Both pages, footer US v.20261015, clauses 1–10",
+      "note": "Opened PDF matches S41’s version and material clauses. Stale search preview was rejected. This is the same agreement via another endpoint, not independent evidence.",
+      "record_sha256": "6b1c7526d22a66578764ada760f9385130e7f5ed232347958ab7ce377aaddc44"
+    },
+    {
+      "source_id": "S50",
+      "verdict": "supported",
+      "method": "official scanned PDF; OCR and visual verification",
+      "locator": "16 PDF pages; cover, relevant description, claims 1–20 on PDF pages 15–16",
+      "note": "All claim text and relevant skirt/fan description read; key claim pages visually checked. Patent embodiments are not a confirmed Roadster bill of materials.",
+      "record_sha256": "e06e63cc51c5ed48e0709dc6ed81314096c45fc3fa2207ba1ca154069c291e40"
     }
   ],
   "claims": [
@@ -569,10 +593,10 @@
     {
       "claim_id": "C24",
       "verdict": "bounded-finding",
-      "method": "source-to-statement review",
-      "locator": "US configurator; Tesla event specification/production discussion",
-      "note": "Retained only as a finding about this evidence set; absence across all public or private material is not established.",
-      "record_sha256": "c71b37b56fdb4590bf1cf8791986e8a366ff2187a0815f6cedc0a1cd8de6de39"
+      "method": "original-document statement review",
+      "locator": "US configurator; US v.20261015 page 1, clauses 2–3",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "747c2fb736f1984346b831e69a69c379536de841f98d07fa9091708b313d0ee7"
     },
     {
       "claim_id": "C25",
@@ -593,10 +617,10 @@
     {
       "claim_id": "C27",
       "verdict": "document-disclosure",
-      "method": "source-to-statement review",
-      "locator": "US12377920B1 / bibliographic data and Abstract",
-      "note": "Patent bibliographic text and abstract support disclosure only; actual vehicle fitment and output remain unverified.",
-      "record_sha256": "2ad48b49c05514e6c1204ea86acf842724811b98610b05bcc8b2063e1ddaa925"
+      "method": "original-document statement review",
+      "locator": "Official grant PDF pages 15–16 (printed columns 18–20), claims 1–20; independent claims 1 and 11",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "a5f757e585db5ec34b401cd63d27e56476996c7a357fb30c6f34f8b7c237e05f"
     },
     {
       "claim_id": "C28",
@@ -645,6 +669,62 @@
       "locator": "Hagerty 16:42",
       "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
       "record_sha256": "b9ba52b0a4fbfcab5408a4a4543cc17303bd6dd7509f0b6e87ffdc7df132cf8e"
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported-as-written",
+      "method": "original-document statement review",
+      "locator": "US v.20261015 page 1, clause 5",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "42f0e7816d33c3ad4989f5dc22825eeb67f2ae23bed1491aa0fb673d2e0e768c"
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported-as-written",
+      "method": "original-document statement review",
+      "locator": "US v.20261015 page 1, clauses 3–4",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "36c50e8fac91cddfdaecd125feab08ba74e4672fa021005d67a9c0def0a79c52"
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported-as-written",
+      "method": "original-document statement review",
+      "locator": "US v.20261015 page 1, clause 6",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "11211186e91e302dbf1ad70e04d4f37e3923e6c17f8aac9f1201c7429f073059"
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported-as-written",
+      "method": "original-document statement review",
+      "locator": "US v.20261015 page 2, clause 10",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "32c9cc5f95576a77596bfdd9f6c50fc4b30500e3f5116c802c9f0977e28d896c"
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "document-disclosure",
+      "method": "original-document statement review",
+      "locator": "US12746987B1 PDF page 9, claims 1, 7 and 10; specification columns 2–4",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "af55b2d74634869c11df5d02869bc59d19be4d7f34fb0e325463aab0bd182dbd"
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "document-disclosure",
+      "method": "original-document statement review",
+      "locator": "US20260285418A1 PDF pages 28–29 (printed pages 12–13), claims 1–20; independent claims 1, 14 and 20",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "69a13f08967f45f40f2f5d3de758237621c3d19e17fcc0f2a667217eff0cfe63"
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "document-disclosure",
+      "method": "original-document statement review",
+      "locator": "US20260285418A1 paragraph 0046 (PDF page 20 / printed page 4); claim 10 (PDF page 29 / printed page 13)",
+      "note": "Written document content verified at the stated locator. No independent vehicle measurement, individual legal conclusion or production fitment is implied.",
+      "record_sha256": "8c1e28997a814ba5c028cc02c0b5dd149be42c98c6634bb5ed7b45a1a8355e95"
     }
   ],
   "timeline": [
@@ -767,6 +847,35 @@
       "locator": "S03",
       "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
       "record_sha256": "88242426e90df9f3cf0b51626713c368decaec9b70957c2761b0c4bedb8ca7df"
+    }
+  ],
+  "followups": [
+    {
+      "reviewed_on": "2026-10-16",
+      "base_commit": "ddba2bc12d2e0cc9f6d98502b4d5cb0216adacac",
+      "scope": "Current US reservation PDF and three patent originals; stale search preview rejected; document locators and review limits recorded.",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S22",
+        "S41",
+        "S46",
+        "S47",
+        "S48",
+        "S49",
+        "S50"
+      ],
+      "claim_ids": [
+        "C24",
+        "C27",
+        "C34",
+        "C35",
+        "C36",
+        "C37",
+        "C38",
+        "C39",
+        "C40"
+      ]
     }
   ]
 }

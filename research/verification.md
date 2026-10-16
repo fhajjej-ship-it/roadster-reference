@@ -39,3 +39,9 @@ Reproduced and fixed:
 After these fixes, all 19 generated pages were checked at **320, 390, 800 and 1,440 CSS pixels** (76 page/width combinations), with no document-level horizontal overflow. Browser checks covered empty search, combined filters, reset to 33 claims/47 sources with search focus restored, invalid-input result clearing, and the 2-second calculator scenario. All **29 unit tests**, data validation, generated Markdown freshness, generated HTML links/anchors, JavaScript syntax and whitespace checks passed.
 
 These are browser viewport and keyboard checks, not a physical iPhone/Android, mobile software-keyboard or full screen-reader certification.
+
+## Reservation and patent follow-up — October 16, 2026
+
+The [document review](document-review.md) records recovery of the two-page US v.20261015 reservation PDF, review of all ten clauses, and an alternate official extraction with matching version/material clauses. Three original USPTO PDFs were retrieved, with 20, 15 and 20 claims respectively. Claim pages and the wing's force/timing passages were visually checked after OCR. [Identity receipts](document-access-2026-10-16.json) retain document hashes, page counts and exact review limits without redistributing full texts.
+
+The registry now has 50 sources, 40 claims and 15 events with bound reviews. The suite still has **29 passing tests**. Its blocked-access regression now sets the access state in its fixture instead of assuming the real S41 agreement stays blocked forever. Data validation, a 20-page HTML build, local links/anchors, generated Markdown freshness, JavaScript syntax and whitespace checks passed. Earlier counts above describe their original verification runs.

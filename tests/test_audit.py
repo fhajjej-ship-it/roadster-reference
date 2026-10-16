@@ -44,9 +44,10 @@ class EvidenceValidationTests(unittest.TestCase):
         self.assertTrue(any('primary source' in error for error in self.check()))
 
     def test_blocked_and_stale_citations_cannot_support_active_claims(self):
-        for identifier in ('S05', 'S41'):
-            with self.subTest(source=identifier):
-                self.data['claims'][0]['sources'] = [identifier]
+        for access in ('indexed-stale', 'blocked'):
+            with self.subTest(access=access):
+                self.data['sources'][0]['access'] = access
+                self.data['claims'][0]['sources'] = [self.data['sources'][0]['id']]
                 self.assertTrue(any('inactive/unread' in error for error in self.check()))
 
     def test_future_event_must_remain_target(self):

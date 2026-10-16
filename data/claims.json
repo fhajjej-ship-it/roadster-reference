@@ -337,12 +337,12 @@
     "statement": "Final retail prices are not established in this evidence set.",
     "sources": [
       "S02",
-      "S03"
+      "S41"
     ],
     "scope": "All configurations",
-    "unresolved": "A historical price or present deposit must not be labeled the current purchase price.",
+    "unresolved": "Final configured prices, taxes/fees and later order/purchase terms are not established; the reservation PDF explicitly treats any estimate as provisional.",
     "checked": "2026-10-16",
-    "locator": "US configurator; Tesla event specification/production discussion"
+    "locator": "US configurator; US v.20261015 page 1, clauses 2–3"
   },
   {
     "id": "C25",
@@ -380,14 +380,15 @@
     "topic": "patent",
     "era": "2025",
     "status": "patent-disclosure",
-    "statement": "Tesla-assigned US12377920B1 describes adaptive downforce arrangements.",
+    "statement": "Tesla-assigned US12377920B1 claims fan airflow and selectively configured skirts operating in two modes.",
     "sources": [
-      "S20"
+      "S20",
+      "S50"
     ],
-    "scope": "Patent disclosure",
-    "unresolved": "Not proof of Roadster fitment, output or manufacturing readiness.",
+    "scope": "Adaptive-downforce patent disclosure; not a production specification",
+    "unresolved": "Actual production fitment, selected embodiments and independently measured performance; prosecution and freedom-to-operate analysis not performed.",
     "checked": "2026-10-16",
-    "locator": "US12377920B1 / bibliographic data and Abstract"
+    "locator": "Official grant PDF pages 15–16 (printed columns 18–20), claims 1–20; independent claims 1 and 11"
   },
   {
     "id": "C28",
@@ -472,6 +473,104 @@
     "locator": "Hagerty 16:42",
     "scope": "Interview lead, absent from the three-option reservation interface",
     "unresolved": "Final availability, specification and ordering structure.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C34",
+    "topic": "reservation",
+    "era": "2026",
+    "status": "observed-page",
+    "statement": "The current US agreement permits either party to cancel with a full Reservation Payment refund until the customer completes configuration after Tesla’s invitation.",
+    "sources": [
+      "S41"
+    ],
+    "locator": "US v.20261015 page 1, clause 5",
+    "scope": "Written US reservation-stage term",
+    "unresolved": "Rights after this cutoff and the interface’s modifications restriction are not resolved by this clause; later contracts, incorporated terms and applicable law may matter.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C35",
+    "topic": "delivery",
+    "era": "2026",
+    "status": "observed-page",
+    "statement": "The US reservation agreement does not guarantee when delivery will occur or whether it will occur.",
+    "sources": [
+      "S41"
+    ],
+    "locator": "US v.20261015 page 1, clauses 3–4",
+    "scope": "Written US reservation terms, distinct from the 2028 production target",
+    "unresolved": "Actual delivery, later order commitments and enforceability are not established.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C36",
+    "topic": "reservation",
+    "era": "2026",
+    "status": "observed-page",
+    "statement": "The US agreement says the reservation funds are not separately held in escrow or trust, earn no interest, and the reservation needs Tesla’s prior written consent to transfer.",
+    "sources": [
+      "S41"
+    ],
+    "locator": "US v.20261015 page 1, clause 6",
+    "scope": "Written handling and transfer provisions",
+    "unresolved": "This does not establish actual accounting treatment, a particular customer’s rights or the enforceability of the terms.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C37",
+    "topic": "reservation",
+    "era": "2026",
+    "status": "observed-page",
+    "statement": "The US agreement contains an individual-arbitration provision with a written opt-out within 30 days after signing and an individual small-claims alternative.",
+    "sources": [
+      "S41"
+    ],
+    "locator": "US v.20261015 page 2, clause 10",
+    "scope": "Written dispute-resolution provision",
+    "unresolved": "The complete clause includes notice, fee and other conditions; enforceability and an individual dispute are outside this review.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C38",
+    "topic": "patent",
+    "era": "2026",
+    "status": "patent-disclosure",
+    "statement": "The electric fan-car grant claims an underbody-inlet/rear-outlet ducted fan arrangement with outlet strakes and an outlet larger in cross-sectional area than the inlet.",
+    "sources": [
+      "S48"
+    ],
+    "locator": "US12746987B1 PDF page 9, claims 1, 7 and 10; specification columns 2–4",
+    "scope": "Granted patent wording, not a final fan-system specification",
+    "unresolved": "Fan count, power, noise, actual Roadster fitment and measured downforce are not established by these claims.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C39",
+    "topic": "patent",
+    "era": "2026",
+    "status": "patent-disclosure",
+    "statement": "The rear-wing application discloses deployable multi-element wings, active rotation, and rear-impact retraction arrangements.",
+    "sources": [
+      "S47"
+    ],
+    "locator": "US20260285418A1 PDF pages 28–29 (printed pages 12–13), claims 1–20; independent claims 1, 14 and 20",
+    "scope": "Application claims and specification; not a granted or production claim",
+    "unresolved": "Different independent and dependent claims specify different combinations. Production fitment, tested safety and legal scope after prosecution remain open.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C40",
+    "topic": "aerodynamics",
+    "era": "2026",
+    "status": "patent-disclosure",
+    "statement": "The wing application describes up to 700 kg of downforce in paragraph 0046, while dependent claim 10 recites 400–500 kg when deployed.",
+    "sources": [
+      "S47"
+    ],
+    "locator": "US20260285418A1 paragraph 0046 (PDF page 20 / printed page 4); claim 10 (PDF page 29 / printed page 13)",
+    "scope": "Different disclosure passages; the document uses kg as force shorthand",
+    "unresolved": "These are not interchangeable measured Roadster specifications. Speed, mode, embodiment and test context must be preserved; no final force or legal interpretation inferred.",
     "checked": "2026-10-16"
   }
 ]

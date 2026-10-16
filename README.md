@@ -14,7 +14,7 @@ Understand the engineering. Trace the announcements. Check the evidence before s
 
 > **Read this first:** the 2017 red concept and the October 2026 redesign are different evidence sets. Do not combine the old 620-mile / four-seat claims with the new car’s specifications. [Original Tesla reveal, 31:10](https://www.youtube.com/watch?v=5RRmepp7i5g&t=1870s) · [Current Tesla page](https://www.tesla.com/roadster)
 
-The audit reviewed every source, structured claim and timeline event. **42 source records support their stated scope, 3 have limited verification, 1 obsolete citation is retired, and 1 remains unverified.** Complete reservation-agreement terms are not established. See the [audit](research/audit.md) and [record-by-record review](docs/audit-ledger.md).
+The audit and document follow-up cover **50 source records, 40 structured claims and 15 timeline events**. **47 sources support their stated scope, 2 patent indexes retain limited verification, and 1 obsolete citation is retired.** The current US reservation PDF and all three patent claim sets are now reviewed; incorporated policies, later contracts, prosecution and production fitment remain open. See the [document findings](research/document-review.md), [audit](research/audit.md) and [record-by-record review](docs/audit-ledger.md). Source counts include alternate endpoints for the same documents and do not count independent corroboration.
 
 ## Choose your route
 

@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Method and access limits](../research/methodology.md)
 
-47 retained source records. This count includes incomplete access and research leads; it is not a count of fully verified documents.
+50 retained source records. This count includes incomplete access and research leads; it is not a count of fully verified documents.
 
 ## S01 — Roadster product page — redesigned car
 
@@ -212,7 +212,7 @@ Type: patent-index · Access: **indexed** · Published: 2026-09-29 · Checked: 2
 
 Supports: Index lists Tesla, title and September 29, 2026 publication.
 
-Limits: Full primary document not retrieved; research lead only. No engineering claims taken from this entry.
+Limits: This index was checked only as metadata. The complete official grant is now S48; no engineering claims are taken from index AI summaries.
 
 ## S22 — Deployable and active rear wing assembly with safety features — US20260285418A1
 
@@ -222,7 +222,7 @@ Type: patent-index · Access: **indexed** · Published: 2026-09-24 · Checked: 2
 
 Supports: Index lists Tesla, title and September 24, 2026 publication.
 
-Limits: Application metadata only; primary text not retrieved. No claimed downforce inferred.
+Limits: This index was checked only as metadata. Use the original application S47 for specification and claims; no engineering claims are taken from index AI summaries.
 
 ## S23 — Rocket Thrust Equation
 
@@ -404,15 +404,15 @@ Supports: Tesla’s public post identifies the October 15 Roadster event livestr
 
 Limits: Post text was readable during audit; this is a livestream announcement, not evidence of a particular vehicle specification.
 
-## S41 — US Roadster Reservation Agreement
+## S41 — US Roadster Reservation Agreement — US v.20261015
 
 [Tesla](https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale)
 
-Type: manufacturer · Access: **blocked** · Published: not established · Checked: 2026-10-16
+Type: manufacturer · Access: **document-read** · Published: not established · Checked: 2026-10-16
 
-Supports: Agreement link observed in US configurator.
+Supports: Both pages and clauses 1–10 reviewed: effectiveness, estimated price, order process, delivery disclaimer, cancellation cutoff/refund, non-escrow and transfer terms, incorporated policies, liability, governing law and arbitration.
 
-Limits: Agreement body not retrieved. Refund eligibility cannot be inferred beyond visible interface wording.
+Limits: Current PDF linked by the US configurator; footer US v.20261015. Direct HTTP still returned 403, but browser rendering and loaded PDF bytes were recovered. This is a description of written terms, not an enforceability opinion; incorporated policies, later contracts and other markets are outside this review.
 
 ## S42 — Musk pushes Roadster unveil again
 
@@ -462,7 +462,7 @@ Type: patent · Access: **full-text** · Published: 2026-09-29 · Checked: 2026-
 
 Supports: Official gazette identifies Tesla as assignee and reproduces claim 1: a ducted fan system with an underbody inlet and rear outlet.
 
-Limits: Gazette metadata and claim 1 reviewed; not a review of the complete prosecution history, proof of Roadster fitment or a measured force.
+Limits: The gazette contains metadata and claim 1 only. The complete original grant is now separately reviewed as S48. No production fitment or measured force established.
 
 ## S47 — US 2026/0285418 A1 — Deployable and active rear wing assembly with safety features
 
@@ -470,6 +470,36 @@ Limits: Gazette metadata and claim 1 reviewed; not a review of the complete pros
 
 Type: patent · Access: **document-read** · Published: 2026-09-24 · Checked: 2026-10-16
 
-Supports: Original scanned application cover and abstract identify Tesla, application 19/295,293, filing August 8, 2025, and a deployable multi-element wing with rotation and impact-protection features.
+Supports: Original 29-page application reviewed through OCR and visual checks, including description paragraphs 0001–0147 and claims 1–20. It discloses deployable/rotating wings, actuation alternatives and impact protection. Paragraph 0046 and claim 10 use different force figures.
 
-Limits: Cover/abstract visually reviewed from the official PDF. Full claims, force assertions and legal scope were not exhaustively reviewed; no Roadster fitment inferred.
+Limits: Application publication, not a granted claim set. Claims and description are disclosure evidence only; production fitment, independent test results, claim validity, prosecution changes and freedom to operate are not established. OCR-supported passages used in summaries were visually checked.
+
+## S48 — US 12,746,987 B1 — complete Electric fan car grant
+
+[United States Patent and Trademark Office](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12746987)
+
+Type: patent · Access: **document-read** · Published: 2026-09-29 · Checked: 2026-10-16
+
+Supports: Complete nine-page official grant: cover, description, drawings and all 15 claims. Claims 1, 7 and 10 concern underbody-inlet/rear-outlet ducted fans with larger outlet area and outlet strakes; claim 10 also specifies axial fans and side inlets.
+
+Limits: The description includes several fan counts and an embodiment without road-contact skirts. Neither the drawing nor the claims establish a final Roadster configuration, fan power, measured downforce, noise, safety, validity or freedom to operate.
+
+## S49 — US Roadster Reservation Agreement — alternate official endpoint
+
+[Tesla](https://www.tesla.com/configurator/api/v4/terms?locale=en_US&model=mt&saleType=PreSale)
+
+Type: manufacturer · Access: **full-text** · Published: not established · Checked: 2026-10-16
+
+Supports: Official two-page PDF extraction independently resolves US v.20261015 and clauses 1–10, matching the current configurator-linked document reviewed as S41.
+
+Limits: An alternate delivery endpoint for the same agreement, not independent contractual evidence or a historical agreement. Its search preview had stale wording; the opened PDF, not the preview, was used. Version identifier is not an independently established publication date.
+
+## S50 — US 12,377,920 B1 — original adaptive-downforce grant
+
+[United States Patent and Trademark Office](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12377920)
+
+Type: patent · Access: **document-read** · Published: 2025-08-05 · Checked: 2026-10-16
+
+Supports: Original 16-page grant identifies Tesla and contains 20 claims. Claims 1 and 11 specify fan airflow, selectively configured skirts and two operating modes; dependent claims cover partial deployment, sensors and ground-proximity control.
+
+Limits: Claims 1–20 and relevant description/drawing passages were reviewed using OCR with visual checks. This does not establish implemented Roadster hardware, tested performance, a current prosecution/legal-status opinion or freedom to operate.

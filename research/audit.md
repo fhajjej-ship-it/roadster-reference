@@ -2,11 +2,11 @@
 
 [Home](../README.md) · [Every source, claim and event](../docs/audit-ledger.md) · [Machine-readable review](../data/audit.json)
 
-Scope: all 32 files in the initial commit, all 45 original source records, all 33 structured claims, all 15 timeline entries, and the additions made to correct this edition. Original baseline: `d37ada4bd81cd8228c4865286e24964e7e25c8fc`. Review was performed by Codex with live source access and executable checks; it is not an independent human engineering certification.
+Initial scope: all 32 files in the first commit, 45 original source records, 33 original structured claims and 15 timeline entries, plus the additions made to correct this edition. Original baseline: `d37ada4bd81cd8228c4865286e24964e7e25c8fc`. The later [document follow-up](document-review.md) expanded this to 50 sources and 40 claims. Review was performed by Codex with live source access and executable checks; it is not an independent human engineering certification.
 
 ## Evidence outcomes
 
-The revised registry contains **47 source records**. Of these, **42 support their stated scope**, **3 are verified only within a limited scope**, **1 obsolete citation is retired**, and **1 remains unverified**. Every record has an individual outcome, method, locator and note in the ledger. “Supported” means the cited source supports the attributed statement; it does not establish the car’s real performance.
+The current registry contains **50 source records**. Of these, **47 support their stated scope**, **2 patent indexes remain limited to metadata**, and **1 obsolete citation is retired**. The previously unreadable agreement is now reviewed. Every record has an individual outcome, method, locator and note in the ledger. “Supported” means the cited source supports the attributed statement; it does not establish the car's real performance. Alternate endpoints for the same document are not independent corroboration.
 
 | Finding | Correction |
 |---|---|
@@ -15,10 +15,10 @@ The revised registry contains **47 source records**. Of these, **42 support thei
 | A malformed voltage caption left an avoidable gap | Top Gear 6:12 explicitly describes an 800–1,000-volt range; still provisional, not a final nominal rating |
 | Acceleration reports used different precision and conventions | Preserved the event’s announced 0.81 seconds, rollout-qualified interview figures and other attributed reporting separately |
 | Charging descriptions were too easy to collapse into one specification | Preserved the ten-minute goal, under-fifteen-minute narration and an ambiguous caption; no final charge curve inferred |
-| Two newer patents were represented only by index metadata | Added official USPTO fan-grant metadata/claim 1 and the original wing-application cover/abstract; complete legal scope remains unreviewed |
+| Two newer patents were represented only by index metadata | Initial gazette/abstract checks were expanded to original PDFs and all claims; force figures and distinct embodiments are preserved. Prosecution and legal analysis remain outside scope |
 | Article publication date could be mistaken for original teaser-post time | September 12 timeline entry now identifies the report date explicitly |
 | HTTP failures could be mistaken for source inaccessibility | AP was reverified through the ordinary browser after HTTP and web-extraction failure; access method is recorded |
-| The reservation agreement could not be read | Retained S41 as unverified; no complete refund, cancellation or delivery-term conclusions |
+| The reservation agreement initially appeared unreadable | Recovered the rendered two-page US v.20261015 PDF, reviewed all ten clauses and rejected a stale search preview. Incorporated policies and later contracts remain outside scope |
 
 ## Code defects corrected
 
@@ -34,7 +34,7 @@ The revised registry contains **47 source records**. Of these, **42 support thei
 
 ## Verification
 
-All **28 unit tests passed**. Data/review validation, generated Markdown freshness, generated HTML links/anchors, JavaScript syntax and patch whitespace checks passed. The site builds 19 HTML pages. See [the verification record](verification.md) for scope and limits.
+The initial audit's **28 unit tests passed**; the later explorer fixes expanded the passing suite to **29 tests**. Data/review validation, generated Markdown freshness, generated HTML links/anchors, JavaScript syntax and patch whitespace checks are recorded in [the verification history](verification.md). The document follow-up adds a learning page to the original 19-page site.
 
 Run the offline checks:
 
@@ -50,6 +50,6 @@ The optional `tools/check_sources.py` probe records HTTP status, resolved URLs, 
 
 ## Remaining limits
 
-The complete US reservation agreement could not be verified. AP was recovered through normal browser reading. The retired legacy snapshot has no recovered immutable copy. The two newer index entries are checked as metadata; the wing application has a cover/abstract review, not exhaustive claim analysis. Relevant video captions and descriptions were inspected, not every frame and audio passage. The ambiguous charge-window caption still needs audio reconciliation.
+The current US agreement's ten clauses are reviewed; incorporated policies, later contracts, post-configuration interactions and enforceability remain open. All three patent claim sets are read, but production implementation and prosecution/legal analysis remain unverified. AP was recovered through normal browser reading. The retired legacy snapshot has no recovered immutable copy, and the two newer patent indexes remain metadata evidence. Relevant video captions and descriptions were inspected, not every frame and audio passage. The ambiguous charge-window caption still needs audio reconciliation. See [the document follow-up](document-review.md) for precise scope and receipts.
 
 No independent instrumented production-car test, final price list, certified range, final battery capacity, regulatory clearance or customer-delivery evidence was established. These are explicitly scoped research gaps, not conclusions that such evidence cannot exist. See [open questions](../docs/open-questions.md).

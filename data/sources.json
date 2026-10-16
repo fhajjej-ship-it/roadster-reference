@@ -249,7 +249,7 @@
     "published": "2026-09-29",
     "checked": "2026-10-16",
     "support": "Index lists Tesla, title and September 29, 2026 publication.",
-    "limitations": "Full primary document not retrieved; research lead only. No engineering claims taken from this entry."
+    "limitations": "This index was checked only as metadata. The complete official grant is now S48; no engineering claims are taken from index AI summaries."
   },
   {
     "id": "S22",
@@ -261,7 +261,7 @@
     "published": "2026-09-24",
     "checked": "2026-10-16",
     "support": "Index lists Tesla, title and September 24, 2026 publication.",
-    "limitations": "Application metadata only; primary text not retrieved. No claimed downforce inferred."
+    "limitations": "This index was checked only as metadata. Use the original application S47 for specification and claims; no engineering claims are taken from index AI summaries."
   },
   {
     "id": "S23",
@@ -481,15 +481,15 @@
   },
   {
     "id": "S41",
-    "title": "US Roadster Reservation Agreement",
+    "title": "US Roadster Reservation Agreement — US v.20261015",
     "publisher": "Tesla",
     "url": "https://www.tesla.com/coinorder/api/v4/terms?locale=en_US&model=mt&saleType=PreSale",
     "kind": "manufacturer",
-    "access": "blocked",
+    "access": "document-read",
     "published": null,
     "checked": "2026-10-16",
-    "support": "Agreement link observed in US configurator.",
-    "limitations": "Agreement body not retrieved. Refund eligibility cannot be inferred beyond visible interface wording."
+    "support": "Both pages and clauses 1–10 reviewed: effectiveness, estimated price, order process, delivery disclaimer, cancellation cutoff/refund, non-escrow and transfer terms, incorporated policies, liability, governing law and arbitration.",
+    "limitations": "Current PDF linked by the US configurator; footer US v.20261015. Direct HTTP still returned 403, but browser rendering and loaded PDF bytes were recovered. This is a description of written terms, not an enforceability opinion; incorporated policies, later contracts and other markets are outside this review."
   },
   {
     "id": "S42",
@@ -549,7 +549,7 @@
     "published": "2026-09-29",
     "checked": "2026-10-16",
     "support": "Official gazette identifies Tesla as assignee and reproduces claim 1: a ducted fan system with an underbody inlet and rear outlet.",
-    "limitations": "Gazette metadata and claim 1 reviewed; not a review of the complete prosecution history, proof of Roadster fitment or a measured force."
+    "limitations": "The gazette contains metadata and claim 1 only. The complete original grant is now separately reviewed as S48. No production fitment or measured force established."
   },
   {
     "id": "S47",
@@ -560,7 +560,43 @@
     "access": "document-read",
     "published": "2026-09-24",
     "checked": "2026-10-16",
-    "support": "Original scanned application cover and abstract identify Tesla, application 19/295,293, filing August 8, 2025, and a deployable multi-element wing with rotation and impact-protection features.",
-    "limitations": "Cover/abstract visually reviewed from the official PDF. Full claims, force assertions and legal scope were not exhaustively reviewed; no Roadster fitment inferred."
+    "support": "Original 29-page application reviewed through OCR and visual checks, including description paragraphs 0001–0147 and claims 1–20. It discloses deployable/rotating wings, actuation alternatives and impact protection. Paragraph 0046 and claim 10 use different force figures.",
+    "limitations": "Application publication, not a granted claim set. Claims and description are disclosure evidence only; production fitment, independent test results, claim validity, prosecution changes and freedom to operate are not established. OCR-supported passages used in summaries were visually checked."
+  },
+  {
+    "id": "S48",
+    "title": "US 12,746,987 B1 — complete Electric fan car grant",
+    "publisher": "United States Patent and Trademark Office",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12746987",
+    "kind": "patent",
+    "access": "document-read",
+    "published": "2026-09-29",
+    "checked": "2026-10-16",
+    "support": "Complete nine-page official grant: cover, description, drawings and all 15 claims. Claims 1, 7 and 10 concern underbody-inlet/rear-outlet ducted fans with larger outlet area and outlet strakes; claim 10 also specifies axial fans and side inlets.",
+    "limitations": "The description includes several fan counts and an embodiment without road-contact skirts. Neither the drawing nor the claims establish a final Roadster configuration, fan power, measured downforce, noise, safety, validity or freedom to operate."
+  },
+  {
+    "id": "S49",
+    "title": "US Roadster Reservation Agreement — alternate official endpoint",
+    "publisher": "Tesla",
+    "url": "https://www.tesla.com/configurator/api/v4/terms?locale=en_US&model=mt&saleType=PreSale",
+    "kind": "manufacturer",
+    "access": "full-text",
+    "published": null,
+    "checked": "2026-10-16",
+    "support": "Official two-page PDF extraction independently resolves US v.20261015 and clauses 1–10, matching the current configurator-linked document reviewed as S41.",
+    "limitations": "An alternate delivery endpoint for the same agreement, not independent contractual evidence or a historical agreement. Its search preview had stale wording; the opened PDF, not the preview, was used. Version identifier is not an independently established publication date."
+  },
+  {
+    "id": "S50",
+    "title": "US 12,377,920 B1 — original adaptive-downforce grant",
+    "publisher": "United States Patent and Trademark Office",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12377920",
+    "kind": "patent",
+    "access": "document-read",
+    "published": "2025-08-05",
+    "checked": "2026-10-16",
+    "support": "Original 16-page grant identifies Tesla and contains 20 claims. Claims 1 and 11 specify fan airflow, selectively configured skirts and two operating modes; dependent claims cover partial deployment, sensors and ground-proximity control.",
+    "limitations": "Claims 1–20 and relevant description/drawing passages were reviewed using OCR with visual checks. This does not establish implemented Roadster hardware, tested performance, a current prosecution/legal-status opinion or freedom to operate."
   }
 ]
