@@ -6,6 +6,8 @@
 
 Understand the engineering. Trace the announcements. Check the evidence before sharing the headline.
 
+**[Browse the live Roadster explorer](https://fhajjej-ship-it.github.io/roadster-reference/)** — no installation or account required.
+
 [Start learning](docs/start-here.md) · [What changed in 2026](docs/2026-reveal.md) · [Claims & evidence](docs/claims.md) · [News timeline](docs/timeline.md) · [Source library](docs/sources.md) · [Audit findings](research/audit.md) · [Run the explorer](#explore-locally)
 
 **Research cutoff: October 16, 2026.** A curated first edition, not a live feed or an exhaustive archive. Tesla has demonstrated a redesigned prototype; the reported production target is **2028**, not a verified delivery date. [Reuters](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028)
@@ -41,6 +43,8 @@ The audit reviewed every source, structured claim and timeline event. **42 sourc
 The aspiration is to become a dependable reference. Popularity, completeness and technical superiority are not established by publishing a repository.
 
 ## Explore locally
+
+The [public explorer](https://fhajjej-ship-it.github.io/roadster-reference/) publishes automatically from `main` after the repository checks pass. The [Pages workflow](.github/workflows/pages.yml) builds and deploys only `site/dist/`; generated files stay out of Git.
 
 Requires Python 3.11+; no packages, API keys or account required.
 

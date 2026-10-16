@@ -2,6 +2,8 @@
 
 [Home](../README.md) · [Next: the 2026 reveal](2026-reveal.md)
 
+[Browse the interactive explorer online](https://fhajjej-ship-it.github.io/roadster-reference/) for searchable claims, sources, the timeline and the physics calculator.
+
 The new Roadster is Tesla’s proposed high-performance electric sports car. The striking part of the October 2026 redesign is the combination of three mechanisms: electric motors turn the wheels, fans increase grip by reducing pressure underneath the car, and optional compressed-gas thrusters add force. Tesla describes different equipment for different configurations. [Tesla](https://www.tesla.com/roadster)
 
 Those mechanisms solve different problems. A motor can generate tremendous torque, but the tire can transmit only so much force before slipping. Downforce presses the tire harder into the surface. A thruster pushes on the vehicle by throwing gas in the opposite direction. It does not need a tire contact patch to create that force.
