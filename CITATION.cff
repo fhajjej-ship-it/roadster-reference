@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the edition date and the underlying source for factual vehicle claims."
+title: "Roadster Reference: An Independent Evidence-Based Guide"
+type: software
+version: 0.1.0
+date-released: 2026-10-16
+license: MIT
+repository-code: "https://github.com/fhajjej-ship-it/roadster-reference"
+authors:
+  - name: "Roadster Reference contributors"
+abstract: "An independent educational guide, source registry, claim ledger and reproducible physics lab for the redesigned Tesla Roadster."

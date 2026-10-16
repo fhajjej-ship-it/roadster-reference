@@ -1,0 +1,456 @@
+[
+  {
+    "id": "C01",
+    "topic": "configuration",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Performance: two seats, active aerodynamics and fan suction.",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "scope": "Performance",
+    "unresolved": "Final homologated configuration and delivered equipment.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C02",
+    "topic": "configuration",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Thrust: two seats and rear cold-gas acceleration thrusters.",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "scope": "Thrust augment",
+    "unresolved": "Regional eligibility and final technical specification.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C03",
+    "topic": "configuration",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Rocket: one seat and perimeter thrusters for airborne motion; invite only.",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "scope": "Rocket augment",
+    "unresolved": "Flight duration, usable gas capacity and customer operating envelope.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C04",
+    "topic": "road-use",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Tesla says Rocket is not approved for public road use.",
+    "sources": [
+      "S01"
+    ],
+    "scope": "Rocket only",
+    "unresolved": "Do not extend this wording into a legal determination about other trims.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C05",
+    "topic": "acceleration",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Thrust: 0–60 mph in under one second.",
+    "sources": [
+      "S01"
+    ],
+    "scope": "Thrust augment",
+    "unresolved": "Timing protocol, rollout, surface, state of charge, repeatability and independent instrumented result.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C06",
+    "topic": "aerodynamics",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Fan suction is intended to generate downforce at standstill; active wings and Track Mode alter airflow and vehicle setup.",
+    "sources": [
+      "S01"
+    ],
+    "scope": "Page describes optional equipment; check footnotes",
+    "unresolved": "Force map, fan consumption, noise, seal leakage and behavior after a fault.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C07",
+    "topic": "steering",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Tesla describes steer-by-wire for the redesigned car.",
+    "sources": [
+      "S01"
+    ],
+    "scope": "2026 redesign",
+    "unresolved": "Final redundancy, feedback implementation and road certification details.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C08",
+    "topic": "reservation",
+    "era": "2026",
+    "status": "observed-page",
+    "statement": "US Performance deposit totals $50,000: $5,000 now and $45,000 within ten days.",
+    "sources": [
+      "S02"
+    ],
+    "scope": "US configurator, observed October 16",
+    "unresolved": "Retail price, taxes, delivery date and contract terms. Not an order or purchase by this project.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C09",
+    "topic": "reservation",
+    "era": "2026",
+    "status": "observed-page",
+    "statement": "US Thrust deposit totals $250,000: $5,000 now and $245,000 within ten days.",
+    "sources": [
+      "S02"
+    ],
+    "scope": "US configurator, observed October 16",
+    "unresolved": "Deposit is not a published retail price. Regional terms can differ.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C10",
+    "topic": "production",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "Musk targets production in 2028.",
+    "sources": [
+      "S03",
+      "S06"
+    ],
+    "scope": "Event guidance",
+    "unresolved": "Factory readiness, start of series production and actual customer delivery date.",
+    "checked": "2026-10-16",
+    "locator": "Tesla Event 21:12"
+  },
+  {
+    "id": "C11",
+    "topic": "range",
+    "era": "2026",
+    "status": "reported-claim",
+    "statement": "Event reporting attributes more than 300 miles of range to Tesla.",
+    "sources": [
+      "S06"
+    ],
+    "scope": "Variant and test cycle not established",
+    "unresolved": "EPA/WLTP certification and independent real-world tests.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C12",
+    "topic": "top-speed",
+    "era": "2026",
+    "status": "manufacturer-claim",
+    "statement": "At the reveal, Tesla states a top-speed target above 230 mph.",
+    "sources": [
+      "S03"
+    ],
+    "scope": "Variant and conditions unresolved",
+    "unresolved": "Instrumented production-car speed and permitted operating mode.",
+    "checked": "2026-10-16",
+    "locator": "Tesla Event 20:28"
+  },
+  {
+    "id": "C13",
+    "topic": "demonstration",
+    "era": "2026",
+    "status": "reported-observation",
+    "statement": "Event witnesses report inverted driving and controlled airborne maneuvers by a prototype.",
+    "sources": [
+      "S07",
+      "S09"
+    ],
+    "scope": "Staged prototype demonstration",
+    "unresolved": "Does not prove a certified or continuously airworthy consumer vehicle.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C14",
+    "topic": "acceleration",
+    "era": "2026",
+    "status": "conflicting-reports",
+    "statement": "Tesla announces a 0.81-second demonstration result; interview narration gives Rocket 0.55 seconds with rollout, while Top Gear coverage uses 0.59 seconds.",
+    "sources": [
+      "S03",
+      "S12",
+      "S10"
+    ],
+    "scope": "Different figures and potentially different configurations",
+    "unresolved": "Different runs, targets and protocols may explain the figures. No common independent timing record established.",
+    "checked": "2026-10-16",
+    "locator": "Tesla Event 18:30; Hagerty 16:28–17:20"
+  },
+  {
+    "id": "C15",
+    "topic": "powertrain",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Moravy describes two rear motors, rear-wheel drive and output above one megawatt.",
+    "sources": [
+      "S12"
+    ],
+    "scope": "Provisional executive interview details",
+    "unresolved": "Final output measurement basis and production specifications.",
+    "checked": "2026-10-16",
+    "locator": "Hagerty 2:41–3:13"
+  },
+  {
+    "id": "C16",
+    "topic": "battery",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Moravy describes a special 4680-format battery cell.",
+    "sources": [
+      "S12"
+    ],
+    "scope": "Provisional executive interview details",
+    "unresolved": "Usable capacity and final chemistry undisclosed. Caption text for pack voltage is ambiguous; no precise voltage promoted here.",
+    "checked": "2026-10-16",
+    "locator": "Hagerty 3:27; 4:58–6:28"
+  },
+  {
+    "id": "C17",
+    "topic": "charging",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "The interview describes a 15–80% charging goal of approximately ten minutes.",
+    "sources": [
+      "S12"
+    ],
+    "scope": "Interview-era targets, not a published charge curve",
+    "unresolved": "Measured charging curve, average power, battery capacity, conditioning and charger conditions; compare other interview coverage carefully.",
+    "checked": "2026-10-16",
+    "locator": "Hagerty 7:32–7:50"
+  },
+  {
+    "id": "C18",
+    "topic": "mass",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Moravy gives an unfinalized mass ballpark below approximately 1,700 kg.",
+    "sources": [
+      "S12"
+    ],
+    "scope": "Unfinalized estimate; cannot be applied to Rocket",
+    "unresolved": "Moravy says final numbers are still being established. Variant, gas load and curb-mass convention are not settled.",
+    "checked": "2026-10-16",
+    "locator": "Hagerty 4:14–4:31"
+  },
+  {
+    "id": "C19",
+    "topic": "battery",
+    "era": "2017",
+    "status": "historical-claim",
+    "statement": "The original concept was presented with a 200-kWh battery target.",
+    "sources": [
+      "S18"
+    ],
+    "scope": "2017 proposal",
+    "unresolved": "No basis to assign this capacity to the 2026 redesign.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C20",
+    "topic": "range",
+    "era": "2017",
+    "status": "historical-claim",
+    "statement": "The legacy concept was advertised at 620 miles of range.",
+    "sources": [
+      "S05"
+    ],
+    "scope": "Legacy indexed Tesla page",
+    "unresolved": "Not a certified range for the redesigned vehicle.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C21",
+    "topic": "acceleration",
+    "era": "2017",
+    "status": "historical-claim",
+    "statement": "The legacy concept was advertised at 1.9 seconds to 60 mph.",
+    "sources": [
+      "S05"
+    ],
+    "scope": "2017 concept",
+    "unresolved": "Not a test result for the 2026 car.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C22",
+    "topic": "configuration",
+    "era": "2017",
+    "status": "historical-claim",
+    "statement": "The legacy concept had four advertised seats and a removable glass roof.",
+    "sources": [
+      "S05"
+    ],
+    "scope": "2017 concept",
+    "unresolved": "Do not carry this interior layout into 2026 configurations.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C23",
+    "topic": "top-speed",
+    "era": "2017",
+    "status": "historical-claim",
+    "statement": "The legacy concept advertised top speed above 250 mph.",
+    "sources": [
+      "S05"
+    ],
+    "scope": "2017 concept",
+    "unresolved": "Separate target from the new event’s reported above-230-mph figure.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C24",
+    "topic": "price",
+    "era": "2026",
+    "status": "unknown",
+    "statement": "Final retail prices are not established in this evidence set.",
+    "sources": [
+      "S06",
+      "S02"
+    ],
+    "scope": "All configurations",
+    "unresolved": "A historical price or present deposit must not be labeled the current purchase price.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C25",
+    "topic": "battery",
+    "era": "2026",
+    "status": "unknown",
+    "statement": "Final usable battery capacity is not established.",
+    "sources": [
+      "S10",
+      "S11"
+    ],
+    "scope": "All configurations",
+    "unresolved": "Obtain an official specification and measurement definition.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C26",
+    "topic": "testing",
+    "era": "2026",
+    "status": "unknown",
+    "statement": "No independent instrumented production-car performance test was located in this research pass.",
+    "sources": [
+      "S06",
+      "S08",
+      "S09"
+    ],
+    "scope": "Bounded research finding, not proof that none exists",
+    "unresolved": "Locate reproducible test data for the same saleable configuration.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C27",
+    "topic": "patent",
+    "era": "2025",
+    "status": "patent-disclosure",
+    "statement": "Tesla-assigned US12377920B1 describes adaptive downforce arrangements.",
+    "sources": [
+      "S20"
+    ],
+    "scope": "Patent disclosure",
+    "unresolved": "Not proof of Roadster fitment, output or manufacturing readiness.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C28",
+    "topic": "thrusters",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Hagerty describes nitrogen storage: 200 litres in Thrust, with another 400 litres for Rocket.",
+    "sources": [
+      "S12"
+    ],
+    "locator": "Hagerty 15:31; 17:28–18:56",
+    "scope": "Interview-era hardware",
+    "unresolved": "Usable impulse, operating pressure history, mass and final customer hardware.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C29",
+    "topic": "aerodynamics",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Moravy describes four fans at approximately 20 kW each.",
+    "sources": [
+      "S12"
+    ],
+    "locator": "Hagerty 12:47–13:05",
+    "scope": "Interview-era fan system",
+    "unresolved": "Measured electrical consumption and downforce over the full envelope.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C30",
+    "topic": "refill",
+    "era": "2026",
+    "status": "conflicting-reports",
+    "statement": "The event discusses self-recharging air tanks; Hagerty describes nitrogen refilling taking 6–7 hours today, with a half-hour goal.",
+    "sources": [
+      "S03",
+      "S12"
+    ],
+    "locator": "Tesla Event 12:21–12:36; Hagerty 20:17–20:25",
+    "scope": "Different descriptions of replenishment",
+    "unresolved": "Hardware, gas supply and achievable customer refill process need reconciliation.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C31",
+    "topic": "battery",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Moravy describes double-sided cell cooling.",
+    "sources": [
+      "S12"
+    ],
+    "locator": "Hagerty 3:51; 5:20–5:45",
+    "scope": "Prototype battery architecture",
+    "unresolved": "Repeatable track thermal performance and final hardware.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C32",
+    "topic": "acceleration",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Hagerty narration lists Performance at 1.6 seconds and Thrust at 0.85 seconds; rollout is discussed in the surrounding passage.",
+    "sources": [
+      "S12"
+    ],
+    "locator": "Hagerty 16:28–17:13",
+    "scope": "Interview values; not independent tests",
+    "unresolved": "Precise timing basis for each configuration and production verification.",
+    "checked": "2026-10-16"
+  },
+  {
+    "id": "C33",
+    "topic": "configuration",
+    "era": "2026",
+    "status": "interview-claim",
+    "statement": "Hagerty says a base version below Performance is still in development.",
+    "sources": [
+      "S12"
+    ],
+    "locator": "Hagerty 16:42",
+    "scope": "Interview lead, absent from the three-option reservation interface",
+    "unresolved": "Final availability, specification and ordering structure.",
+    "checked": "2026-10-16"
+  }
+]

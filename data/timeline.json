@@ -1,0 +1,140 @@
+[
+  {
+    "date": "2010-07-01",
+    "title": "Original Roadster 2.5 revision",
+    "summary": "Tesla updates its first-generation sports car. This name is unrelated to the later redesign.",
+    "sources": [
+      "S36"
+    ],
+    "kind": "history"
+  },
+  {
+    "date": "2012-01",
+    "title": "Original production run ends",
+    "summary": "Tesla’s historical filing records roughly 2,500 original Roadsters.",
+    "sources": [
+      "S37"
+    ],
+    "kind": "history"
+  },
+  {
+    "date": "2017-11-16",
+    "title": "Next-generation concept unveiled",
+    "summary": "A new concept appears at the Semi event; initial production expectation was 2020.",
+    "sources": [
+      "S18",
+      "S04",
+      "S06"
+    ],
+    "kind": "reveal"
+  },
+  {
+    "date": "2018-06-09",
+    "title": "SpaceX-package proposal",
+    "summary": "Musk proposes a thruster package.",
+    "sources": [
+      "S19"
+    ],
+    "kind": "announcement"
+  },
+  {
+    "date": "2024-02-28",
+    "title": "Another delivery target",
+    "summary": "Musk’s reported target shifts to 2025; a forecast, not a delivery.",
+    "sources": [
+      "S17"
+    ],
+    "kind": "target"
+  },
+  {
+    "date": "2025-08-05",
+    "title": "Adaptive-downforce patent publication",
+    "summary": "Tesla-assigned disclosure becomes public; no Roadster fitment established.",
+    "sources": [
+      "S20"
+    ],
+    "kind": "patent"
+  },
+  {
+    "date": "2025-11-06",
+    "title": "April 1 demo target announced",
+    "summary": "An April 2026 reveal is proposed.",
+    "sources": [
+      "S16"
+    ],
+    "kind": "target"
+  },
+  {
+    "date": "2026-04-22",
+    "title": "Demo timing shifts again",
+    "summary": "Earnings-call reporting describes a further tentative delay.",
+    "sources": [
+      "S42"
+    ],
+    "kind": "target"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "October 1 teaser",
+    "summary": "Tesla’s teaser is reported as scheduling an October 1 reveal.",
+    "sources": [
+      "S14"
+    ],
+    "kind": "target"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "Rear-wing patent application indexed",
+    "summary": "Metadata for a wing application appears; full text needs review.",
+    "sources": [
+      "S22"
+    ],
+    "kind": "patent"
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Reveal moves to October 15",
+    "summary": "Tesla cites forecast weather in the reported rescheduling announcement.",
+    "sources": [
+      "S15"
+    ],
+    "kind": "target"
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Electric fan-car patent indexed",
+    "summary": "Patent metadata lists Tesla and an electric fan-car disclosure.",
+    "sources": [
+      "S21"
+    ],
+    "kind": "patent"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Redesigned Roadster demonstrated",
+    "summary": "Prototype event in McGregor, Texas; reporting describes inversion and airborne maneuvers.",
+    "sources": [
+      "S06",
+      "S09"
+    ],
+    "kind": "reveal"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "New configurator checked",
+    "summary": "Performance and Thrust deposit schedules directly inspected; Rocket invite only.",
+    "sources": [
+      "S02"
+    ],
+    "kind": "observation"
+  },
+  {
+    "date": "2028",
+    "title": "Current production target",
+    "summary": "Company forecast, not an observed production start or customer delivery.",
+    "sources": [
+      "S06"
+    ],
+    "kind": "target"
+  }
+]

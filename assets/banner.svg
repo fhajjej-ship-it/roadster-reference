@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Roadster Reference</title><desc id="desc">Original conceptual sports-car illustration with airflow, downforce and thrust paths. Not a Tesla design drawing.</desc>
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b6cce0" stroke-width=".65"/></pattern><linearGradient id="body" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#bfd1e2"/></linearGradient></defs>
+  <path fill="#dce8f4" d="M0 0h1200v650H0z"/><path fill="url(#grid)" d="M0 0h1200v650H0z"/>
+  <g fill="#163353" font-family="Arial,Helvetica,sans-serif"><text x="62" y="80" font-size="17" letter-spacing="5">AN INDEPENDENT FIELD GUIDE</text><text x="58" y="155" font-size="65" font-weight="700" letter-spacing="-3">ROADSTER REFERENCE</text><text x="62" y="199" font-size="22">Understand the machine. Examine the evidence.</text></g>
+  <path d="M125 476H1052" stroke="#809fbf" stroke-width="2"/>
+  <g fill="none" stroke="#507ca8" stroke-width="2"><path d="M116 308c185-105 487-103 781-39"/><path d="M105 330c215-111 497-92 814-31"/><path d="M130 352c134-68 261-73 366-65"/><path d="m896 265 12 7-14 2m24 23 12 7-14 2"/></g>
+  <path d="m175 420 69-62 132-24 93-70 182 8 118 72 158 25 69 48-10 36H170z" fill="url(#body)" stroke="#244d77" stroke-width="4"/>
+  <path d="m405 331 77-54 156 6 100 54z" fill="#284f76"/><path d="m544 279-13 55m-335 76 171-14m365-15 181 20" fill="none" stroke="#6c8fac" stroke-width="3"/>
+  <path d="m823 340 97-18 27 9-107 22" fill="#163353"/><path d="m835 350 5 20m76-36-5 33" stroke="#163353" stroke-width="5"/>
+  <g fill="#173554" stroke="#7695b6" stroke-width="4"><circle cx="335" cy="437" r="47"/><circle cx="816" cy="437" r="47"/></g><g fill="#d4e1ee" stroke="#4b739b" stroke-width="5"><circle cx="335" cy="437" r="28"/><circle cx="816" cy="437" r="28"/></g>
+  <g stroke="#ab2446" stroke-width="4" fill="none"><path d="M968 401h105m-12-8 14 8-14 8M969 418h76m-12-8 14 8-14 8"/></g>
+  <g stroke="#215493" stroke-width="3" fill="none"><path d="M450 440v73m-8-13 8 14 8-14m70-60v73m-8-13 8 14 8-14m70-60v73m-8-13 8 14 8-14m70-60v73m-8-13 8 14 8-14"/></g>
+  <g fill="#244d77" font-family="Arial,Helvetica,sans-serif" font-size="15"><text x="62" y="573">WHEEL FORCE</text><text x="477" y="573">FAN DOWNFORCE</text><text x="892" y="573">DIRECT THRUST</text><text x="62" y="615" font-size="12">CONCEPTUAL ILLUSTRATION · NOT TO SCALE · RESEARCH EDITION 2026-10-16</text></g>
+</svg>
