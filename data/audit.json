@@ -1,0 +1,772 @@
+{
+  "reviewed_on": "2026-10-16",
+  "base_commit": "d37ada4bd81cd8228c4865286e24964e7e25c8fc",
+  "reviewer": "Codex AI-assisted source and code audit",
+  "scope": "Every source record, structured claim, timeline event, repository-authored document and code file. Review is not independent physical validation of the vehicle.",
+  "sources": [
+    {
+      "source_id": "S01",
+      "verdict": "supported",
+      "method": "browser",
+      "locator": "Configurations, aerodynamic explanation, steering and page footnotes",
+      "note": "Direct product-page text matches the scoped manufacturer claims; no independent performance proof implied.",
+      "record_sha256": "f933d60803b921bba64a1a5fede259474935777b84bff7e82b3173c58b8a55f8"
+    },
+    {
+      "source_id": "S02",
+      "verdict": "supported",
+      "method": "browser",
+      "locator": "US Performance and Thrust payment tables; Rocket selector",
+      "note": "Both payment schedules and the invite-only selector were rechecked. No payment was made or agreement accepted.",
+      "record_sha256": "ff7848ca44dab79d6e73cdcb26f46c04ecc08088ed8424540787fe6a1f4c1350"
+    },
+    {
+      "source_id": "S03",
+      "verdict": "supported",
+      "method": "browser-transcript",
+      "locator": "4:39; 12:21–12:36; 18:30; 20:28; 21:12",
+      "note": "Relevant original event captions support autonomy, replenishment description, announced timing and stated targets.",
+      "record_sha256": "45dc5ffdfc4b1869bc337e955eef15c1e5033f0d04180c2b65ab2a2ee3556304"
+    },
+    {
+      "source_id": "S04",
+      "verdict": "supported",
+      "method": "browser-transcript",
+      "locator": "29:39–33:27",
+      "note": "Original manufacturer transcript now directly supports the legacy specifications and 2020 availability target.",
+      "record_sha256": "a3761764324fa444a920042960b37f039f1d9654db5f0a8a596f8522ad6a52d9"
+    },
+    {
+      "source_id": "S05",
+      "verdict": "superseded",
+      "method": "HTTP and browser comparison",
+      "locator": "URL now presents the redesigned product",
+      "note": "No durable legacy snapshot recovered. Retired from active claims; historical evidence moved to S04.",
+      "record_sha256": "83e1b81d7b2ff6c4fddfb8b0de0f35b01c726a2f83ff4955c5e53beb4937f975"
+    },
+    {
+      "source_id": "S06",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Reuters byline, McGregor event and final specification paragraphs",
+      "note": "Article identity, update date and attributed production/range/speed claims checked; not an instrumented test.",
+      "record_sha256": "c569837c43ce0a6ba1f692d0ec772f3a7505c4c210a0aec690047b860babef36"
+    },
+    {
+      "source_id": "S07",
+      "verdict": "supported",
+      "method": "browser",
+      "locator": "Event account, 2028 target, reservation caveat and autonomous-demo paragraphs",
+      "note": "HTTP and web extraction failed, but direct browser reading resolved access. Expert opinions remain distinct from regulatory findings.",
+      "record_sha256": "afa285e5cd9c9bbf61203f1b4b04685b235350aae97bbe1d192ad6689c8ba8a7"
+    },
+    {
+      "source_id": "S08",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Second acceleration run and separate-stunt-prototype paragraphs",
+      "note": "Article reports 0.8-second rounding and distinguishes the stunt prototype; no timing protocol verified.",
+      "record_sha256": "fec2dd67711145a7450a98b4a84b719888b4c1bb5be3036ff3be23355ff558e0"
+    },
+    {
+      "source_id": "S09",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Opening eyewitness account and unmanned-car paragraph",
+      "note": "Supports an attributed eyewitness account. Its delivery wording is not substituted for Tesla’s production target.",
+      "record_sha256": "e9af4206898a023d55c3b953d759d66cd38257db257366183fb2d2f1766164c2"
+    },
+    {
+      "source_id": "S10",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Range, rear drive, charging and mass paragraphs",
+      "note": "Interview-derived article claims verified as reporting; author summaries remain separate from executive quotes.",
+      "record_sha256": "e3124dcaed025e07927c03e4cad369b9b119cf643667b5d70e648a7b493a392a"
+    },
+    {
+      "source_id": "S11",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Battery, powertrain, fan, tank and refill paragraphs",
+      "note": "Summary is readable. Primary S12/S13 replace reliance on this summary where direct passages are now available.",
+      "record_sha256": "44bd2f17863bb40feed2b0f5a6adc07e5eee24dec175f202a700b2b8157ddfc6"
+    },
+    {
+      "source_id": "S12",
+      "verdict": "supported",
+      "method": "browser-transcript",
+      "locator": "2:41–7:50; 12:47–17:57; 18:43–20:25",
+      "note": "Relevant primary passages and publisher description rechecked; distinguish executive speech from presenter narration.",
+      "record_sha256": "3ac63b1fde296ecf4456976fdd8274070aba9b20b61ccc9c2975783bdbffb003"
+    },
+    {
+      "source_id": "S13",
+      "verdict": "supported",
+      "method": "browser-transcript",
+      "locator": "6:12; 13:27–14:16; 16:49–17:08; 22:28",
+      "note": "Relevant original passages clarify voltage range, range claim, charging-caption ambiguity and nitrogen filling.",
+      "record_sha256": "8efc016f336115e7a180890ae368f91ae5c8b6827a452beaf5bd05c5da36a4b5"
+    },
+    {
+      "source_id": "S14",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "September 12 byline and teaser paragraphs",
+      "note": "Publication date is verified. Prose calls the original post Friday; timeline no longer assumes article date equals post date.",
+      "record_sha256": "28442d902cb9ef96562c7a433ab94d7fc6aa94c2f5f892d5d4fc38ba1f7cc939"
+    },
+    {
+      "source_id": "S15",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "September 28 byline and attributed rescheduling post",
+      "note": "Supports Tesla’s attributed weather explanation; does not independently prove weather caused the delay.",
+      "record_sha256": "ea017d09d88a0a10be59f79eea73a0dd45b18af237116b7d48cbc4a00330cf7f"
+    },
+    {
+      "source_id": "S16",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "November 6, 2025 byline and April 1 target",
+      "note": "Historical reveal target verified, not an event-completion claim.",
+      "record_sha256": "1c5351619cf448a99f45193984be7383744c4d0f281116283050762937d4b553"
+    },
+    {
+      "source_id": "S17",
+      "verdict": "supported",
+      "method": "web full text",
+      "locator": "February 28, 2024 Reuters report, paragraphs 1–3",
+      "note": "Attribution and next-year target verified through web extraction after direct HTTP denial.",
+      "record_sha256": "0d63836147a8a26548c65f2d81eccd9e2fb9089068dd43631f827851ddd0614c"
+    },
+    {
+      "source_id": "S18",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "2017 specification and pricing paragraphs",
+      "note": "Historical proposal checked; original S04 now supports the technical claims directly.",
+      "record_sha256": "817f52b108ba957f8fad964f7ac6b83af805b111c83ce015a3044a6806c00ac4"
+    },
+    {
+      "source_id": "S19",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "June 9 embedded post and COPV explanation",
+      "note": "Confirms the historical proposal and announcement date; not delivered capability.",
+      "record_sha256": "aa8232087712d366dbe6c362750587da6b660cebd25630a541f2dd97afa3f164"
+    },
+    {
+      "source_id": "S20",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Bibliographic data and Abstract",
+      "note": "Title, Tesla assignment listing, publication date and adaptive downforce description match. No fitment inferred.",
+      "record_sha256": "a79d477fcdfcbf3e825cd042171a519ed20c073b349859d6b857bd63b165b1de"
+    },
+    {
+      "source_id": "S21",
+      "verdict": "limited",
+      "method": "HTTP index text",
+      "locator": "Title, assignee and publication metadata",
+      "note": "Index metadata confirmed. Official gazette S46 now independently verifies the grant identity and first claim.",
+      "record_sha256": "734ef4a5f408d3dc0d6741486d0ee71a09fa966ad8f41e6b439a204b3f266510"
+    },
+    {
+      "source_id": "S22",
+      "verdict": "limited",
+      "method": "HTTP index text",
+      "locator": "Title, applicant and publication metadata",
+      "note": "Index metadata confirmed. Official application S47 verifies identity and abstract; index AI summaries are not adopted.",
+      "record_sha256": "a773b1b6bd82d175478bcbe41b85f3d6492c230227a15d942e97fbcb3ec28080"
+    },
+    {
+      "source_id": "S23",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Thrust Equation",
+      "note": "NASA equation includes both momentum and nozzle-pressure terms; repository uses it as general physics.",
+      "record_sha256": "8c62336d4a1da67921fdc0d2d767303c0b1873a911734a3449524d80d9c03c78"
+    },
+    {
+      "source_id": "S24",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Cold Gas technology description",
+      "note": "No-combustion definition checked; spacecraft examples do not establish automotive performance or safety.",
+      "record_sha256": "c03d2552e5d5b742e34227ee18abbadaf1639b79825e5289b51fc961aa35c8e5"
+    },
+    {
+      "source_id": "S25",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Drag Coefficient and equation",
+      "note": "Density, speed squared and reference area match the educational model; power is the project’s force-times-speed derivation.",
+      "record_sha256": "d404baef6cc00850d8dffb54c13ce8276ff2ac2d0c2d1ea6f2982ab784a8a03e"
+    },
+    {
+      "source_id": "S26",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Dynamic Pressure equation",
+      "note": "General dynamic-pressure context verified, not Roadster measurements.",
+      "record_sha256": "86c569bb43499c5d577d167efe394fd45894a39b68df05fae81e6d488f56bf5b"
+    },
+    {
+      "source_id": "S27",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Key Components of an All-Electric Car",
+      "note": "Battery, motor, controller, thermal system and charging roles checked; vehicle-specific design not inferred.",
+      "record_sha256": "a8ec5e2a9716b887b88e717f33522d6a71d8939dff323744bb850748d88a170a"
+    },
+    {
+      "source_id": "S28",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Range Testing for Electric Vehicles",
+      "note": "Laboratory and adjustment context checked; no new Roadster rating found or claimed.",
+      "record_sha256": "26c3cee016ea94638a94085e1ae6c7a4551a7a6ecabc3f869724b69d6dce84f1"
+    },
+    {
+      "source_id": "S29",
+      "verdict": "supported",
+      "method": "web full text",
+      "locator": "Importing a conforming vs. a non-conforming vehicle",
+      "note": "Manufacturer certification-label framework checked through official web text after HTTP denial.",
+      "record_sha256": "21e9a21e603cfd0d2d7c3f95899573515454a520d9c5bfcb1156de160741afed"
+    },
+    {
+      "source_id": "S30",
+      "verdict": "supported",
+      "method": "web full text",
+      "locator": "vPIC and manufacturer portal sections",
+      "note": "Portal descriptions verified; directory presence is not a Roadster approval record.",
+      "record_sha256": "aa145dd6d5d5ac802392fffbe6ed3b615a5aa62388ce521da1ab61527e3f6302"
+    },
+    {
+      "source_id": "S31",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Advanced Air Mobility overview",
+      "note": "Background scope verified. Page title updated; no Roadster aircraft classification inferred.",
+      "record_sha256": "131883092d18677389e14dedb9f36824f7d845eae760320c89350fa0a917777e"
+    },
+    {
+      "source_id": "S32",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Stationary-inversion article and April 11 publication",
+      "note": "Other manufacturer’s demonstration and date checked; no cross-car equivalence asserted.",
+      "record_sha256": "94245b968a50d8c40beaebef853b54865e1754166197f05554c6a8edffcf1918"
+    },
+    {
+      "source_id": "S33",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Performance specifications",
+      "note": "Separate 0–60 mph and 0–100 km/h figures match; manufacturer figures remain labeled as such.",
+      "record_sha256": "feb362b8ee005ecd3fe76d5971f5840fcd94072c4d902b98806f119927e2b5cc"
+    },
+    {
+      "source_id": "S34",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "July 9, 2025 heading and acceleration paragraph",
+      "note": "Release date and manufacturer record announcement checked; no independent Roadster comparison.",
+      "record_sha256": "162c5c5a7ce1c0ab98ccd709f25342a5093ce694a6994089e2d4e4de73a725d8"
+    },
+    {
+      "source_id": "S35",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Roadster Service Information / Owner Manuals",
+      "note": "Legacy 2008/2.0/2.5 manual list confirms historical scope.",
+      "record_sha256": "8abf27e33d8b5f42a78f2dcb4fc5f3baf77aca15b25e10bc073c982bc1526ed0"
+    },
+    {
+      "source_id": "S36",
+      "verdict": "supported",
+      "method": "web full text",
+      "locator": "July 1, 2010 release, opening paragraphs",
+      "note": "Official historical revision identity and date checked after direct HTTP denial.",
+      "record_sha256": "a657d51217a03fedd0b0ec7ab953e0d93d63416f13858e2ee14c18590973bda6"
+    },
+    {
+      "source_id": "S37",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "2011 Form 10-K / Roadster production-run paragraph",
+      "note": "Filing explicitly states 2,500 vehicles and January 2012. Does not establish present readiness.",
+      "record_sha256": "35f463e9b9392cb7a6124c90aba98b29eb9568209acf25816e2f0348baf66080"
+    },
+    {
+      "source_id": "S38",
+      "verdict": "supported",
+      "method": "web full text",
+      "locator": "Traction and Temperature sections",
+      "note": "Official tire guidance checked after HTTP denial; no extreme-speed approval implied.",
+      "record_sha256": "8864b88fc4fbc38c43a5cb67993f41bf2aab57f96a64e7567d83c333ab3d9a0c"
+    },
+    {
+      "source_id": "S39",
+      "verdict": "supported",
+      "method": "web full text",
+      "locator": "August 13, 2026 heading and recycling process",
+      "note": "Company-level recycling statement verified; no model-specific lifecycle result inferred.",
+      "record_sha256": "bdff2e8b7551e2a9c573dff1653f4dd735ec4dade0747e7096baaf05a890fed8"
+    },
+    {
+      "source_id": "S40",
+      "verdict": "supported",
+      "method": "HTTP public post text",
+      "locator": "Tesla / Roadster event livestream / October 15",
+      "note": "Previously blocked post text is now readable. It supports the announcement only, not technical specifications.",
+      "record_sha256": "2c284e8b40c21dadb697efde2faee1bca7aa16c1607d9a5cd408c742b81b2aeb"
+    },
+    {
+      "source_id": "S41",
+      "verdict": "unverified",
+      "method": "HTTP and browser access attempts",
+      "locator": "Agreement URL linked from the live US configurator",
+      "note": "HTTP denied; browser view exposed no readable agreement body. Refund and delivery clauses remain unverified.",
+      "record_sha256": "1f68a8e7f4ccab07bb746f0ecbd1ee2817d2202036ba24100943edf7be4e9a01"
+    },
+    {
+      "source_id": "S42",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "April 22 byline and Q1-call attribution",
+      "note": "Article date and tentative further demo delay checked; this is an attributed forecast.",
+      "record_sha256": "e25ea67e6537768db8e8f6bce73ad88b28c9169d2d5888576ca6f40be23b568b"
+    },
+    {
+      "source_id": "S43",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Approval authority and whole-vehicle sections",
+      "note": "General Swedish guidance checked. Its imprecise directive terminology is not adopted over the EU regulation.",
+      "record_sha256": "f62e08efb0b65d7a3b60e0bc1c8eb4a66327ef4e74c9f8980109cddc607f19f4"
+    },
+    {
+      "source_id": "S44",
+      "verdict": "supported",
+      "method": "HTTP full text",
+      "locator": "Original act and current-consolidation notice",
+      "note": "Original legal framework verified; page identifies August 2, 2026 consolidation. No Roadster-specific determination.",
+      "record_sha256": "a65555d4769a5bdfa250896ccf5fa6a8f066934db5e306957f9a5eba6d3967de"
+    },
+    {
+      "source_id": "S45",
+      "verdict": "supported",
+      "method": "web full text",
+      "locator": "Patent Pledge / Legal Effect",
+      "note": "Standstill and no-licence wording checked; repository licence grants no Tesla patent rights.",
+      "record_sha256": "2fd5f976538046f6e98dfce994c94cb560ed520dbbf93dabbf72378c264c3494"
+    },
+    {
+      "source_id": "S46",
+      "verdict": "supported",
+      "method": "official gazette HTML",
+      "locator": "Bibliographic data and claim 1",
+      "note": "Official assignee, application and ducted-fan claim checked; resolves the former index-only grant identity gap.",
+      "record_sha256": "10b11a6223e4e6481c52af95c4d7ed7eaa5a06bd1606dc314746612ad6ad1c47"
+    },
+    {
+      "source_id": "S47",
+      "verdict": "limited",
+      "method": "official PDF visual review",
+      "locator": "Cover page / bibliographic data, abstract and figure",
+      "note": "Official scanned application cover reviewed visually. Complete claims and asserted downforce were not audited.",
+      "record_sha256": "ad3a930df136c3faf06ee9715a52cdbdb99241f61cea1f9b7c1e832633a722f9"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla product page / Performance; US configurator / Performance",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "4718c86790370dbded1299c9384136e68c699d6de90599828e50d034edfb2924"
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla product page / Thrust; US configurator / Thrust",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "f4395c663a638736c010c1662c38385ab301c7560fffd7ea4919fc458f64c9f0"
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla product page / Rocket; US configurator / disabled Rocket option",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "147f502d45dd1854dde9229de238f3d6932ad14bcba5c9c3cc8d5c934507bb9d"
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla product page / Rocket note",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "711b7fe93146c082062f0eedf42370eb0ba098303bc3375ccbda964be4254af6"
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla product page / Thrust description",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "fee8016b58abbe946549f235bed1de5f97ca6031a1ad0629e63d736f4253952b"
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla product page / Beyond The Limits of Physics and footnotes",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "1a05c6da90d62dc69153c3d08359729b3a9b7f38a7382189745e41e378024c21"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla product page / Supersonic and steer-by-wire description",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "a58cc053144b5b3645cc670951b13ab8c6f797cfb7e2f15093681a4fe7a116ae"
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "US configurator / Performance / Payment",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "9d10df9794044a111fb854126e4ff9962590887260dd17e3263ed89e35f29e73"
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "US configurator / Thrust / Payment",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "af78d042e33db32d7275ad130f074c73ba0d2faad651fc3880d3b5de43a6070a"
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla Event 21:12",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "5f40bfd9325535e741fb74c8061e3560e50e6c6ca5ed07fbf5df109c23aef244"
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 7:32–7:50",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "7054fff80f29dffaf59f821c43ec629ca7d44b62fb4cac4a70dd4bfca330ea8e"
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla Event 20:28",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "50754c60931e4c371c005aedfa039e2149cb714b9a495b3ae16055ace99f4c08"
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "reported-observation",
+      "method": "source-to-statement review",
+      "locator": "Top Gear eyewitness report / opening stunts and unmanned-vehicle paragraphs",
+      "note": "Accessible first-person reporter supports the attributed observation; no independent instrumentation or video forensics performed.",
+      "record_sha256": "96f0d0b1187c25521613cf2fbdf98f1d1766ac868a0024b7d9d43dd34e2f232a"
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "unresolved-comparison",
+      "method": "source-to-statement review",
+      "locator": "Tesla Event 18:30; Hagerty 16:28–17:20",
+      "note": "Both descriptions were checked. Definitions, windows, variants or implementation may differ; no single reconciled production specification inferred.",
+      "record_sha256": "26814f7dfe83826a1f4cffe6913ba3768e3404b86a4b2113c1d21b525c3bbbdd"
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 2:41–3:13",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "937f2188ba74337e20ab71edc340c29996f1d12e8c5d4272d61c95f467e0daff"
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 3:27; Top Gear 6:12",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "72a3954c8758312816162da081dc0b490e7aac459b0fffaaa144bece3e0c3d3e"
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "unresolved-comparison",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 7:32–7:50; Top Gear 13:50; Top Gear narration 17:08",
+      "note": "Both descriptions were checked. Definitions, windows, variants or implementation may differ; no single reconciled production specification inferred.",
+      "record_sha256": "bca47885f758135045e5f5991f0bb54c006dc97f02e3467699c275bd4e736d2a"
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 4:14–4:31",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "bece4c3e6cfbb49a107efa7c57743e5e5cfe0368fa439bf6747abbf6b6a59c51"
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla 2017 reveal 30:56",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "8c19eb47575242d7823d468aef00929df7629cbbb29c549a576f27e3db674f27"
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla 2017 reveal 31:10",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "3d703213d3ea12a4321d6e3bace7a29cce59683b1ed3c0ccf16642d2965d553b"
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla 2017 reveal 29:39",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "6b91ef88819f49be0b305615c1b558339bec1117159bee0ed1f3fcbeb00222e7"
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla 2017 reveal 32:25–32:54",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "beb3b1e921eb47580145329251e868c9c8a81dfe237d4ee2fb41cad4ff882e41"
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Tesla 2017 reveal 30:47",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "ceae705ee009df1a48ed7b9389b1675b0d928df6a1dc013b24f15b350d1c2550"
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "bounded-finding",
+      "method": "source-to-statement review",
+      "locator": "US configurator; Tesla event specification/production discussion",
+      "note": "Retained only as a finding about this evidence set; absence across all public or private material is not established.",
+      "record_sha256": "c71b37b56fdb4590bf1cf8791986e8a366ff2187a0815f6cedc0a1cd8de6de39"
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "bounded-finding",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 7:32; Top Gear 16:49",
+      "note": "Retained only as a finding about this evidence set; absence across all public or private material is not established.",
+      "record_sha256": "f5b0b77f3a7a820e4fa0e7e4a081c3b9c66f67a3d43aa472af3afecc0b9acf8b"
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "bounded-finding",
+      "method": "source-to-statement review",
+      "locator": "Reviewed event reporting and research search families; see research/research-log.md",
+      "note": "Retained only as a finding about this evidence set; absence across all public or private material is not established.",
+      "record_sha256": "2d1bbaefa96b49363b843480e6ca6fcb76f79f8a1d0323eb2323d8445c881cd7"
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "document-disclosure",
+      "method": "source-to-statement review",
+      "locator": "US12377920B1 / bibliographic data and Abstract",
+      "note": "Patent bibliographic text and abstract support disclosure only; actual vehicle fitment and output remain unverified.",
+      "record_sha256": "2ad48b49c05514e6c1204ea86acf842724811b98610b05bcc8b2063e1ddaa925"
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 15:31; 17:28–18:56",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "5338f6f88357a53c54ff67fa24c41299ed174a262e0a2fca1b143990b5112c40"
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 12:47–13:05",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "841d4354bc86dde299ec940bfae3caa3a4fc27f2f2952c103334a066ed12de34"
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "unresolved-comparison",
+      "method": "source-to-statement review",
+      "locator": "Tesla Event 12:21–12:36; Hagerty 20:17–20:25",
+      "note": "Both descriptions were checked. Definitions, windows, variants or implementation may differ; no single reconciled production specification inferred.",
+      "record_sha256": "f5ced77a6c1679fa58bdbbb44bc648cc42f50adee67dca7b7b7b0522d3124c2a"
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 3:51; 5:20–5:45",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "c71e948a21c007e09356070cc5cfdae3f69fcb338aa916e270b87a1ea74e25b3"
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 16:28–17:13",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "e9dd29b7e78c1e63facf7336042ca5ae1b758db4596cc781f9b11dde34a7863d"
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported-as-attributed",
+      "method": "source-to-statement review",
+      "locator": "Hagerty 16:42",
+      "note": "The cited material supports the attributed statement within its stated era and configuration; vehicle capability is not independently validated.",
+      "record_sha256": "b9ba52b0a4fbfcab5408a4a4543cc17303bd6dd7509f0b6e87ffdc7df132cf8e"
+    }
+  ],
+  "timeline": [
+    {
+      "event": "2010-07-01 / Original Roadster 2.5 revision",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S36",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "50572783c0699f22db28034777f4c22419f96b9b2adb912f063e72065ea8a4f7"
+    },
+    {
+      "event": "2012-01 / Original production run ends",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S37",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "7b05717329975624c1ff7a905cfb8c35995a4dddc451403cbeab3cfb204d4115"
+    },
+    {
+      "event": "2017-11-16 / Next-generation concept unveiled",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S04, S18",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "92a61abee37aeeba8c3aa55cc05eaa0b02de7e348adb06e204d626fcfabc5990"
+    },
+    {
+      "event": "2018-06-09 / SpaceX-package proposal",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S19",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "747a577477dcf174d3754563dcd762ec49b6784478f17c9b660450649a06a336"
+    },
+    {
+      "event": "2024-02-28 / Another delivery target",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S17",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "5a58db90cae297555d65efdaa38bdac8591d05182ec1681dd9848c2caa006bde"
+    },
+    {
+      "event": "2025-08-05 / Adaptive-downforce patent publication",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S20",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "3b704bd54092d7a2e98228216bc976cba126bcde6bd6eb68bcbd8cb7cc69563c"
+    },
+    {
+      "event": "2025-11-06 / April 1 demo target announced",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S16",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "0f27739badcc11cd71f59cdfa079037d2565d06be643ee7897d6924ace40cbc1"
+    },
+    {
+      "event": "2026-04-22 / Demo timing shifts again",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S42",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "a41eb912becac5b9e740f08e785f694ba177f1ca45b8ea2433d351fc76bcd387"
+    },
+    {
+      "event": "2026-09-12 / October 1 teaser reported",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S14",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "ca2ee9358a046bb26545af08614e974ae59e8839f4dcc7bf0b361630a03d5f89"
+    },
+    {
+      "event": "2026-09-24 / Rear-wing application published",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S47",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "5bf034ca539340900e06e6edce8eb7b0dc876d168716bf4d0ad0b2fb3137c0a2"
+    },
+    {
+      "event": "2026-09-28 / Reveal moves to October 15",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S15",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "e74c166f4860f9b582328ab0c22639e0c2393ddb4e44a9e76424e2435fb051e1"
+    },
+    {
+      "event": "2026-09-29 / Electric fan-car grant published",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S46",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "186ce5e70dff144aedb393b3ab003b98b58e6a43beec696a508437cac06e46a1"
+    },
+    {
+      "event": "2026-10-15 / Redesigned Roadster demonstrated",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S06, S09",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "1193f32e7dd6e21257f205159510b48b4b717290ba5a335f4a72a000362920bb"
+    },
+    {
+      "event": "2026-10-16 / New configurator checked",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S02",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "9c1d37f20e6a12fa3742fb2395343d93a77adc456febc73d84fb2c42da3b6554"
+    },
+    {
+      "event": "2028 / Current production target",
+      "verdict": "supported-as-scoped",
+      "method": "date, attribution and source review",
+      "locator": "S03",
+      "note": "Date precision preserved. Publication dates are identified as publication dates; forecasts remain targets.",
+      "record_sha256": "88242426e90df9f3cf0b51626713c368decaec9b70957c2761b0c4bedb8ca7df"
+    }
+  ]
+}

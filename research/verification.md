@@ -14,3 +14,11 @@ Performed October 16, 2026, before initial publication.
 A mistaken expected energy constant in the first test run was corrected against the independently calculated value, 0.0999223808 kWh for 1,000 kg at 60 mph. The published test suite passes. A documentation drag-power approximation was also corrected to match the executable result.
 
 These checks validate the original repository software and evidence structure. They do not independently validate Tesla’s vehicle, manufacturer performance claims, legal status, safety or production plans. Source-access limits are recorded separately in the research method and registry.
+
+## Audit verification — October 16, 2026
+
+The subsequent [repository audit](audit.md) expanded the suite to **28 passing tests**. The added regressions cover malformed/missing data, false primary-source attribution, blocked citations, stale review hashes, floating-point overflow, escaped table pipes, README fragments, encoded/protocol-relative links, diagram-source preservation, data-derived dates/era choices, generated anchors and obsolete generated-page cleanup with unrelated-file preservation.
+
+Validation passed for all 47 source records, 33 claims and 15 timeline events, including bound review records and local Markdown links. The generator built 19 HTML pages and checked their local files and fragments. Generated Markdown freshness, JavaScript syntax and `git diff --check` passed. These are software/evidence-structure checks; source review outcomes and remaining access limitations are recorded separately in the audit ledger.
+
+A fresh browser load showed 33 claims and 47 sources. Searching `1585` isolated C17 and exposed both interview links and timestamps. Choosing the data-derived `2017` era showed five historical claims. At 2 s / 1,800 kg / 60 mph the calculator returned 1.37 g, 24.1 kN, 0.180 kWh and 26.82 m. The rendered audit report was read and visually inspected. A mobile-device test was not performed.

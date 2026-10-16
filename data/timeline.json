@@ -20,11 +20,10 @@
   {
     "date": "2017-11-16",
     "title": "Next-generation concept unveiled",
-    "summary": "A new concept appears at the Semi event; initial production expectation was 2020.",
+    "summary": "A new concept appears at the Semi event; Tesla proposes availability in 2020 (reveal transcript 33:27).",
     "sources": [
-      "S18",
       "S04",
-      "S06"
+      "S18"
     ],
     "kind": "reveal"
   },
@@ -75,8 +74,8 @@
   },
   {
     "date": "2026-09-12",
-    "title": "October 1 teaser",
-    "summary": "Tesla’s teaser is reported as scheduling an October 1 reveal.",
+    "title": "October 1 teaser reported",
+    "summary": "Publication date of the retained teaser coverage. The exact original post time is not established by this record.",
     "sources": [
       "S14"
     ],
@@ -84,10 +83,10 @@
   },
   {
     "date": "2026-09-24",
-    "title": "Rear-wing patent application indexed",
-    "summary": "Metadata for a wing application appears; full text needs review.",
+    "title": "Rear-wing application published",
+    "summary": "Publication date confirmed on the original USPTO application cover; no production fitment established.",
     "sources": [
-      "S22"
+      "S47"
     ],
     "kind": "patent"
   },
@@ -102,10 +101,10 @@
   },
   {
     "date": "2026-09-29",
-    "title": "Electric fan-car patent indexed",
-    "summary": "Patent metadata lists Tesla and an electric fan-car disclosure.",
+    "title": "Electric fan-car grant published",
+    "summary": "Official USPTO gazette identifies Tesla and reproduces the first claim.",
     "sources": [
-      "S21"
+      "S46"
     ],
     "kind": "patent"
   },
@@ -131,9 +130,9 @@
   {
     "date": "2028",
     "title": "Current production target",
-    "summary": "Company forecast, not an observed production start or customer delivery.",
+    "summary": "Tesla’s event production forecast (21:12), not an observed production start or customer delivery.",
     "sources": [
-      "S06"
+      "S03"
     ],
     "kind": "target"
   }

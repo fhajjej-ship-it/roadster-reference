@@ -6,7 +6,7 @@ Edition cutoff: **2026-10-16**. Language: English. Scope: the redesigned Tesla R
 
 Searches covered Tesla product/reservation material, Tesla video records, engineering interviews, recent launch reporting, selected earlier announcements, patent records, NASA/DOE physics references, and official US/EU/Swedish regulatory resources. The working folder was empty at intake; there was no pre-existing Tesla codebase to audit.
 
-The current Tesla product page and US reservation options were read directly in a browser. This mattered because a direct HTTP request was denied and the search index still returned the legacy concept page. Public interview captions and publisher descriptions were inspected for the Hagerty engineering interview. Source records state where access was only indexed, partial, blocked or metadata-only.
+The current Tesla product page and US reservation options were read directly in a browser. This mattered because a direct HTTP request was denied and the search index still returned the legacy concept page. Relevant captions and publisher descriptions were inspected for the original 2017 Tesla presentation, the 2026 Tesla event, and the Hagerty and Top Gear engineering interviews. The audit also inspected official USPTO fan-grant metadata/claim 1 and the wing-application cover/abstract. Source records state where access was only indexed, partial, blocked or metadata-only.
 
 We retained short factual paraphrases and links. We did not mirror articles, download/rehost copyrighted videos or photos, or acquire unpublished material. Original charts and calculations are analytical teaching aids, not measured vehicle data.
 
@@ -38,8 +38,8 @@ Use claim IDs for corrections. Prefer the original source and a timestamp or sec
 - This is curated research, not “all information on the internet.” There is no guarantee of exhaustive historical, regional or non-English coverage.
 - No vehicle was tested, no customer delivery verified, and no regulator-specific clearance established.
 - Captions can mistranscribe units and names. Ambiguous phrases are flagged, not converted into precise engineering specifications.
-- The complete Top Gear companion video, blocked X post, full reservation agreement and two primary patent documents remain incompletely reviewed. Relevant official-event and Hagerty transcript passages were reviewed; a complete audiovisual review was not performed.
+- The current US reservation agreement remains unreadable. The X announcement was recovered during the audit. The two newer patent indexes remain metadata evidence; the official fan grant and wing application have the bounded reviews described above. Complete patent/prosecution analysis and a complete audiovisual review were not performed. One charging caption remains ambiguous.
 - No automatic monitoring is installed. Dates and status require a deliberate new source review.
 - Content and code were initially assembled with AI assistance and checked against the listed sources; independent subject-matter review remains welcome.
 
-See [the research log](research-log.md), [interview notes](interview-notes.md) and [source access fields](../data/sources.json).
+See [the audit findings](audit.md), [record-by-record review](../docs/audit-ledger.md), [research log](research-log.md), [interview notes](interview-notes.md) and [source access fields](../data/sources.json). Review hashes detect record changes; they do not prove source truth. Automated HTTP observations are recorded separately from semantic review.

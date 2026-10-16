@@ -16,6 +16,12 @@ def number(value, name, *, zero=False):
     return value
 
 
+def finite_results(result):
+    if not all(math.isfinite(value) for value in result.values()):
+        raise ValueError('scenario exceeds the finite numerical range; use smaller inputs')
+    return result
+
+
 def acceleration(time_s, mass_kg, speed_mph=60):
     """From actual rest; constant acceleration only for distance/force examples."""
     t = number(time_s, 'time_s')
@@ -23,10 +29,10 @@ def acceleration(time_s, mass_kg, speed_mph=60):
     v = number(speed_mph, 'speed_mph', zero=True) * MPH_TO_MPS
     a = v / t
     energy = 0.5 * m * v * v
-    return dict(speed_mps=v, average_acceleration_mps2=a, average_acceleration_g=a / G0,
+    return finite_results(dict(speed_mps=v, average_acceleration_mps2=a, average_acceleration_g=a / G0,
                 constant_acceleration_distance_m=0.5 * v * t,
                 average_net_force_n=m * a, kinetic_energy_kwh=energy / JOULES_PER_KWH,
-                average_kinetic_power_kw=energy / t / 1000)
+                average_kinetic_power_kw=energy / t / 1000))
 
 
 def drag(speed_mph, cda_m2, density_kg_m3=1.225):
@@ -35,19 +41,19 @@ def drag(speed_mph, cda_m2, density_kg_m3=1.225):
     cda = number(cda_m2, 'cda_m2', zero=True)
     rho = number(density_kg_m3, 'density_kg_m3')
     force = 0.5 * rho * cda * v * v
-    return dict(drag_force_n=force, aerodynamic_power_kw=force * v / 1000)
+    return finite_results(dict(drag_force_n=force, aerodynamic_power_kw=force * v / 1000))
 
 
 def suction(pressure_pa, area_m2):
     """Uniform pressure difference over an effective area; leakage not modeled."""
     force = number(pressure_pa, 'pressure_pa', zero=True) * number(area_m2, 'area_m2')
-    return dict(force_n=force, equivalent_mass_kg=force / G0)
+    return finite_results(dict(force_n=force, equivalent_mass_kg=force / G0))
 
 
 def range_estimate(usable_kwh, wh_per_km):
     """Constant consumption scenario, not an EPA/WLTP test or certified range."""
     km = 1000 * number(usable_kwh, 'usable_kwh') / number(wh_per_km, 'wh_per_km')
-    return dict(range_km=km, range_miles=km / 1.609344)
+    return finite_results(dict(range_km=km, range_miles=km / 1.609344))
 
 
 def main():

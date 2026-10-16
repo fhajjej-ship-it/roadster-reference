@@ -35,8 +35,17 @@ The caption for the elapsed time reads “081”; surrounding context and report
 | [20:17](https://www.youtube.com/watch?v=22rvpUecLts&t=1217s) | Refill duration and improvement goal |
 | [23:26](https://www.youtube.com/watch?v=22rvpUecLts&t=1406s) | Prototype count and planned development build |
 
-The video mixes Moravy’s statements with Catchpole’s narration. Do not attribute every line to Moravy. In particular, narration supplies configuration-specific acceleration and refill context. The transcript’s voltage phrase is malformed; this edition does not silently turn it into a precise specification. Marketing language about breaking physical laws is not adopted as a physics claim.
+The video mixes Moravy’s statements with Catchpole’s narration. Do not attribute every line to Moravy. In particular, narration supplies configuration-specific acceleration and refill context. The transcript’s voltage phrase is malformed; the separate [Top Gear passage at 6:12](https://www.youtube.com/watch?v=JdkIOhFmbKI&t=372s) explicitly describes an 800–1,000-volt range. This clarifies the caption without establishing a final nominal production voltage. Marketing language about breaking physical laws is not adopted as a physics claim.
 
 ## Remaining reconciliation
 
 The event’s replenishable-air description and the interview’s nitrogen-refill account need a clear final system explanation. Timings likewise need their configuration, rollout convention and run identity attached. These are research questions, not grounds for silently choosing whichever figure looks most impressive.
+
+## Additional passages checked in the audit
+
+- [2017 Tesla reveal, 29:39–33:27](https://www.youtube.com/watch?v=5RRmepp7i5g&t=1779s): original acceleration, speed, pack, range, motor layout, seating, roof and availability targets. These replace the mutable legacy product URL.
+- [Top Gear, 13:27–14:16](https://www.youtube.com/watch?v=JdkIOhFmbKI&t=807s): range and charging discussion. The executive passage is captioned “1585” for the window; it must not be silently normalized.
+- [Top Gear narration, 17:08](https://www.youtube.com/watch?v=JdkIOhFmbKI&t=1028s): 15–80% in under fifteen minutes, distinct from Hagerty’s ten-minute goal. Both remain provisional descriptions.
+- [Top Gear, 22:28](https://www.youtube.com/watch?v=JdkIOhFmbKI&t=1348s): nitrogen fill-system description, rather than proof of a finished customer refill process.
+
+Relevant transcript passages and publisher descriptions were checked. A complete audiovisual review of every video was not performed.

@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Evidence labels](../research/methodology.md)
 
-Generated from `data/claims.json`. Checked through October 16, 2026. Status describes evidence, not a guarantee.
+Generated from `data/claims.json`. Checked through 2026-10-16. Status describes evidence, not a guarantee.
 
 ## C01 — configuration
 
@@ -13,6 +13,8 @@ Performance: two seats, active aerodynamics and fan suction.
 Scope: Performance
 
 Sources: [S01](https://www.tesla.com/roadster) · [S02](https://www.tesla.com/roadster/reserve)
+
+Locator: Tesla product page / Performance; US configurator / Performance
 
 Unresolved: Final homologated configuration and delivered equipment.
 
@@ -26,6 +28,8 @@ Scope: Thrust augment
 
 Sources: [S01](https://www.tesla.com/roadster) · [S02](https://www.tesla.com/roadster/reserve)
 
+Locator: Tesla product page / Thrust; US configurator / Thrust
+
 Unresolved: Regional eligibility and final technical specification.
 
 ## C03 — configuration
@@ -37,6 +41,8 @@ Rocket: one seat and perimeter thrusters for airborne motion; invite only.
 Scope: Rocket augment
 
 Sources: [S01](https://www.tesla.com/roadster) · [S02](https://www.tesla.com/roadster/reserve)
+
+Locator: Tesla product page / Rocket; US configurator / disabled Rocket option
 
 Unresolved: Flight duration, usable gas capacity and customer operating envelope.
 
@@ -50,6 +56,8 @@ Scope: Rocket only
 
 Sources: [S01](https://www.tesla.com/roadster)
 
+Locator: Tesla product page / Rocket note
+
 Unresolved: Do not extend this wording into a legal determination about other trims.
 
 ## C05 — acceleration
@@ -61,6 +69,8 @@ Thrust: 0–60 mph in under one second.
 Scope: Thrust augment
 
 Sources: [S01](https://www.tesla.com/roadster)
+
+Locator: Tesla product page / Thrust description
 
 Unresolved: Timing protocol, rollout, surface, state of charge, repeatability and independent instrumented result.
 
@@ -74,6 +84,8 @@ Scope: Page describes optional equipment; check footnotes
 
 Sources: [S01](https://www.tesla.com/roadster)
 
+Locator: Tesla product page / Beyond The Limits of Physics and footnotes
+
 Unresolved: Force map, fan consumption, noise, seal leakage and behavior after a fault.
 
 ## C07 — steering
@@ -85,6 +97,8 @@ Tesla describes steer-by-wire for the redesigned car.
 Scope: 2026 redesign
 
 Sources: [S01](https://www.tesla.com/roadster)
+
+Locator: Tesla product page / Supersonic and steer-by-wire description
 
 Unresolved: Final redundancy, feedback implementation and road certification details.
 
@@ -98,6 +112,8 @@ Scope: US configurator, observed October 16
 
 Sources: [S02](https://www.tesla.com/roadster/reserve)
 
+Locator: US configurator / Performance / Payment
+
 Unresolved: Retail price, taxes, delivery date and contract terms. Not an order or purchase by this project.
 
 ## C09 — reservation
@@ -109,6 +125,8 @@ US Thrust deposit totals $250,000: $5,000 now and $245,000 within ten days.
 Scope: US configurator, observed October 16
 
 Sources: [S02](https://www.tesla.com/roadster/reserve)
+
+Locator: US configurator / Thrust / Payment
 
 Unresolved: Deposit is not a published retail price. Regional terms can differ.
 
@@ -128,13 +146,15 @@ Unresolved: Factory readiness, start of series production and actual customer de
 
 ## C11 — range
 
-**reported-claim · 2026**
+**interview-claim · 2026**
 
-Event reporting attributes more than 300 miles of range to Tesla.
+Hagerty’s interview narration states a range claim above 300 miles.
 
-Scope: Variant and test cycle not established
+Scope: Interview-era range claim; variant and test cycle not established
 
-Sources: [S06](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028)
+Sources: [S12](https://www.youtube.com/watch?v=22rvpUecLts)
+
+Locator: Hagerty 7:32–7:50
 
 Unresolved: EPA/WLTP certification and independent real-world tests.
 
@@ -160,7 +180,9 @@ Event witnesses report inverted driving and controlled airborne maneuvers by a p
 
 Scope: Staged prototype demonstration
 
-Sources: [S07](https://apnews.com/article/tesla-musk-roadster-rocket-7d5f19665435b7408025bfb7a2f2f0b7) · [S09](https://www.topgear.com/car-news/first-look/wow-new-tesla-roadster-can-actually-fly)
+Sources: [S09](https://www.topgear.com/car-news/first-look/wow-new-tesla-roadster-can-actually-fly)
+
+Locator: Top Gear eyewitness report / opening stunts and unmanned-vehicle paragraphs
 
 Unresolved: Does not prove a certified or continuously airworthy consumer vehicle.
 
@@ -196,29 +218,29 @@ Unresolved: Final output measurement basis and production specifications.
 
 **interview-claim · 2026**
 
-Moravy describes a special 4680-format battery cell.
+Moravy describes a special 4680-format cell; the Top Gear interview describes an 800–1,000-volt range.
 
 Scope: Provisional executive interview details
 
-Sources: [S12](https://www.youtube.com/watch?v=22rvpUecLts)
+Sources: [S12](https://www.youtube.com/watch?v=22rvpUecLts) · [S13](https://www.youtube.com/watch?v=JdkIOhFmbKI)
 
-Locator: Hagerty 3:27; 4:58–6:28
+Locator: Hagerty 3:27; Top Gear 6:12
 
-Unresolved: Usable capacity and final chemistry undisclosed. Caption text for pack voltage is ambiguous; no precise voltage promoted here.
+Unresolved: Final chemistry, usable capacity and nominal/maximum production voltage remain unspecified. The Top Gear passage clarifies the malformed Hagerty voltage caption.
 
 ## C17 — charging
 
-**interview-claim · 2026**
+**conflicting-reports · 2026**
 
-The interview describes a 15–80% charging goal of approximately ten minutes.
+Hagerty describes a 15–80% charge goal around ten minutes; Top Gear narration describes 15–80% in under fifteen minutes, with an ambiguous “1585” caption in the executive passage.
 
 Scope: Interview-era targets, not a published charge curve
 
-Sources: [S12](https://www.youtube.com/watch?v=22rvpUecLts)
+Sources: [S12](https://www.youtube.com/watch?v=22rvpUecLts) · [S13](https://www.youtube.com/watch?v=JdkIOhFmbKI)
 
-Locator: Hagerty 7:32–7:50
+Locator: Hagerty 7:32–7:50; Top Gear 13:50; Top Gear narration 17:08
 
-Unresolved: Measured charging curve, average power, battery capacity, conditioning and charger conditions; compare other interview coverage carefully.
+Unresolved: The caption at Top Gear 13:50 must not be silently normalized into a precise charge window. Presenter summaries and provisional goals do not establish a measured charge curve or average/peak power.
 
 ## C18 — mass
 
@@ -242,7 +264,9 @@ The original concept was presented with a 200-kWh battery target.
 
 Scope: 2017 proposal
 
-Sources: [S18](https://arstechnica.com/cars/2017/11/not-just-a-semi-announcement-tesla-promises-a-new-roadster/)
+Sources: [S04](https://www.youtube.com/watch?v=5RRmepp7i5g)
+
+Locator: Tesla 2017 reveal 30:56
 
 Unresolved: No basis to assign this capacity to the 2026 redesign.
 
@@ -252,9 +276,11 @@ Unresolved: No basis to assign this capacity to the 2026 redesign.
 
 The legacy concept was advertised at 620 miles of range.
 
-Scope: Legacy indexed Tesla page
+Scope: Original Tesla 2017 presentation
 
-Sources: [S05](https://www.tesla.com/roadster?lang=en)
+Sources: [S04](https://www.youtube.com/watch?v=5RRmepp7i5g)
+
+Locator: Tesla 2017 reveal 31:10
 
 Unresolved: Not a certified range for the redesigned vehicle.
 
@@ -266,7 +292,9 @@ The legacy concept was advertised at 1.9 seconds to 60 mph.
 
 Scope: 2017 concept
 
-Sources: [S05](https://www.tesla.com/roadster?lang=en)
+Sources: [S04](https://www.youtube.com/watch?v=5RRmepp7i5g)
+
+Locator: Tesla 2017 reveal 29:39
 
 Unresolved: Not a test result for the 2026 car.
 
@@ -274,11 +302,13 @@ Unresolved: Not a test result for the 2026 car.
 
 **historical-claim · 2017**
 
-The legacy concept had four advertised seats and a removable glass roof.
+The original concept was presented with four seats and a removable roof.
 
 Scope: 2017 concept
 
-Sources: [S05](https://www.tesla.com/roadster?lang=en)
+Sources: [S04](https://www.youtube.com/watch?v=5RRmepp7i5g)
+
+Locator: Tesla 2017 reveal 32:25–32:54
 
 Unresolved: Do not carry this interior layout into 2026 configurations.
 
@@ -290,7 +320,9 @@ The legacy concept advertised top speed above 250 mph.
 
 Scope: 2017 concept
 
-Sources: [S05](https://www.tesla.com/roadster?lang=en)
+Sources: [S04](https://www.youtube.com/watch?v=5RRmepp7i5g)
+
+Locator: Tesla 2017 reveal 30:47
 
 Unresolved: Separate target from the new event’s reported above-230-mph figure.
 
@@ -302,7 +334,9 @@ Final retail prices are not established in this evidence set.
 
 Scope: All configurations
 
-Sources: [S06](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028) · [S02](https://www.tesla.com/roadster/reserve)
+Sources: [S02](https://www.tesla.com/roadster/reserve) · [S03](https://www.youtube.com/watch?v=qt5p-_tE8d0)
+
+Locator: US configurator; Tesla event specification/production discussion
 
 Unresolved: A historical price or present deposit must not be labeled the current purchase price.
 
@@ -312,11 +346,13 @@ Unresolved: A historical price or present deposit must not be labeled the curren
 
 Final usable battery capacity is not established.
 
-Scope: All configurations
+Scope: Reviewed interview material only
 
-Sources: [S10](https://www.topgear.com/car-news/electric/tesla-roadster-has-finally-landed-thrusters-0-60mph-059s-and-flight) · [S11](https://teslanorth.com/2026/10/16/tesla-roadster-moravy-hagerty-engineering-interview/)
+Sources: [S12](https://www.youtube.com/watch?v=22rvpUecLts) · [S13](https://www.youtube.com/watch?v=JdkIOhFmbKI)
 
-Unresolved: Obtain an official specification and measurement definition.
+Locator: Hagerty 7:32; Top Gear 16:49
+
+Unresolved: Obtain a final official usable/gross energy specification. An interview withholding capacity does not prove it is undisclosed everywhere.
 
 ## C26 — testing
 
@@ -327,6 +363,8 @@ No independent instrumented production-car performance test was located in this 
 Scope: Bounded research finding, not proof that none exists
 
 Sources: [S06](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028) · [S08](https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/) · [S09](https://www.topgear.com/car-news/first-look/wow-new-tesla-roadster-can-actually-fly)
+
+Locator: Reviewed event reporting and research search families; see research/research-log.md
 
 Unresolved: Locate reproducible test data for the same saleable configuration.
 
@@ -339,6 +377,8 @@ Tesla-assigned US12377920B1 describes adaptive downforce arrangements.
 Scope: Patent disclosure
 
 Sources: [S20](https://patents.google.com/patent/US12377920B1/en)
+
+Locator: US12377920B1 / bibliographic data and Abstract
 
 Unresolved: Not proof of Roadster fitment, output or manufacturing readiness.
 
@@ -402,7 +442,7 @@ Unresolved: Repeatable track thermal performance and final hardware.
 
 **interview-claim · 2026**
 
-Hagerty narration lists Performance at 1.6 seconds and Thrust at 0.85 seconds; rollout is discussed in the surrounding passage.
+Hagerty narration gives Performance 1.6 seconds and Thrust 0.85 seconds, explicitly calling the Thrust time rollout-subtracted.
 
 Scope: Interview values; not independent tests
 

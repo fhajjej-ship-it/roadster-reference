@@ -97,10 +97,10 @@ Charging has the same distinction. Peak power is a point on a curve. Total time 
 ideal charging time in hours = energy added in kWh / average input power in kW
 ```
 
-Taper, thermal limits, conditioning, losses and charger capability change the real result. Do not reverse-calculate a final battery size from a provisional peak-power headline.
+Taper, thermal limits, conditioning, losses and charger capability change the real result. The primary interviews also use differing summaries and one ambiguous charge-window caption. See C17 in the [claim ledger](claims.md); a caption must not be silently corrected into a final specification. Do not reverse-calculate a final battery size from a provisional peak-power headline.
 
 ## 7. A patent teaches a concept, not a delivered car
 
-[US12377920B1](https://patents.google.com/patent/US12377920B1/en) describes adaptive downforce arrangements assigned to Tesla. It is useful technical reading. It does not establish that a particular embodiment ships on Roadster, reaches a claimed force, or satisfies road requirements. Two newer filings are indexed in the [source library](sources.md) but their primary text was not retrieved in this pass.
+[US12377920B1](https://patents.google.com/patent/US12377920B1/en) describes adaptive downforce arrangements assigned to Tesla. It is useful technical reading. It does not establish that a particular embodiment ships on Roadster, reaches a claimed force, or satisfies road requirements. The [official electric fan-car gazette entry](https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12746987-20260929.html) and the [official rear-wing application](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260285418) were also located during the audit. The first claim of the fan grant and the cover/abstract of the wing application were reviewed; their entire legal scope was not.
 
 The project’s original software is open source. That does not grant rights to Tesla technology; Tesla’s [patent-pledge terms](https://www.tesla.com/en_ph/legal/additional-resources) are a separate matter.

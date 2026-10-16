@@ -6,11 +6,13 @@
 
 Understand the engineering. Trace the announcements. Check the evidence before sharing the headline.
 
-[Start learning](docs/start-here.md) · [What changed in 2026](docs/2026-reveal.md) · [Claims & evidence](docs/claims.md) · [News timeline](docs/timeline.md) · [Source library](docs/sources.md) · [Run the explorer](#explore-locally)
+[Start learning](docs/start-here.md) · [What changed in 2026](docs/2026-reveal.md) · [Claims & evidence](docs/claims.md) · [News timeline](docs/timeline.md) · [Source library](docs/sources.md) · [Audit findings](research/audit.md) · [Run the explorer](#explore-locally)
 
 **Research cutoff: October 16, 2026.** A curated first edition, not a live feed or an exhaustive archive. Tesla has demonstrated a redesigned prototype; the reported production target is **2028**, not a verified delivery date. [Reuters](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028)
 
-> **Read this first:** the 2017 red concept and the October 2026 redesign are different evidence sets. Do not combine the old 620-mile / four-seat claims with the new car’s specifications. [Legacy Tesla snapshot](https://www.tesla.com/roadster?lang=en) · [Current Tesla page](https://www.tesla.com/roadster)
+> **Read this first:** the 2017 red concept and the October 2026 redesign are different evidence sets. Do not combine the old 620-mile / four-seat claims with the new car’s specifications. [Original Tesla reveal, 31:10](https://www.youtube.com/watch?v=5RRmepp7i5g&t=1870s) · [Current Tesla page](https://www.tesla.com/roadster)
+
+The audit reviewed every source, structured claim and timeline event. **42 source records support their stated scope, 3 have limited verification, 1 obsolete citation is retired, and 1 remains unverified.** Complete reservation-agreement terms are not established. See the [audit](research/audit.md) and [record-by-record review](docs/audit-ledger.md).
 
 ## Choose your route
 
@@ -33,7 +35,8 @@ Understand the engineering. Trace the announcements. Check the evidence before s
 - Manufacturer claims, reported observations, historical targets and unknowns stay distinct.
 - A searchable, responsive browser explorer works locally without a backend or third-party libraries.
 - Reproducible calculators explain acceleration, drag, suction force and energy using explicit inputs.
-- The research log records inaccessible material and the limits of the initial review.
+- The research log records inaccessible material and review limits.
+- Audit receipts are bound to the exact records, so an edited claim cannot silently retain an old review.
 
 The aspiration is to become a dependable reference. Popularity, completeness and technical superiority are not established by publishing a repository.
 

@@ -41,11 +41,11 @@
     "publisher": "Tesla",
     "url": "https://www.youtube.com/watch?v=5RRmepp7i5g",
     "kind": "manufacturer",
-    "access": "indexed",
+    "access": "transcript-read",
     "published": "2017-12-14",
     "checked": "2026-10-16",
-    "support": "Original event recording, uploaded December 14, 2017.",
-    "limitations": "Upload date differs from the November 16 event. Do not treat this as the 2026 design."
+    "support": "Original reveal transcript: acceleration at 29:39, speed at 30:47, pack at 30:56, range at 31:10, motors and seating at 32:14–32:54, availability target at 33:27.",
+    "limitations": "Historical manufacturer assertions, not production measurements. Video upload date is December 14, 2017; the event occurred November 16."
   },
   {
     "id": "S05",
@@ -56,8 +56,8 @@
     "access": "indexed-stale",
     "published": null,
     "checked": "2026-10-16",
-    "support": "Legacy marketing: 1.9 seconds to 60 mph, over 250 mph, 620-mile range, four seats, removable glass roof.",
-    "limitations": "Search snapshot described the red 2017 concept; not live verification of the 2026 specifications."
+    "support": "Retained record of an obsolete search-index representation of the 2017 concept.",
+    "limitations": "This URL now serves the 2026 redesign. No immutable legacy snapshot was recovered; withdrawn as a supporting citation. Use S04 and S18 for historical claims."
   },
   {
     "id": "S06",
@@ -77,11 +77,11 @@
     "publisher": "Associated Press",
     "url": "https://apnews.com/article/tesla-musk-roadster-rocket-7d5f19665435b7408025bfb7a2f2f0b7",
     "kind": "reporting",
-    "access": "full-text",
+    "access": "browser-read",
     "published": "2026-10-16",
     "checked": "2026-10-16",
     "support": "Unmanned demonstration; production target; legal and delivery uncertainty.",
-    "limitations": "Expert concerns are opinions; not formal regulatory determinations."
+    "limitations": "HTTP and web extraction failed, but the current article was read in the browser during audit. Event reporting and expert opinions do not establish regulatory determinations."
   },
   {
     "id": "S08",
@@ -149,11 +149,11 @@
     "publisher": "Top Gear",
     "url": "https://www.youtube.com/watch?v=JdkIOhFmbKI",
     "kind": "interview",
-    "access": "metadata-only",
+    "access": "transcript-read",
     "published": "2026-10-16",
     "checked": "2026-10-16",
-    "support": "Title, verified Top Gear publisher and 49-minute duration seen on YouTube.",
-    "limitations": "Full video and transcript not reviewed; title is not treated as a measured specification."
+    "support": "Relevant original passages reviewed: 800–1,000-volt range at 6:12; range around 310–320 miles at 13:27; charging descriptions at 13:50 and 17:08; nitrogen fill at 22:28.",
+    "limitations": "Manufacturer interview and presenter narration, not independent measurements. Relevant passages reviewed, not the full 49-minute audiovisual content; captions require care."
   },
   {
     "id": "S14",
@@ -185,7 +185,7 @@
     "publisher": "TechCrunch",
     "url": "https://techcrunch.com/2025/11/06/tesla-delays-reveal-of-production-roadster-2-to-april-fools-day/",
     "kind": "reporting",
-    "access": "indexed",
+    "access": "full-text",
     "published": "2025-11-06",
     "checked": "2026-10-16",
     "support": "November 6, 2025 announcement of an April 1, 2026 reveal target.",
@@ -197,7 +197,7 @@
     "publisher": "Reuters via MarketScreener",
     "url": "https://uk.marketscreener.com/quote/stock/TESLA-INC-6344549/news/Tesla-aims-to-ship-Roadster-cars-next-year-Musk-says-46045322/",
     "kind": "reporting",
-    "access": "indexed",
+    "access": "full-text",
     "published": "2024-02-28",
     "checked": "2026-10-16",
     "support": "February 2024 target of 2025 shipments; earlier 2023 target and supply-chain explanation.",
@@ -221,7 +221,7 @@
     "publisher": "Fortune",
     "url": "https://fortune.com/2018/06/10/musk-tesla-roadster-spacex-rocket-thrusters/",
     "kind": "reporting",
-    "access": "indexed",
+    "access": "full-text",
     "published": "2018-06-10",
     "checked": "2026-10-16",
     "support": "June 2018 SpaceX-package proposal.",
@@ -305,7 +305,7 @@
     "publisher": "NASA Glenn",
     "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/dynamic-pressure/",
     "kind": "engineering",
-    "access": "indexed",
+    "access": "full-text",
     "published": null,
     "checked": "2026-10-16",
     "support": "Dynamic pressure is proportional to air density and speed squared.",
@@ -361,11 +361,11 @@
   },
   {
     "id": "S31",
-    "title": "Advanced Air Mobility / Air Taxis",
+    "title": "Advanced Air Mobility & eVTOLs",
     "publisher": "Federal Aviation Administration",
     "url": "https://www.faa.gov/air-taxis",
     "kind": "regulator",
-    "access": "indexed",
+    "access": "full-text",
     "published": null,
     "checked": "2026-10-16",
     "support": "Official starting point for aviation certification and operations context.",
@@ -389,7 +389,7 @@
     "publisher": "Rimac Automobili",
     "url": "https://www.rimac-automobili.com/NeveraR/",
     "kind": "manufacturer-context",
-    "access": "indexed",
+    "access": "full-text",
     "published": null,
     "checked": "2026-10-16",
     "support": "Manufacturer lists 1.66 seconds to 60 mph and 1.72 seconds to 100 km/h.",
@@ -401,7 +401,7 @@
     "publisher": "Rimac Newsroom",
     "url": "https://www.rimac-newsroom.com/press-releases/rimac-automobili/rimac-nevera-r-becomes-new-0-400-0-champion-and-sets-24-performance-records",
     "kind": "manufacturer-context",
-    "access": "indexed",
+    "access": "full-text",
     "published": "2025-07-09",
     "checked": "2026-10-16",
     "support": "Manufacturer record announcement and claimed acceleration results.",
@@ -413,7 +413,7 @@
     "publisher": "Tesla Service",
     "url": "https://service.tesla.com/docs/Public/Roadster/",
     "kind": "manufacturer",
-    "access": "indexed",
+    "access": "full-text",
     "published": null,
     "checked": "2026-10-16",
     "support": "Public service documentation exists for the original Roadster.",
@@ -473,11 +473,11 @@
     "publisher": "Tesla on X",
     "url": "https://x.com/Tesla/status/2110788059008819215",
     "kind": "manufacturer",
-    "access": "blocked",
+    "access": "full-text",
     "published": "2026-10-15",
     "checked": "2026-10-16",
-    "support": "Official post URL linked by Car and Driver.",
-    "limitations": "Direct fetch denied; not independently read."
+    "support": "Tesla’s public post identifies the October 15 Roadster event livestream.",
+    "limitations": "Post text was readable during audit; this is a livestream announcement, not evidence of a particular vehicle specification."
   },
   {
     "id": "S41",
@@ -497,7 +497,7 @@
     "publisher": "Electrek",
     "url": "https://electrek.co/2026/04/22/tesla-roadster-unveil-delayed-again-earnings-call/",
     "kind": "reporting",
-    "access": "indexed",
+    "access": "full-text",
     "published": "2026-04-22",
     "checked": "2026-10-16",
     "support": "Q1-call coverage gives another tentative demo delay.",
@@ -509,7 +509,7 @@
     "publisher": "Swedish Transport Agency",
     "url": "https://www.transportstyrelsen.se/en/road/Vehicles/type-approval/what-is-a-type-approval/",
     "kind": "regulator",
-    "access": "indexed",
+    "access": "full-text",
     "published": null,
     "checked": "2026-10-16",
     "support": "Official explanation of vehicle, component and system approval, including the Swedish authority.",
@@ -521,11 +521,11 @@
     "publisher": "EUR-Lex",
     "url": "https://eur-lex.europa.eu/eli/reg/2018/858/oj/eng",
     "kind": "regulator",
-    "access": "indexed",
+    "access": "full-text",
     "published": null,
     "checked": "2026-10-16",
-    "support": "EU motor-vehicle approval and market-surveillance framework; original act, consult current consolidated text for application.",
-    "limitations": "General context only; no Roadster-specific approval or intellectual-property clearance established."
+    "support": "Original EU vehicle-approval regulation. The page identifies a newer consolidated version dated August 2, 2026.",
+    "limitations": "This link is the original act, not the current consolidated text; no Roadster-specific approval established."
   },
   {
     "id": "S45",
@@ -533,10 +533,34 @@
     "publisher": "Tesla",
     "url": "https://www.tesla.com/en_ph/legal/additional-resources",
     "kind": "manufacturer",
-    "access": "indexed",
+    "access": "full-text",
     "published": null,
     "checked": "2026-10-16",
     "support": "Patent-pledge wording is distinct from an open-source software licence.",
-    "limitations": "General context only; no Roadster-specific approval or intellectual-property clearance established."
+    "limitations": "Patent Pledge / Legal Effect wording checked. This is not a Roadster-specific legal clearance."
+  },
+  {
+    "id": "S46",
+    "title": "US 12,746,987 B1 — Electric fan car",
+    "publisher": "United States Patent and Trademark Office",
+    "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12746987-20260929.html",
+    "kind": "patent",
+    "access": "full-text",
+    "published": "2026-09-29",
+    "checked": "2026-10-16",
+    "support": "Official gazette identifies Tesla as assignee and reproduces claim 1: a ducted fan system with an underbody inlet and rear outlet.",
+    "limitations": "Gazette metadata and claim 1 reviewed; not a review of the complete prosecution history, proof of Roadster fitment or a measured force."
+  },
+  {
+    "id": "S47",
+    "title": "US 2026/0285418 A1 — Deployable and active rear wing assembly with safety features",
+    "publisher": "United States Patent and Trademark Office",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260285418",
+    "kind": "patent",
+    "access": "document-read",
+    "published": "2026-09-24",
+    "checked": "2026-10-16",
+    "support": "Original scanned application cover and abstract identify Tesla, application 19/295,293, filing August 8, 2025, and a deployable multi-element wing with rotation and impact-protection features.",
+    "limitations": "Cover/abstract visually reviewed from the official PDF. Full claims, force assertions and legal scope were not exhaustively reviewed; no Roadster fitment inferred."
   }
 ]

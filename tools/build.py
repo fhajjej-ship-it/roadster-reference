@@ -6,7 +6,9 @@ import json
 from pathlib import Path
 import re
 import shutil
-from urllib.parse import urlsplit
+import datetime as dt
+from html.parser import HTMLParser
+from urllib.parse import urlsplit, unquote, quote
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'site' / 'dist'
@@ -28,7 +30,7 @@ def reference_docs():
         return ' · '.join(f"[{i}]({by_id[i]['url']})" for i in ids)
 
     text = '# Claim ledger\n\n[Home](../README.md) · [Evidence labels](../research/methodology.md)\n\n'
-    text += 'Generated from `data/claims.json`. Checked through October 16, 2026. Status describes evidence, not a guarantee.\n\n'
+    text += f"Generated from `data/claims.json`. Checked through {load('meta')['cutoff']}. Status describes evidence, not a guarantee.\n\n"
     for claim in claims:
         text += f"## {claim['id']} — {claim['topic']}\n\n**{claim['status']} · {claim['era']}**\n\n{claim['statement']}\n\n"
         text += f"Scope: {claim['scope']}\n\nSources: {refs(claim['sources'])}\n\n"
@@ -49,29 +51,86 @@ def reference_docs():
     for event in sorted(events, key=lambda e: e['date']):
         text += f"| {event['date']} | {event['kind']} | **{cell(event['title'])}** — {cell(event['summary'])} | {refs(event['sources'])} |\n"
     result['docs/timeline.md'] = text
+    audit = load('audit')
+    text = '# Record-by-record audit\n\n[Home](../README.md) · [Findings and limits](../research/audit.md)\n\n'
+    text += f"Reviewed {audit['reviewed_on']}. A supported attribution is not independent validation of a car.\n\n"
+    text += '## Sources\n\n| ID | Outcome | Method and locator | Finding |\n|---|---|---|---|\n'
+    for review in audit['sources']:
+        text += f"| [{review['source_id']}]({by_id[review['source_id']]['url']}) | {review['verdict']} | {cell(review['method'])}: {cell(review['locator'])} | {cell(review['note'])} |\n"
+    text += '\n## Claims\n\n| Claim | Outcome | Checked location |\n|---|---|---|\n'
+    for review in audit['claims']:
+        text += f"| {review['claim_id']} | {review['verdict']} | {cell(review['locator'])} |\n"
+    text += '\n## Timeline\n\n| Event | Outcome | Sources |\n|---|---|---|\n'
+    for review in audit['timeline']:
+        text += f"| {cell(review['event'])} | {review['verdict']} | {cell(review['locator'])} |\n"
+    result['docs/audit-ledger.md'] = text
     return {name: text.rstrip() + '\n' for name, text in result.items()}
 
 
 def destination(url, source_file):
     parts = urlsplit(url)
+    if parts.netloc and not parts.scheme:
+        return 'https:' + url
     if parts.scheme:
         return url if parts.scheme in {'https', 'http'} else '#'
     if not parts.path:
         return url
-    target = (source_file.parent / parts.path).resolve()
+    target = (source_file.parent / unquote(parts.path)).resolve()
+    if not target.is_relative_to(ROOT.resolve()):
+        raise ValueError(f'Local link escapes the repository: {url}')
     if target.suffix == '.md':
-        relative = target.relative_to(ROOT).as_posix()
+        relative = target.relative_to(ROOT.resolve()).as_posix()
         if relative == 'README.md':
-            return 'index.html'
+            return f"{load('meta')['repository']}/blob/main/README.md#{parts.fragment}" if parts.fragment else 'index.html'
         return page_name(relative) + (f'#{parts.fragment}' if parts.fragment else '')
     if target.name == 'banner.svg':
         return 'banner.svg'
-    relative = target.relative_to(ROOT).as_posix()
-    return f"{load('meta')['repository']}/blob/main/{relative}"
+    relative = target.relative_to(ROOT.resolve()).as_posix()
+    return f"{load('meta')['repository']}/blob/main/{quote(relative)}" + (f'#{parts.fragment}' if parts.fragment else '')
 
 
 def page_name(relative):
     return 'guide-' + relative.replace('/', '-').removesuffix('.md') + '.html'
+
+
+def validate_site(directory):
+    class Document(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.links, self.ids = [], set()
+
+        def handle_starttag(self, tag, attrs):
+            attributes = dict(attrs)
+            if 'id' in attributes:
+                self.ids.add(attributes['id'])
+            for name in ('href', 'src'):
+                if name in attributes:
+                    self.links.append(attributes[name])
+
+    pages = {}
+    for path in directory.glob('*.html'):
+        document = Document()
+        document.feed(path.read_text(encoding='utf-8'))
+        pages[path.name] = document
+    errors = []
+    for name, document in pages.items():
+        for link in document.links:
+            parts = urlsplit(link)
+            if parts.scheme or parts.netloc:
+                continue
+            target = unquote(parts.path) or name
+            if not (directory/target).is_file():
+                errors.append(f'{name}: missing generated target {link}')
+            elif parts.fragment and target in pages and parts.fragment not in pages[target].ids:
+                errors.append(f'{name}: missing generated anchor {link}')
+    return errors
+
+
+def remove_obsolete_outputs(previous, current):
+    for name in set(previous) - set(current):
+        # Delete only an earlier manifest's generator-owned guide pages.
+        if re.fullmatch(r'guide-[A-Za-z0-9_-]+\.html', name):
+            (OUT/name).unlink(missing_ok=True)
 
 
 def inline(text, source_file):
@@ -108,7 +167,7 @@ def markdown(text, source_file):
                 block.append(lines[i])
                 i += 1
             if language == 'mermaid':
-                result.append('<div class="flow" role="img" aria-label="Conceptual paths: battery to motor to tire force; battery to fan to grip; stored gas to nozzle to thrust."><span>Battery → motors → tires</span><span>Battery → fans → grip</span><span>Stored gas → nozzles → thrust</span></div>')
+                result.append('<p class="caption">Diagram source (rendered graph available in the GitHub chapter).</p><pre><code>' + html.escape('\n'.join(block)) + '</code></pre>')
             else:
                 result.append('<pre><code>' + html.escape('\n'.join(block)) + '</code></pre>')
             i += 1
@@ -124,7 +183,7 @@ def markdown(text, source_file):
             rows = []
             while i < len(lines) and lines[i].startswith('|'):
                 if not re.fullmatch(r'[| :\-]+', lines[i]):
-                    rows.append([v.strip() for v in lines[i].strip('|').split('|')])
+                    rows.append([v.strip().replace('\\|', '|') for v in re.split(r'(?<!\\)\|', lines[i].strip('|'))])
                 i += 1
             result.append('<div class="table-wrap"><table>')
             for n, row in enumerate(rows):
@@ -151,39 +210,49 @@ def markdown(text, source_file):
 
 
 def shell(title, body, scripts=''):
+    cutoff = dt.date.fromisoformat(load('meta')['cutoff']).strftime('%d %b %Y')
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Independent Tesla Roadster learning guide: evidence, engineering, announcements, unknowns and reproducible physics.">
 <title>{html.escape(title)} · Roadster Reference</title><link rel="stylesheet" href="style.css"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="top"><a class="brand" href="index.html">R<span>R</span> <b>Roadster Reference</b></a>
 <nav aria-label="Main navigation"><a href="index.html#learn">Learn</a><a href="index.html#claims">Evidence</a><a href="index.html#sources">Sources</a><a href="index.html#lab">Physics lab</a><a href="{load('meta')['repository']}">GitHub</a></nav></header>
-{body}<footer><p>Independent education. No affiliation with Tesla or SpaceX.</p><p>Research cutoff <strong>16 Oct 2026</strong> · <a href="guide-research-methodology.html">Method & limits</a> · <a href="guide-CONTRIBUTING.html">Contribute</a> · MIT project content; external rights retained.</p></footer>{scripts}</body></html>'''
+{body}<footer><p>Independent education. No affiliation with Tesla or SpaceX.</p><p>Research cutoff <strong>{cutoff}</strong> · <a href="guide-research-methodology.html">Method & limits</a> · <a href="guide-CONTRIBUTING.html">Contribute</a> · MIT project content; external rights retained.</p></footer>{scripts}</body></html>'''
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true', help='Check generated Markdown without writing')
     args = parser.parse_args()
+    from validate import validate
+    errors = validate(root=ROOT, check_links=False)
+    if errors:
+        raise SystemExit('\n'.join(errors))
     generated = reference_docs()
     if args.check:
         stale = [name for name, text in generated.items() if not (ROOT/name).exists() or (ROOT/name).read_text() != text]
         if stale:
             raise SystemExit('Stale generated docs: ' + ', '.join(stale))
+        errors = validate(root=ROOT)
+        if errors:
+            raise SystemExit('\n'.join(errors))
         print('Generated Markdown is current.')
         return
     for name, text in generated.items():
         (ROOT/name).write_text(text)
-    # Validate after writing derived docs, before emitting the site.
-    from validate import validate
-    errors = validate()
+    errors = validate(root=ROOT)
     if errors:
         raise SystemExit('\n'.join(errors))
     OUT.mkdir(parents=True, exist_ok=True)
+    manifest = OUT/'build-manifest.json'
+    previous = json.loads(manifest.read_text()) if manifest.exists() else []
+    current = ['index.html', 'style.css', 'app.js', 'banner.svg']
     for name in ('style.css', 'app.js'):
         shutil.copyfile(ROOT/'site'/name, OUT/name)
     shutil.copyfile(ROOT/'assets'/'banner.svg', OUT/'banner.svg')
     data = {name: load(name) for name in ('sources', 'claims', 'timeline', 'meta')}
     body = (ROOT/'site'/'index.template.html').read_text()
+    body = body.replace('{{cutoff_display}}', dt.date.fromisoformat(data['meta']['cutoff']).strftime('%d %B %Y'))
     for name in ('sources', 'claims', 'timeline'):
         body = body.replace('{{' + name + '_count}}', str(len(data[name])))
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c')
@@ -193,7 +262,14 @@ def main():
     for path in pages:
         title = next((line[2:] for line in path.read_text().splitlines() if line.startswith('# ')), path.stem)
         content = markdown(path.read_text(), path)
-        (OUT/page_name(path.relative_to(ROOT).as_posix())).write_text(shell(title, '<main id="main" class="article">'+content+'</main>'))
+        name = page_name(path.relative_to(ROOT).as_posix())
+        (OUT/name).write_text(shell(title, '<main id="main" class="article">'+content+'</main>'))
+        current.append(name)
+    remove_obsolete_outputs(previous, current)
+    manifest.write_text(json.dumps(sorted(current), indent=2)+'\n')
+    errors = validate_site(OUT)
+    if errors:
+        raise SystemExit('\n'.join(errors))
     print(f'Built {len(pages)+1} HTML pages at {OUT}')
 
 

@@ -8,7 +8,8 @@ Useful contributions improve understanding or evidence quality. A small sourced 
 2. Add the source to `data/sources.json` with a stable URL, publisher, date when known, checked date, access level, support and limitations.
 3. Update `data/claims.json`. Specify era, configuration, evidence status and unresolved questions. Include a section or timestamp in `locator` when available.
 4. Add a dated event to `data/timeline.json` only if it adds a useful milestone. Future dates must remain targets.
-5. Run the commands below and include what changed in your pull request.
+5. Review the changed records against the actual sources. Update their entries in `data/audit.json` with the method, precise locator, outcome and limitations. Compute each `record_sha256` using `tools/validate.py`'s `record_hash(record)` only after review; rehashing alone is not verification. Keep incomplete access explicit.
+6. Run the commands below and include what changed in your pull request.
 
 ```sh
 python3 tools/validate.py
@@ -16,7 +17,7 @@ python3 -m unittest discover -s tests -v
 python3 tools/build.py
 ```
 
-`docs/claims.md`, `docs/sources.md` and `docs/timeline.md` are generated; edit the JSON instead. Check in regenerated Markdown, but not `site/dist/`.
+`docs/claims.md`, `docs/sources.md`, `docs/timeline.md` and `docs/audit-ledger.md` are generated; edit the JSON instead. Check in regenerated Markdown, but not `site/dist/`. Run `python3 tools/build.py --check` to check freshness. The optional HTTP probe (`python3 tools/check_sources.py --help`) does not replace reading the source.
 
 ## Editorial requirements
 

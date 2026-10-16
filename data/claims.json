@@ -11,7 +11,8 @@
     ],
     "scope": "Performance",
     "unresolved": "Final homologated configuration and delivered equipment.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla product page / Performance; US configurator / Performance"
   },
   {
     "id": "C02",
@@ -25,7 +26,8 @@
     ],
     "scope": "Thrust augment",
     "unresolved": "Regional eligibility and final technical specification.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla product page / Thrust; US configurator / Thrust"
   },
   {
     "id": "C03",
@@ -39,7 +41,8 @@
     ],
     "scope": "Rocket augment",
     "unresolved": "Flight duration, usable gas capacity and customer operating envelope.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla product page / Rocket; US configurator / disabled Rocket option"
   },
   {
     "id": "C04",
@@ -52,7 +55,8 @@
     ],
     "scope": "Rocket only",
     "unresolved": "Do not extend this wording into a legal determination about other trims.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla product page / Rocket note"
   },
   {
     "id": "C05",
@@ -65,7 +69,8 @@
     ],
     "scope": "Thrust augment",
     "unresolved": "Timing protocol, rollout, surface, state of charge, repeatability and independent instrumented result.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla product page / Thrust description"
   },
   {
     "id": "C06",
@@ -78,7 +83,8 @@
     ],
     "scope": "Page describes optional equipment; check footnotes",
     "unresolved": "Force map, fan consumption, noise, seal leakage and behavior after a fault.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla product page / Beyond The Limits of Physics and footnotes"
   },
   {
     "id": "C07",
@@ -91,7 +97,8 @@
     ],
     "scope": "2026 redesign",
     "unresolved": "Final redundancy, feedback implementation and road certification details.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla product page / Supersonic and steer-by-wire description"
   },
   {
     "id": "C08",
@@ -104,7 +111,8 @@
     ],
     "scope": "US configurator, observed October 16",
     "unresolved": "Retail price, taxes, delivery date and contract terms. Not an order or purchase by this project.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "US configurator / Performance / Payment"
   },
   {
     "id": "C09",
@@ -117,7 +125,8 @@
     ],
     "scope": "US configurator, observed October 16",
     "unresolved": "Deposit is not a published retail price. Regional terms can differ.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "US configurator / Thrust / Payment"
   },
   {
     "id": "C10",
@@ -138,14 +147,15 @@
     "id": "C11",
     "topic": "range",
     "era": "2026",
-    "status": "reported-claim",
-    "statement": "Event reporting attributes more than 300 miles of range to Tesla.",
+    "status": "interview-claim",
+    "statement": "Hagerty’s interview narration states a range claim above 300 miles.",
     "sources": [
-      "S06"
+      "S12"
     ],
-    "scope": "Variant and test cycle not established",
+    "scope": "Interview-era range claim; variant and test cycle not established",
     "unresolved": "EPA/WLTP certification and independent real-world tests.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Hagerty 7:32–7:50"
   },
   {
     "id": "C12",
@@ -168,12 +178,12 @@
     "status": "reported-observation",
     "statement": "Event witnesses report inverted driving and controlled airborne maneuvers by a prototype.",
     "sources": [
-      "S07",
       "S09"
     ],
     "scope": "Staged prototype demonstration",
     "unresolved": "Does not prove a certified or continuously airworthy consumer vehicle.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Top Gear eyewitness report / opening stunts and unmanned-vehicle paragraphs"
   },
   {
     "id": "C14",
@@ -210,28 +220,30 @@
     "topic": "battery",
     "era": "2026",
     "status": "interview-claim",
-    "statement": "Moravy describes a special 4680-format battery cell.",
+    "statement": "Moravy describes a special 4680-format cell; the Top Gear interview describes an 800–1,000-volt range.",
     "sources": [
-      "S12"
+      "S12",
+      "S13"
     ],
     "scope": "Provisional executive interview details",
-    "unresolved": "Usable capacity and final chemistry undisclosed. Caption text for pack voltage is ambiguous; no precise voltage promoted here.",
+    "unresolved": "Final chemistry, usable capacity and nominal/maximum production voltage remain unspecified. The Top Gear passage clarifies the malformed Hagerty voltage caption.",
     "checked": "2026-10-16",
-    "locator": "Hagerty 3:27; 4:58–6:28"
+    "locator": "Hagerty 3:27; Top Gear 6:12"
   },
   {
     "id": "C17",
     "topic": "charging",
     "era": "2026",
-    "status": "interview-claim",
-    "statement": "The interview describes a 15–80% charging goal of approximately ten minutes.",
+    "status": "conflicting-reports",
+    "statement": "Hagerty describes a 15–80% charge goal around ten minutes; Top Gear narration describes 15–80% in under fifteen minutes, with an ambiguous “1585” caption in the executive passage.",
     "sources": [
-      "S12"
+      "S12",
+      "S13"
     ],
     "scope": "Interview-era targets, not a published charge curve",
-    "unresolved": "Measured charging curve, average power, battery capacity, conditioning and charger conditions; compare other interview coverage carefully.",
+    "unresolved": "The caption at Top Gear 13:50 must not be silently normalized into a precise charge window. Presenter summaries and provisional goals do not establish a measured charge curve or average/peak power.",
     "checked": "2026-10-16",
-    "locator": "Hagerty 7:32–7:50"
+    "locator": "Hagerty 7:32–7:50; Top Gear 13:50; Top Gear narration 17:08"
   },
   {
     "id": "C18",
@@ -254,11 +266,12 @@
     "status": "historical-claim",
     "statement": "The original concept was presented with a 200-kWh battery target.",
     "sources": [
-      "S18"
+      "S04"
     ],
     "scope": "2017 proposal",
     "unresolved": "No basis to assign this capacity to the 2026 redesign.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla 2017 reveal 30:56"
   },
   {
     "id": "C20",
@@ -267,11 +280,12 @@
     "status": "historical-claim",
     "statement": "The legacy concept was advertised at 620 miles of range.",
     "sources": [
-      "S05"
+      "S04"
     ],
-    "scope": "Legacy indexed Tesla page",
+    "scope": "Original Tesla 2017 presentation",
     "unresolved": "Not a certified range for the redesigned vehicle.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla 2017 reveal 31:10"
   },
   {
     "id": "C21",
@@ -280,24 +294,26 @@
     "status": "historical-claim",
     "statement": "The legacy concept was advertised at 1.9 seconds to 60 mph.",
     "sources": [
-      "S05"
+      "S04"
     ],
     "scope": "2017 concept",
     "unresolved": "Not a test result for the 2026 car.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla 2017 reveal 29:39"
   },
   {
     "id": "C22",
     "topic": "configuration",
     "era": "2017",
     "status": "historical-claim",
-    "statement": "The legacy concept had four advertised seats and a removable glass roof.",
+    "statement": "The original concept was presented with four seats and a removable roof.",
     "sources": [
-      "S05"
+      "S04"
     ],
     "scope": "2017 concept",
     "unresolved": "Do not carry this interior layout into 2026 configurations.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla 2017 reveal 32:25–32:54"
   },
   {
     "id": "C23",
@@ -306,11 +322,12 @@
     "status": "historical-claim",
     "statement": "The legacy concept advertised top speed above 250 mph.",
     "sources": [
-      "S05"
+      "S04"
     ],
     "scope": "2017 concept",
     "unresolved": "Separate target from the new event’s reported above-230-mph figure.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Tesla 2017 reveal 30:47"
   },
   {
     "id": "C24",
@@ -319,12 +336,13 @@
     "status": "unknown",
     "statement": "Final retail prices are not established in this evidence set.",
     "sources": [
-      "S06",
-      "S02"
+      "S02",
+      "S03"
     ],
     "scope": "All configurations",
     "unresolved": "A historical price or present deposit must not be labeled the current purchase price.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "US configurator; Tesla event specification/production discussion"
   },
   {
     "id": "C25",
@@ -333,12 +351,13 @@
     "status": "unknown",
     "statement": "Final usable battery capacity is not established.",
     "sources": [
-      "S10",
-      "S11"
+      "S12",
+      "S13"
     ],
-    "scope": "All configurations",
-    "unresolved": "Obtain an official specification and measurement definition.",
-    "checked": "2026-10-16"
+    "scope": "Reviewed interview material only",
+    "unresolved": "Obtain a final official usable/gross energy specification. An interview withholding capacity does not prove it is undisclosed everywhere.",
+    "checked": "2026-10-16",
+    "locator": "Hagerty 7:32; Top Gear 16:49"
   },
   {
     "id": "C26",
@@ -353,7 +372,8 @@
     ],
     "scope": "Bounded research finding, not proof that none exists",
     "unresolved": "Locate reproducible test data for the same saleable configuration.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "Reviewed event reporting and research search families; see research/research-log.md"
   },
   {
     "id": "C27",
@@ -366,7 +386,8 @@
     ],
     "scope": "Patent disclosure",
     "unresolved": "Not proof of Roadster fitment, output or manufacturing readiness.",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "locator": "US12377920B1 / bibliographic data and Abstract"
   },
   {
     "id": "C28",
@@ -430,7 +451,7 @@
     "topic": "acceleration",
     "era": "2026",
     "status": "interview-claim",
-    "statement": "Hagerty narration lists Performance at 1.6 seconds and Thrust at 0.85 seconds; rollout is discussed in the surrounding passage.",
+    "statement": "Hagerty narration gives Performance 1.6 seconds and Thrust 0.85 seconds, explicitly calling the Thrust time rollout-subtracted.",
     "sources": [
       "S12"
     ],

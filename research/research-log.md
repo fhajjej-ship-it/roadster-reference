@@ -7,9 +7,9 @@
 | Current product | Direct browser inspection of Tesla’s redesigned page | No immutable official snapshot archived |
 | Reservations | US Performance and Thrust options and visible payment schedule | Full agreement body and other markets |
 | Reveal | Official video located; Reuters/AP/automotive witness reports reviewed | Independent test data; complete audiovisual forensic review |
-| Engineering | Hagerty publisher description and timestamped caption text inspected | Physical inspection, production documentation and caption/audio reconciliation |
-| History | 2017 concept, 2018 thruster proposal, selected delays and legacy filing | Every intermediate deadline and all regional statements |
-| Patents | US12377920B1 read; two newer records indexed | Full primary text of US12746987B1 and US20260285418A1 |
+| Engineering | Relevant Hagerty and Top Gear captions, with claim locators | Physical inspection, production documentation and ambiguous charging-caption/audio reconciliation |
+| History | Original 2017 Tesla captions, 2018 thruster proposal, selected delays and legacy filing | Every intermediate deadline, all regional statements and an immutable legacy-page snapshot |
+| Patents | US12377920B1 read; newer indexes checked; official fan-grant metadata/claim 1 and wing cover/abstract inspected | Complete claims, prosecution history and production fitment |
 | Physics | NASA/DOE source material and original dimensional examples | Detailed simulation and measured Roadster inputs |
 | Regulation | Official NHTSA, EPA, FAA, EU and Swedish context | A Roadster-specific certification or operating determination |
 
@@ -19,7 +19,9 @@
 - The US configurator showed $5,000 + $45,000 for Performance and $5,000 + $245,000 for Thrust. The disabled Rocket option said invite only. No payment control was activated.
 - Hagerty’s video page displayed a verified publisher, October 16 publication, a 27:03 duration, a publisher description, and an accessible transcript. Only relevant factual passages were summarized; the transcript is not redistributed.
 - The reveal video resolved as `Roadster Event`. Relevant transcript passages were read for the announced timing, speed, production target, control modes and gas replenishment. Secondary witnesses remain the basis for the stunt observations; captions do not independently validate physical performance.
-- X denied direct fetching. The linked reservation agreement could not be read. Two primary patent URLs failed; their metadata is retained as research leads.
+- Initial access to X and two primary patent URLs failed. The audit recovered the X announcement and added official USPTO sources for bounded fan-grant and wing-application review. The linked current US reservation agreement still could not be read; older agreements were not substituted for it.
+- The original 2017 Tesla transcript replaced the mutable legacy URL in active historical claims. Relevant Top Gear captions clarified an 800–1,000-volt range, while a charging-window caption remains ambiguous.
+- All 47 retained source records, 33 claims and 15 events now have individual [audit outcomes](../docs/audit-ledger.md). AP was readable through the browser despite an unsuccessful HTTP probe. [HTTP observations](source-access-2026-10-16.json) describe access, not factual validation.
 
 ## Search families
 

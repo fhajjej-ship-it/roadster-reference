@@ -10,7 +10,7 @@ All inputs below are **hypothetical**. They are not a hidden Roadster specificat
 python3 tools/physics.py acceleration --time 0.85 --mass 1800 --speed-mph 60
 ```
 
-This treats the chosen time as the entire interval from actual rest. It gives approximately 3.22 g average acceleration, 56.8 kN average net force, and 0.180 kWh of translational kinetic energy. Distance assumes constant acceleration. The energy is an ideal kinetic quantity; electrical energy drawn would also include losses, rotating parts and any other consumers. If you enter a rollout-subtracted time, the output does not reconstruct the missing beginning of the run.
+This assumes fixed vehicle mass and treats the chosen time as the entire interval from actual rest. Gas-expulsion mass changes are not modeled. It gives approximately 3.22 g average acceleration, 56.8 kN average net force, and 0.180 kWh of translational kinetic energy. Distance assumes constant acceleration. The energy is an ideal kinetic quantity; electrical energy drawn would also include losses, rotating parts and any other consumers. If you enter a rollout-subtracted time, the output does not reconstruct the missing beginning of the run.
 
 ## Aerodynamic drag
 
@@ -38,7 +38,7 @@ The arithmetic gives 500 km, approximately 311 miles, for those inputs. It does 
 
 ## What the software does
 
-The command line prints the inputs, model description and explicit output units as JSON. Non-finite, negative and physically invalid denominator inputs are rejected. The browser lab implements the same acceleration equations and is checked against Python outputs during development. There is no vehicle connection, telemetry feed, firmware, simulation of flight control or external API.
+The command line prints the inputs, model description and explicit output units as JSON. Non-finite, negative and physically invalid denominator inputs are rejected, as are scenarios whose calculated results overflow the numerical range. The browser lab implements the same acceleration equations and is checked against Python outputs during development. There is no vehicle connection, telemetry feed, firmware, simulation of flight control or external API.
 
 Run meaningful numerical checks with:
 

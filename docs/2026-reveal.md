@@ -24,7 +24,9 @@ Source: [Tesla product page](https://www.tesla.com/roadster), directly read Octo
 | Drivetrain | Three motors in launch-era reporting | Twin rear motors described in the engineering interview |
 | Launch timing | Originally expected in 2020 | Current reported production target: 2028 |
 
-Sources: [Legacy Tesla page snapshot](https://www.tesla.com/roadster?lang=en), [2017 launch report](https://arstechnica.com/cars/2017/11/not-just-a-semi-announcement-tesla-promises-a-new-roadster/), [engineering interview](https://www.youtube.com/watch?v=22rvpUecLts&t=161s), [Reuters](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028).
+Sources: [Original Tesla reveal, 29:39–33:27](https://www.youtube.com/watch?v=5RRmepp7i5g&t=1779s), [2017 launch report](https://arstechnica.com/cars/2017/11/not-just-a-semi-announcement-tesla-promises-a-new-roadster/), [engineering interview](https://www.youtube.com/watch?v=22rvpUecLts&t=161s), [Reuters](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028).
+
+The live URL previously cited as a legacy snapshot now serves the redesign. Historical citations now point to the original reveal.
 
 ## What to do with the acceleration figures
 

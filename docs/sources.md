@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Method and access limits](../research/methodology.md)
 
-45 retained source records. This count includes incomplete access and research leads; it is not a count of fully verified documents.
+47 retained source records. This count includes incomplete access and research leads; it is not a count of fully verified documents.
 
 ## S01 — Roadster product page — redesigned car
 
@@ -38,11 +38,11 @@ Limits: Relevant caption passages reviewed in browser; audiovisual stunts not in
 
 [Tesla](https://www.youtube.com/watch?v=5RRmepp7i5g)
 
-Type: manufacturer · Access: **indexed** · Published: 2017-12-14 · Checked: 2026-10-16
+Type: manufacturer · Access: **transcript-read** · Published: 2017-12-14 · Checked: 2026-10-16
 
-Supports: Original event recording, uploaded December 14, 2017.
+Supports: Original reveal transcript: acceleration at 29:39, speed at 30:47, pack at 30:56, range at 31:10, motors and seating at 32:14–32:54, availability target at 33:27.
 
-Limits: Upload date differs from the November 16 event. Do not treat this as the 2026 design.
+Limits: Historical manufacturer assertions, not production measurements. Video upload date is December 14, 2017; the event occurred November 16.
 
 ## S05 — Roadster product page — legacy indexed text
 
@@ -50,9 +50,9 @@ Limits: Upload date differs from the November 16 event. Do not treat this as the
 
 Type: manufacturer · Access: **indexed-stale** · Published: not established · Checked: 2026-10-16
 
-Supports: Legacy marketing: 1.9 seconds to 60 mph, over 250 mph, 620-mile range, four seats, removable glass roof.
+Supports: Retained record of an obsolete search-index representation of the 2017 concept.
 
-Limits: Search snapshot described the red 2017 concept; not live verification of the 2026 specifications.
+Limits: This URL now serves the 2026 redesign. No immutable legacy snapshot was recovered; withdrawn as a supporting citation. Use S04 and S18 for historical claims.
 
 ## S06 — Tesla’s new Roadster turns in air with SpaceX thrusters, won’t land until 2028
 
@@ -68,11 +68,11 @@ Limits: Event reporting and attributed executive claims, not a controlled vehicl
 
 [Associated Press](https://apnews.com/article/tesla-musk-roadster-rocket-7d5f19665435b7408025bfb7a2f2f0b7)
 
-Type: reporting · Access: **full-text** · Published: 2026-10-16 · Checked: 2026-10-16
+Type: reporting · Access: **browser-read** · Published: 2026-10-16 · Checked: 2026-10-16
 
 Supports: Unmanned demonstration; production target; legal and delivery uncertainty.
 
-Limits: Expert concerns are opinions; not formal regulatory determinations.
+Limits: HTTP and web extraction failed, but the current article was read in the browser during audit. Event reporting and expert opinions do not establish regulatory determinations.
 
 ## S08 — Revealed! New Tesla Roadster Takes Flight with SpaceX Thrusters
 
@@ -128,11 +128,11 @@ Limits: Interview claims and narration are provisional. Auto-caption errors requ
 
 [Top Gear](https://www.youtube.com/watch?v=JdkIOhFmbKI)
 
-Type: interview · Access: **metadata-only** · Published: 2026-10-16 · Checked: 2026-10-16
+Type: interview · Access: **transcript-read** · Published: 2026-10-16 · Checked: 2026-10-16
 
-Supports: Title, verified Top Gear publisher and 49-minute duration seen on YouTube.
+Supports: Relevant original passages reviewed: 800–1,000-volt range at 6:12; range around 310–320 miles at 13:27; charging descriptions at 13:50 and 17:08; nitrogen fill at 22:28.
 
-Limits: Full video and transcript not reviewed; title is not treated as a measured specification.
+Limits: Manufacturer interview and presenter narration, not independent measurements. Relevant passages reviewed, not the full 49-minute audiovisual content; captions require care.
 
 ## S14 — Tesla teases new Roadster reveal for October 1
 
@@ -158,7 +158,7 @@ Limits: Attribution establishes Tesla’s explanation, not independent proof of 
 
 [TechCrunch](https://techcrunch.com/2025/11/06/tesla-delays-reveal-of-production-roadster-2-to-april-fools-day/)
 
-Type: reporting · Access: **indexed** · Published: 2025-11-06 · Checked: 2026-10-16
+Type: reporting · Access: **full-text** · Published: 2025-11-06 · Checked: 2026-10-16
 
 Supports: November 6, 2025 announcement of an April 1, 2026 reveal target.
 
@@ -168,7 +168,7 @@ Limits: Historical announcement; does not establish that the planned event happe
 
 [Reuters via MarketScreener](https://uk.marketscreener.com/quote/stock/TESLA-INC-6344549/news/Tesla-aims-to-ship-Roadster-cars-next-year-Musk-says-46045322/)
 
-Type: reporting · Access: **indexed** · Published: 2024-02-28 · Checked: 2026-10-16
+Type: reporting · Access: **full-text** · Published: 2024-02-28 · Checked: 2026-10-16
 
 Supports: February 2024 target of 2025 shipments; earlier 2023 target and supply-chain explanation.
 
@@ -188,7 +188,7 @@ Limits: Historical proposal only; pricing and pack capacity cannot be transferre
 
 [Fortune](https://fortune.com/2018/06/10/musk-tesla-roadster-spacex-rocket-thrusters/)
 
-Type: reporting · Access: **indexed** · Published: 2018-06-10 · Checked: 2026-10-16
+Type: reporting · Access: **full-text** · Published: 2018-06-10 · Checked: 2026-10-16
 
 Supports: June 2018 SpaceX-package proposal.
 
@@ -258,7 +258,7 @@ Limits: Simple model needs vehicle measurements; coefficient can change with con
 
 [NASA Glenn](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/dynamic-pressure/)
 
-Type: engineering · Access: **indexed** · Published: not established · Checked: 2026-10-16
+Type: engineering · Access: **full-text** · Published: not established · Checked: 2026-10-16
 
 Supports: Dynamic pressure is proportional to air density and speed squared.
 
@@ -304,11 +304,11 @@ Supports: Manufacturer reporting, compliance resources and vPIC entry points.
 
 Limits: No specific new Roadster certification was established in this research.
 
-## S31 — Advanced Air Mobility / Air Taxis
+## S31 — Advanced Air Mobility & eVTOLs
 
 [Federal Aviation Administration](https://www.faa.gov/air-taxis)
 
-Type: regulator · Access: **indexed** · Published: not established · Checked: 2026-10-16
+Type: regulator · Access: **full-text** · Published: not established · Checked: 2026-10-16
 
 Supports: Official starting point for aviation certification and operations context.
 
@@ -328,7 +328,7 @@ Limits: Other vehicle; context for fan downforce, not a Roadster comparison test
 
 [Rimac Automobili](https://www.rimac-automobili.com/NeveraR/)
 
-Type: manufacturer-context · Access: **indexed** · Published: not established · Checked: 2026-10-16
+Type: manufacturer-context · Access: **full-text** · Published: not established · Checked: 2026-10-16
 
 Supports: Manufacturer lists 1.66 seconds to 60 mph and 1.72 seconds to 100 km/h.
 
@@ -338,7 +338,7 @@ Limits: Manufacturer figures, with conditions; not a head-to-head Roadster test.
 
 [Rimac Newsroom](https://www.rimac-newsroom.com/press-releases/rimac-automobili/rimac-nevera-r-becomes-new-0-400-0-champion-and-sets-24-performance-records)
 
-Type: manufacturer-context · Access: **indexed** · Published: 2025-07-09 · Checked: 2026-10-16
+Type: manufacturer-context · Access: **full-text** · Published: 2025-07-09 · Checked: 2026-10-16
 
 Supports: Manufacturer record announcement and claimed acceleration results.
 
@@ -348,7 +348,7 @@ Limits: Check original testing protocol before ranking unlike results.
 
 [Tesla Service](https://service.tesla.com/docs/Public/Roadster/)
 
-Type: manufacturer · Access: **indexed** · Published: not established · Checked: 2026-10-16
+Type: manufacturer · Access: **full-text** · Published: not established · Checked: 2026-10-16
 
 Supports: Public service documentation exists for the original Roadster.
 
@@ -398,11 +398,11 @@ Limits: Does not quantify the redesigned Roadster’s lifecycle footprint or rec
 
 [Tesla on X](https://x.com/Tesla/status/2110788059008819215)
 
-Type: manufacturer · Access: **blocked** · Published: 2026-10-15 · Checked: 2026-10-16
+Type: manufacturer · Access: **full-text** · Published: 2026-10-15 · Checked: 2026-10-16
 
-Supports: Official post URL linked by Car and Driver.
+Supports: Tesla’s public post identifies the October 15 Roadster event livestream.
 
-Limits: Direct fetch denied; not independently read.
+Limits: Post text was readable during audit; this is a livestream announcement, not evidence of a particular vehicle specification.
 
 ## S41 — US Roadster Reservation Agreement
 
@@ -418,7 +418,7 @@ Limits: Agreement body not retrieved. Refund eligibility cannot be inferred beyo
 
 [Electrek](https://electrek.co/2026/04/22/tesla-roadster-unveil-delayed-again-earnings-call/)
 
-Type: reporting · Access: **indexed** · Published: 2026-04-22 · Checked: 2026-10-16
+Type: reporting · Access: **full-text** · Published: 2026-04-22 · Checked: 2026-10-16
 
 Supports: Q1-call coverage gives another tentative demo delay.
 
@@ -428,7 +428,7 @@ Limits: Attributed forecast only.
 
 [Swedish Transport Agency](https://www.transportstyrelsen.se/en/road/Vehicles/type-approval/what-is-a-type-approval/)
 
-Type: regulator · Access: **indexed** · Published: not established · Checked: 2026-10-16
+Type: regulator · Access: **full-text** · Published: not established · Checked: 2026-10-16
 
 Supports: Official explanation of vehicle, component and system approval, including the Swedish authority.
 
@@ -438,18 +438,38 @@ Limits: General context only; no Roadster-specific approval or intellectual-prop
 
 [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2018/858/oj/eng)
 
-Type: regulator · Access: **indexed** · Published: not established · Checked: 2026-10-16
+Type: regulator · Access: **full-text** · Published: not established · Checked: 2026-10-16
 
-Supports: EU motor-vehicle approval and market-surveillance framework; original act, consult current consolidated text for application.
+Supports: Original EU vehicle-approval regulation. The page identifies a newer consolidated version dated August 2, 2026.
 
-Limits: General context only; no Roadster-specific approval or intellectual-property clearance established.
+Limits: This link is the original act, not the current consolidated text; no Roadster-specific approval established.
 
 ## S45 — Additional Resources — Patent Pledge
 
 [Tesla](https://www.tesla.com/en_ph/legal/additional-resources)
 
-Type: manufacturer · Access: **indexed** · Published: not established · Checked: 2026-10-16
+Type: manufacturer · Access: **full-text** · Published: not established · Checked: 2026-10-16
 
 Supports: Patent-pledge wording is distinct from an open-source software licence.
 
-Limits: General context only; no Roadster-specific approval or intellectual-property clearance established.
+Limits: Patent Pledge / Legal Effect wording checked. This is not a Roadster-specific legal clearance.
+
+## S46 — US 12,746,987 B1 — Electric fan car
+
+[United States Patent and Trademark Office](https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12746987-20260929.html)
+
+Type: patent · Access: **full-text** · Published: 2026-09-29 · Checked: 2026-10-16
+
+Supports: Official gazette identifies Tesla as assignee and reproduces claim 1: a ducted fan system with an underbody inlet and rear outlet.
+
+Limits: Gazette metadata and claim 1 reviewed; not a review of the complete prosecution history, proof of Roadster fitment or a measured force.
+
+## S47 — US 2026/0285418 A1 — Deployable and active rear wing assembly with safety features
+
+[United States Patent and Trademark Office](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260285418)
+
+Type: patent · Access: **document-read** · Published: 2026-09-24 · Checked: 2026-10-16
+
+Supports: Original scanned application cover and abstract identify Tesla, application 19/295,293, filing August 8, 2025, and a deployable multi-element wing with rotation and impact-protection features.
+
+Limits: Cover/abstract visually reviewed from the official PDF. Full claims, force assertions and legal scope were not exhaustively reviewed; no Roadster fitment inferred.

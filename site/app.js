@@ -22,6 +22,11 @@ function references(ids) {
   return row;
 }
 const statusSelect = $('#status');
+for (const era of [...new Set(research.claims.map(c => c.era))].sort().reverse()) {
+  const option = element('option', era);
+  option.value = era;
+  $('#era').append(option);
+}
 for (const status of [...new Set(research.claims.map(c => c.status))].sort()) {
   const option = element('option', status.replaceAll('-', ' '));
   option.value = status;
