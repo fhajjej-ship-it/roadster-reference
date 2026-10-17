@@ -1,4 +1,6 @@
-<p align="center"><img src="assets/banner.svg" alt="Roadster Reference — understand the machine, examine the evidence" width="100%"></p>
+<p align="center"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-1-Desktop.jpg" alt="Front view of the white 2026 Tesla Roadster — official Tesla product imagery" width="100%"></p>
+
+<p align="center">2026 Roadster · <a href="https://www.tesla.com/roadster">Image: Tesla</a> · External image; rights retained by Tesla.</p>
 
 # Roadster Reference
 
