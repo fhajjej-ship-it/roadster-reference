@@ -4,30 +4,30 @@
 
 Understand how the car works, follow claims to their original sources, and see what remains unknown. This community learning resource separates Tesla's claims, reported observations and research gaps so you can assess the evidence for yourself.
 
+**New here? [Read the beginner’s guide](docs/start-here.md)** for the basic mechanisms, vocabulary and a suggested reading path. No engineering background is needed to begin.
+
+**[Open the website](https://fhajjej-ship-it.github.io/roadster-reference/)** to browse the same research with search and calculators — no installation or account required.
+
 - **How does it work?** Learn about the motors, battery, fan suction, active wings and cold-gas thrusters in the [engineering guide](docs/engineering.md).
 - **What do the performance numbers mean?** Understand rollout, test conditions and fair comparisons in the [measurement guide](docs/testing.md).
 - **Where is the evidence?** Trace statements through the [claim ledger](docs/claims.md) and [annotated sources](docs/sources.md).
 - **What still needs an answer?** Explore unresolved specifications, testing, delivery and customer terms in the [open questions](docs/open-questions.md).
 
-**[Browse the live Roadster explorer](https://fhajjej-ship-it.github.io/roadster-reference/)** — no installation or account required.
-
 <p align="center"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-1-Desktop.jpg" alt="Front view of the white 2026 Tesla Roadster — official Tesla product imagery" width="100%"></p>
 
 <p align="center">2026 Roadster · <a href="https://www.tesla.com/roadster">Image: Tesla</a> · External image; rights retained by Tesla.</p>
-
-[Start learning](docs/start-here.md) · [What changed in 2026](docs/2026-reveal.md) · [Claims & evidence](docs/claims.md) · [News timeline](docs/timeline.md) · [Source library](docs/sources.md) · [Audit findings](research/audit.md) · [Run the explorer](#explore-locally)
 
 **Research cutoff: October 16, 2026.** A curated first edition, not a live feed or an exhaustive archive. Tesla has demonstrated a redesigned prototype; the reported production target is **2028**, not a verified delivery date. [Reuters](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028)
 
 > **Read this first:** the 2017 red concept and the October 2026 redesign are different evidence sets. Do not combine the old 620-mile / four-seat claims with the new car’s specifications. [Original Tesla reveal, 31:10](https://www.youtube.com/watch?v=5RRmepp7i5g&t=1870s) · [Current Tesla page](https://www.tesla.com/roadster)
 
-The audit and follow-ups cover **52 source records, 42 structured claims and 15 timeline events**. **49 sources support their stated scope, 2 patent indexes retain limited verification, and 1 obsolete citation is retired.** The current US reservation PDF, incorporated payment/privacy policies within the stated scope, and all three patent claim sets are reviewed. Later contracts, post-configuration refund amounts, prosecution and production fitment remain open. See the [payment and refund findings](research/payment-policy-review.md), [document findings](research/document-review.md), [audit](research/audit.md) and [record-by-record review](docs/audit-ledger.md). Source counts include alternate endpoints for the same documents and do not count independent corroboration.
+## Choose a topic
 
-## Choose your route
+After the beginner’s guide, follow any topic that interests you. These are optional routes, not steps you must complete in order.
 
 | You want to… | Go here |
 |---|---|
-| Understand the car in ten minutes | [Beginner’s guide](docs/start-here.md) |
+| Get the basics first | [Beginner’s guide](docs/start-here.md) |
 | Compare Performance, Thrust and Rocket | [2026 reveal and configuration guide](docs/2026-reveal.md) |
 | Learn how fans, wings and thrusters work | [Engineering explained](docs/engineering.md) |
 | Make sense of spectacular acceleration numbers | [Measurement guide](docs/testing.md) |
@@ -38,6 +38,10 @@ The audit and follow-ups cover **52 source records, 42 structured claims and 15 
 | Understand road-use and reservation context | [Availability and regulation](docs/availability.md) |
 | Understand refunds and the configuration cutoff | [Payment-policy review](research/payment-policy-review.md) |
 | Contribute a correction | [Contribution guide](CONTRIBUTING.md) |
+
+## What has been reviewed
+
+The audit and follow-ups cover **52 source records, 42 structured claims and 15 timeline events**. **49 sources support their stated scope, 2 patent indexes retain limited verification, and 1 obsolete citation is retired.** The current US reservation PDF, incorporated payment/privacy policies within the stated scope, and all three patent claim sets are reviewed. Later contracts, post-configuration refund amounts, prosecution and production fitment remain open. See the [payment and refund findings](research/payment-policy-review.md), [document findings](research/document-review.md), [audit](research/audit.md) and [record-by-record review](docs/audit-ledger.md). Source counts include alternate endpoints for the same documents and do not count independent corroboration.
 
 ## What makes this useful
 

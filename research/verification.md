@@ -57,3 +57,9 @@ All **29 tests** passed. Validation covers 52 sources, 42 claims and 15 events. 
 The live image retained the whole vehicle at 320 and 390 CSS pixels without page overflow. Two layout issues were reproduced: the 500-pixel-wide image sat off-center in the 700-pixel mobile layout, and the source-credit link was approximately 20 pixels high. The mobile figure now centers within its column and the credit has a 44-pixel minimum tap height, with a readable caption. The existing image crop is retained.
 
 Browser checks of the corrected layout at 320, 390, 700 and 1,280 CSS pixels confirmed image loading and no page overflow; the mobile image was centered and the credit target measured 44 pixels within rendering tolerance. These are browser viewport checks, not physical-device certification.
+
+## First-time visitor review — October 17, 2026
+
+The rendered GitHub README, homepage topic choices and configuration destination were reviewed in a browser. The README now offers the beginner guide and website before its image, and places detailed review counts after the topic routes. Homepage topics are explicitly optional; the configuration card now opens the actual comparison rather than the beginner overview. Timeline, refund and physics shortcuts and a link explaining evidence labels make the remaining routes discoverable.
+
+The beginner guide, all four topic cards, refund page, evidence-label section, timeline and calculator jumps were followed in the browser. The topic section was checked at 320 and 1,280 CSS pixels without page overflow. This is an editorial/navigation review, not a study with first-time users or a complete assistive-technology audit.
