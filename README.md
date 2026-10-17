@@ -1,14 +1,19 @@
-<p align="center"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-1-Desktop.jpg" alt="Front view of the white 2026 Tesla Roadster — official Tesla product imagery" width="100%"></p>
-
-<p align="center">2026 Roadster · <a href="https://www.tesla.com/roadster">Image: Tesla</a> · External image; rights retained by Tesla.</p>
-
 # Roadster Reference
 
 **An independent, open-source field guide to the new Tesla Roadster.**
 
-Understand the engineering. Trace the announcements. Check the evidence before sharing the headline.
+Understand how the car works, follow claims to their original sources, and see what remains unknown. This community learning resource separates Tesla's claims, reported observations and research gaps so you can assess the evidence for yourself.
+
+- **How does it work?** Learn about the motors, battery, fan suction, active wings and cold-gas thrusters in the [engineering guide](docs/engineering.md).
+- **What do the performance numbers mean?** Understand rollout, test conditions and fair comparisons in the [measurement guide](docs/testing.md).
+- **Where is the evidence?** Trace statements through the [claim ledger](docs/claims.md) and [annotated sources](docs/sources.md).
+- **What still needs an answer?** Explore unresolved specifications, testing, delivery and customer terms in the [open questions](docs/open-questions.md).
 
 **[Browse the live Roadster explorer](https://fhajjej-ship-it.github.io/roadster-reference/)** — no installation or account required.
+
+<p align="center"><img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-1-Desktop.jpg" alt="Front view of the white 2026 Tesla Roadster — official Tesla product imagery" width="100%"></p>
+
+<p align="center">2026 Roadster · <a href="https://www.tesla.com/roadster">Image: Tesla</a> · External image; rights retained by Tesla.</p>
 
 [Start learning](docs/start-here.md) · [What changed in 2026](docs/2026-reveal.md) · [Claims & evidence](docs/claims.md) · [News timeline](docs/timeline.md) · [Source library](docs/sources.md) · [Audit findings](research/audit.md) · [Run the explorer](#explore-locally)
 
