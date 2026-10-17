@@ -51,3 +51,9 @@ The registry now has 50 sources, 40 claims and 15 events with bound reviews. The
 The [payment-policy review](payment-policy-review.md) records the exact configurator-linked policy URLs, reviewed section boundaries, refundable/modification wording, unresolved later contracts and rejected substitutes. Two rendered-text identity receipts distinguish browser text from original HTTP bytes. New S51–S52 and C41–C42 have bound review records; changed S02, S41 and C34 reviews were updated only for the verified scope.
 
 All **29 tests** passed. Validation covers 52 sources, 42 claims and 15 events. The generator built 21 HTML pages and checked local targets/fragments; generated Markdown freshness, JavaScript syntax and whitespace checks passed. No runtime code or dependencies changed. Earlier counts above remain the results of their original runs.
+
+## Roadster image mobile check — October 17, 2026
+
+The live image retained the whole vehicle at 320 and 390 CSS pixels without page overflow. Two layout issues were reproduced: the 500-pixel-wide image sat off-center in the 700-pixel mobile layout, and the source-credit link was approximately 20 pixels high. The mobile figure now centers within its column and the credit has a 44-pixel minimum tap height, with a readable caption. The existing image crop is retained.
+
+Browser checks of the corrected layout at 320, 390, 700 and 1,280 CSS pixels confirmed image loading and no page overflow; the mobile image was centered and the credit target measured 44 pixels within rendering tolerance. These are browser viewport checks, not physical-device certification.

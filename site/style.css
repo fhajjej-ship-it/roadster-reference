@@ -9,6 +9,9 @@
 .filter-actions button:hover{background:var(--ink);color:white}
 .filter-actions a{display:inline-flex;align-items:center;min-height:var(--control-size);font-size:14px}
 @media(max-width:700px){
+  .hero-art{width:100%;justify-self:center}
+  .art-caption{align-items:center;padding:4px 14px;font-size:13px}
+  .art-caption a{display:inline-flex;align-items:center;min-height:var(--control-size)}
   .top nav{gap:0 16px}
   .top nav a{display:inline-flex;align-items:center;min-height:var(--control-size)}
   .search-row input,.search-row select,.lab input{font-size:16px;min-width:0}
