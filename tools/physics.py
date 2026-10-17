@@ -23,7 +23,7 @@ def finite_results(result):
 
 
 def acceleration(time_s, mass_kg, speed_mph=60):
-    """From actual rest; constant acceleration only for distance/force examples."""
+    """From actual rest at fixed mass; only distance assumes constant acceleration."""
     t = number(time_s, 'time_s')
     m = number(mass_kg, 'mass_kg')
     v = number(speed_mph, 'speed_mph', zero=True) * MPH_TO_MPS
