@@ -1,46 +1,51 @@
-# Start here
+# Beginner’s guide
 
-[Home](../README.md) · [Next: the 2026 reveal](2026-reveal.md)
+[Home](../README.md) · [Next: compare the Roadster versions](2026-reveal.md)
 
-[Browse the interactive explorer online](https://fhajjej-ship-it.github.io/roadster-reference/) for searchable claims, sources, the timeline and the physics calculator.
+Start here to understand the new Tesla Roadster, tell its versions apart and judge the headlines about it. You do not need engineering knowledge or equations for this introduction.
 
-The new Roadster is Tesla’s proposed high-performance electric sports car. The striking part of the October 2026 redesign is the combination of three mechanisms: electric motors turn the wheels, fans increase grip by reducing pressure underneath the car, and optional compressed-gas thrusters add force. Tesla describes different equipment for different configurations. [Tesla](https://www.tesla.com/roadster)
+The new Roadster is Tesla’s proposed high-performance electric sports car. This guide covers the October 2026 redesign. Tesla describes **Performance, Thrust and Rocket** versions with different equipment and intended uses. A feature shown on one does not automatically belong to the others. [Tesla’s product page](https://www.tesla.com/roadster)
 
-Those mechanisms solve different problems. A motor can generate tremendous torque, but the tire can transmit only so much force before slipping. Downforce presses the tire harder into the surface. A thruster pushes on the vehicle by throwing gas in the opposite direction. It does not need a tire contact patch to create that force.
+## Start with three ideas
 
-## Three questions to ask about any Roadster headline
+1. **The battery supplies energy; the motors turn the wheels.** The tires push against the road to move the car. If they cannot grip the surface, they slip. A stronger motor alone cannot remove that limit. See [DOE’s electric-car guide](https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work) for the battery and motor roles.
+2. **Fans and wings can help the tires grip.** Fans remove air from underneath the car, reducing the air pressure there. The higher pressure around the car then presses it toward the road. Wings use moving air to produce a downward push. This push is called **downforce**: it can improve grip, but grip is still limited. See the [engineering chapter](engineering.md).
+3. **Thrusters add a push by releasing gas.** Think of a released balloon: air goes one way and the balloon moves the other way. A thruster directs escaping gas through a shaped outlet called a **nozzle**. It does not need tire grip to produce that push. **Cold-gas** means gas is released without burning fuel. See [NASA’s propulsion overview](https://www.nasa.gov/smallsat-institute/sst-soa/in-space_propulsion/).
 
-1. **Which car?** The original customer Roadster, the 2017 concept, the 2026 display prototype and the 2026 stunt vehicle are not interchangeable.
-2. **Which configuration and operating mode?** Hardware, seating and intended use differ. A Rocket demonstration does not establish Performance capability.
-3. **What kind of evidence?** A company webpage establishes what Tesla says. Witnesses establish what they saw. A calibrated, disclosed test establishes a measured result under stated conditions.
+These systems do different jobs. Understanding the principles does not establish a particular car’s performance.
 
-## A short learning path
+## Three questions to ask about a headline
 
-| Step | Read | Take away |
-|---|---|---|
-| 1 | [2026 reveal](2026-reveal.md) | Separate current configurations from old promises |
-| 2 | [Engineering](engineering.md) | Understand energy, grip, suction and thrust |
-| 3 | [Testing](testing.md) | Recognize timing and range measurement traps |
-| 4 | [Physics lab](physics-lab.md) | Change inputs and reproduce the calculations |
-| 5 | [Claims](claims.md) | Follow a statement back to its evidence |
+1. **Which Roadster?** The original car sold to customers, the 2017 concept and the 2026 demonstration vehicles are different cars. A **prototype** is a vehicle used to develop or demonstrate ideas; it does not establish what customers will receive.
+2. **Which version, doing what?** A **configuration** means a particular combination of equipment. A demonstration with Rocket equipment does not establish what the Performance version can do. The driving setting and test conditions also matter.
+3. **How do we know?** A Tesla webpage tells us what the company says. An eyewitness report tells us what someone observed. A performance measurement needs its method and test conditions. Seeing a stunt alone does not verify an exact acceleration time or driving range.
 
-## Vocabulary without the mystery
+## Where to go next
 
-| Term | Plain meaning |
-|---|---|
-| Power, kW / MW | How quickly energy is transferred; 1 MW = 1,000 kW |
-| Energy, kWh | A quantity of stored or consumed energy; different from power |
-| Torque, N·m | A turning effect; its measurement location matters |
-| Downforce | An aerodynamic force pressing a vehicle toward its running surface |
-| Suction | A pressure difference; higher surrounding pressure pushes toward the lower-pressure region |
-| Cold-gas thruster | A nozzle expels stored pressurized gas without combustion |
-| COPV | Composite overwrapped pressure vessel: a container strengthened by composite material around an inner vessel |
-| Rollout | A short initial distance excluded from some acceleration measurements |
-| State of charge | How full the battery is, usually expressed as a percentage |
-| Homologation | Approval against applicable vehicle requirements in a particular market |
+For a first visit, follow these two chapters after this page:
 
-The component overview follows [DOE’s electric-car guide](https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work); the cold-gas definition follows [NASA’s propulsion overview](https://www.nasa.gov/smallsat-institute/sst-soa/in-space_propulsion/). The remaining definitions describe standard physical quantities and this repository’s measurement terminology.
+1. **[Compare the Roadster versions](2026-reveal.md).** See which equipment belongs to Performance, Thrust and Rocket, and what changed from the 2017 concept.
+2. **[Learn how performance figures are measured](testing.md).** Understand why acceleration times and driving-range figures need test conditions before you compare them.
 
-## The right level of confidence
+Then choose what interests you. These routes are optional:
 
-It is reasonable to be interested in the engineering while asking for better evidence. Neither enthusiasm nor skepticism replaces measurement. This project labels what is known, explains what is plausible and leaves unresolved details open.
+- **How does it work?** The [engineering chapter](engineering.md) goes deeper into batteries, motors, grip and thrusters, including some equations.
+- **Where did a statement come from?** The [claims and sources](claims.md) list links statements to their evidence and limitations. A “claim” means a statement to check, not automatically a proven fact.
+- **What happens if I change the numbers?** Try the [online acceleration calculator](https://fhajjej-ship-it.github.io/roadster-reference/#lab), with no installation. Its inputs are examples, not confirmed Roadster specifications. The [physics lab guide](physics-lab.md) adds equations and command-line examples for readers who want them.
+- **What is still unknown?** The [open questions](open-questions.md) explain the missing evidence and what could resolve it.
+
+## Words you may meet later
+
+Use this as a reference when a later chapter introduces a term. You do not need to memorize it.
+
+- **Energy (kWh):** the amount stored in the battery or used on a trip. Think of the amount of water in a tank. A kilowatt-hour (kWh) is the energy delivered by one kilowatt for one hour. Driving range also depends on how much energy each mile uses.
+- **Power (kW or MW):** how quickly energy is used or delivered, like the rate of water flow from the tank. One megawatt (MW) is 1,000 kilowatts (kW).
+- **Torque (N·m):** a turning effect, like twisting a wrench, measured in newton-metres. Motor torque and torque at the wheels are measured at different points and cannot be compared directly.
+- **State of charge:** how full the battery is, usually shown as a percentage.
+- **Rollout:** a short distance at the start of an acceleration run that some timing methods leave out. A time with that start excluded is not directly comparable to a time measured from rest.
+- **COPV:** short for “composite overwrapped pressure vessel.” It is a tank reinforced with strong fibers wrapped around an inner container, used to hold material under pressure.
+- **Homologation:** formal approval against vehicle requirements in a particular market. A demonstration alone does not establish that a car is approved for public roads.
+
+Keep asking what each source can establish. It is reasonable to find the engineering interesting while leaving unmeasured performance and missing specifications open.
+
+**[Next: compare the Roadster versions →](2026-reveal.md)**

@@ -63,3 +63,11 @@ Browser checks of the corrected layout at 320, 390, 700 and 1,280 CSS pixels con
 The rendered GitHub README, homepage topic choices and configuration destination were reviewed in a browser. The README now offers the beginner guide and website before its image, and places detailed review counts after the topic routes. Homepage topics are explicitly optional; the configuration card now opens the actual comparison rather than the beginner overview. Timeline, refund and physics shortcuts and a link explaining evidence labels make the remaining routes discoverable.
 
 The beginner guide, all four topic cards, refund page, evidence-label section, timeline and calculator jumps were followed in the browser. The topic section was checked at 320 and 1,280 CSS pixels without page overflow. This is an editorial/navigation review, not a study with first-time users or a complete assistive-technology audit.
+
+## Beginner guide review — October 17, 2026
+
+The introduction now explains the jobs of motors, fans, wings and thrusters before using specialist vocabulary, with familiar examples for thrust, torque, energy and power. DOE’s electric-car overview and NASA’s cold-gas section were reread for the component and propulsion explanations. Vehicle-specific research conclusions were not changed or re-audited in this copy review.
+
+The suggested route is now the version comparison followed by the measurement guide, with explicit onward and return links in those chapters. Engineering, evidence, calculations and open questions are optional routes; the online calculator is distinguished from the command-line guide and its example inputs from vehicle specifications. The reference glossary uses wrapping lists rather than a table.
+
+The guide was inspected at 320 and 1,280 CSS pixels without document-level horizontal overflow. The comparison, onward measurement link and return to the guide’s topic choices were followed in the browser. All 29 existing tests passed; data validation, generated-page links/fragments, Markdown freshness, JavaScript syntax and whitespace checks passed. This is an editorial review and browser viewport check, not a study with non-engineer participants or a physical-device test.

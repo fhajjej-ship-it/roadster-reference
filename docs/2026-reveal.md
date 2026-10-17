@@ -35,3 +35,5 @@ The exact numbers vary across the interview, event demonstration and reporting. 
 ## What this edition cannot establish
 
 Final retail price, usable battery capacity, full charging curve, curb mass by configuration, certified range, complete flight envelope and customer delivery date remain unresolved. These gaps are collected in [open questions](open-questions.md), with the evidence that could close each one.
+
+**[Next: learn how performance figures are measured →](testing.md)** · [Back to the beginner’s guide](start-here.md)

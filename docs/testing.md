@@ -47,3 +47,5 @@ Do not write “EPA range” for the new Roadster unless an applicable rating is
 ## Comparisons are context, not a leaderboard
 
 Rimac lists different numbers for 0–60 mph and 0–100 km/h on its [Nevera R page](https://www.rimac-automobili.com/NeveraR/). McMurtry’s [fan-car demonstration](https://mcmurtry.com/upside-down-driving/) shows a relevant mechanism. Neither source supplies a controlled comparison against the redesigned Roadster. Do not award a fastest-car title by sorting unmatched marketing figures.
+
+**Finished the introductory path?** [Choose another topic in the beginner’s guide](start-here.md#where-to-go-next), or [check an individual claim and its sources](claims.md).
